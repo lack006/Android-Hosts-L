@@ -1,12 +1,12 @@
 #+BEGIN
-#+UPDATE_TIME 2014-07-16 11:36:00
+#+UPDATE_TIME 2014-07-24 21:19:00
 #+MESSAGE
 #######################################################################
 #
 #  imouto.host
 #
-#  #Ver : 1.87.0424 Kafuu Chino
-#  #Update Time : 2014.07.16;11:36
+#  #Ver : 1.88.0429 Kafuu Chino
+#  #Update Time : 2014.07.24;21:19
 #  #Fix & Bug : 请参阅imouto.host.Readme.txt
 #
 #  数据来源于互联网上的无名英雄们
@@ -2680,9 +2680,9 @@
 64.233.171.189	8.client-channel.google.com
 64.233.171.189	9.client-channel.google.com
 173.194.70.188	mtalk.google.com
-173.194.70.125	talk.google.com
-173.194.70.125	talkx.l.google.com
-173.194.70.125	talk.l.google.com
+64.233.168.125	talk.google.com
+64.233.168.125	talkx.l.google.com
+64.233.168.125	talk.l.google.com
 #Android↑
 #Youtube↓
 210.242.125.54	accounts.youtube.com
@@ -3194,6 +3194,9 @@
 74.125.205.113	apis.google.com
 74.125.205.138	talkgadget.google.com
 74.125.205.189	chromoting-host.talkgadget.google.com
+74.125.205.189	chromoting-client.talkgadget.google.com
+74.125.205.189	wildcard-talkgadget.l.google.com
+210.242.125.54	relay.google.com
 74.125.205.83	mail.google.com
 74.125.205.102	play.google.com
 210.242.125.54	keep.google.com
