@@ -1,13 +1,13 @@
-#本地 Imouto 版本 2014-08-05
+#本地 Imouto 版本 2014-08-06
 #+BEGIN
-#+UPDATE_TIME 2014-08-05 21:19:00
+#+UPDATE_TIME 2014-08-06 09:56:00
 #+MESSAGE
 #######################################################################
 #
 #  imouto.host
 #
-#  #Ver : 1.94.0440 Kafuu Chino
-#  #Update Time : 2014.08.05;21:19
+#  #Ver : 2.01.0442 Kafuu Chino
+#  #Update Time : 2014.08.06;09:56
 #  #Fix & Bug : 请参阅imouto.host.Readme.txt
 #
 #  数据来源于互联网上的无名英雄们
@@ -2947,10 +2947,10 @@
 #GoogleDrive↓
 74.125.205.102	drive.google.com
 74.125.205.102	docs.google.com
-74.125.230.107	googledrive.com
-74.125.230.107	storage.googleapis.com
-74.125.230.107	commondatastorage.googleapis.com
-74.125.230.107	static.panoramio.com.storage.googleapis.com
+74.125.207.132	googledrive.com
+74.125.207.132	storage.googleapis.com
+74.125.207.132	commondatastorage.googleapis.com
+74.125.207.132	static.panoramio.com.storage.googleapis.com
 #203.208.46.134	docs0.google.com
 #203.208.46.134	docs1.google.com
 #203.208.46.134	docs2.google.com
@@ -3195,7 +3195,7 @@
 210.242.125.84	maps.gstatic.com
 #Gstatic↑
 74.125.205.113	apis.google.com
-74.125.205.138	talkgadget.google.com
+64.233.182.113	talkgadget.google.com
 74.125.205.189	chromoting-host.talkgadget.google.com
 74.125.205.189	chromoting-client.talkgadget.google.com
 74.125.205.189	wildcard-talkgadget.l.google.com
@@ -3369,6 +3369,7 @@
 210.242.125.84	scholar.google.com
 210.242.125.84	scholar.l.google.com
 210.242.125.84	script.google.com
+210.242.125.84	security.google.com
 210.242.125.84	services.google.com
 210.242.125.84	sites.google.com
 210.242.125.84	sketchup.google.com
