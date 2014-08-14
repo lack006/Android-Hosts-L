@@ -1,13 +1,13 @@
-#本地 Imouto 版本 2014-08-11
+#本地 Imouto 版本 2014-08-13
 #+BEGIN
-#+UPDATE_TIME 2014-08-11 16:14:00
+#+UPDATE_TIME 2014-08-13 10:13:00
 #+MESSAGE
 #######################################################################
 #
 #  imouto.host
 #
-#  #Ver : 2.02.0446 Sakura Chiyo
-#  #Update Time : 2014.08.11;16:14
+#  #Ver : 2.04.0450 Sakura Chiyo
+#  #Update Time : 2014.08.13;10:13
 #  #Fix & Bug : 请参阅imouto.host.Readme.txt
 #
 #  数据来源于互联网上的无名英雄们
@@ -818,6 +818,8 @@
 108.160.165.147	dropbox.com
 108.160.165.147	www.dropbox.com
 108.160.166.140	client-lb.dropbox.com
+108.160.172.65	block.dropbox.com
+108.160.165.253	d.dropbox.com
 107.20.134.222	dl.dropbox.com
 54.235.132.16	dl.dropboxusercontent.com
 107.20.134.222	dl-web.dropbox.com
@@ -2618,7 +2620,6 @@
 #GoogleAccounts↓
 74.125.207.84	accounts.google.com
 74.125.207.84	accounts.l.google.com
-#74.125.207.84	accounts.youtube.com
 #GoogleAccounts↑
 #www.google.com↓
 64.233.168.106	www.google.com
@@ -2666,10 +2667,10 @@
 210.242.125.84	clients1.google.com
 210.242.125.84	clients2.google.com
 210.242.125.84	clients3.google.com
-210.242.125.84	clients4.google.com
-210.242.125.84	clients5.google.com
-210.242.125.84	clients6.google.com
-210.242.125.84	clients7.google.com
+74.125.207.138	clients4.google.com
+74.125.207.138	clients5.google.com
+74.125.207.138	clients6.google.com
+74.125.207.138	clients7.google.com
 64.233.168.189	0.client-channel.google.com
 64.233.168.189	1.client-channel.google.com
 64.233.168.189	2.client-channel.google.com
@@ -2688,19 +2689,19 @@
 64.233.168.211	ext.google.com
 #Android↑
 #Youtube↓
-210.242.125.84	accounts.youtube.com
-210.242.125.84	www.youtube.com
-210.242.125.84	m.youtube.com
-210.242.125.84	insight.youtube.com
-#210.242.125.84	apiblog.youtube.com
-210.242.125.84	help.youtube.com
-210.242.125.84	i.ytimg.com
-210.242.125.84	i1.ytimg.com
-210.242.125.84	i2.ytimg.com
-210.242.125.84	i3.ytimg.com
-210.242.125.84	i4.ytimg.com
-210.242.125.84	s.ytimg.com
-210.242.125.84	ytimg.l.google.com
+64.233.168.138	accounts.youtube.com
+64.233.168.100	www.youtube.com
+64.233.168.100	m.youtube.com
+64.233.168.100	insight.youtube.com
+#64.233.168.100	apiblog.youtube.com
+64.233.168.100	help.youtube.com
+74.125.207.101	i.ytimg.com
+74.125.207.101	i1.ytimg.com
+74.125.207.101	i2.ytimg.com
+74.125.207.101	i3.ytimg.com
+74.125.207.101	i4.ytimg.com
+74.125.207.101	s.ytimg.com
+74.125.207.101	ytimg.l.google.com
 #Youtube↑
 #UpLoad↓
 210.242.125.109	uploads.clients.google.com
