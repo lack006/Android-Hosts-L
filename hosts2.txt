@@ -1,4 +1,4 @@
-
+#本地 Imouto 版本 2014-09-26
 #+BEGIN
 #+UPDATE_TIME 2014-09-26 15:42:00
 #+MESSAGE
