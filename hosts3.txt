@@ -1,9 +1,12 @@
-#本地 重定向 版本 2014-11-03
+#本地 重定向 版本 2014-11-05
 127.0.0.1       localhost
 ::1             localhost
 
 
+
 127.0.0.1        Lack006-PC
+
+
 
 #REDICTION START
 173.194.120.88   0.docs.google.com
@@ -798,9 +801,6 @@
 216.239.32.39    huhamhire-hosts.googlecode.com
 173.194.120.88   wiki.huhamhire-hosts.googlecode.com
 216.239.32.39    wiki.huhamhire-hosts.googlecode.com
-# Section End: google
-
-# Section Start: google_apis
 173.194.120.88   0-open-opensocial.googleusercontent.com
 216.239.32.39    0-open-opensocial.googleusercontent.com
 173.194.120.88   0-focus-opensocial.googleusercontent.com
@@ -1165,9 +1165,6 @@
 216.239.32.39    betaspike.appspot.com
 173.194.120.88   m-dot-betaspike.appspot.com
 216.239.32.39    m-dot-betaspike.appspot.com
-# Section End: google_apis
-
-# Section Start: facebook
 69.171.255.12    s-static.ak.facebook.net
 69.171.239.12    s-static.ak.facebook.net
 23.2.136.55      s-static.ak.facebook.com
@@ -1523,9 +1520,6 @@
 69.171.255.12    channel-testing-ecmp-05-ash3.facebook.com
 69.171.239.12    channel-testing-ecmp-05-ash3.facebook.com
 69.171.246.18    channel-testing-ecmp-05-ash3.facebook.com
-# Section End: facebook
-
-# Section Start: twitter
 199.16.158.8     twitter.com
 199.16.158.8     www.twitter.com
 199.16.158.13    mobile.twitter.com
@@ -1598,9 +1592,6 @@
 96.127.160.130   web8.twitpic.com
 96.127.160.130   web9.twitpic.com
 96.127.160.130   web10.twitpic.com
-# Section End: twitter
-
-# Section Start: youtube
 173.194.120.88   accounts.youtube.com
 216.239.32.39    accounts.youtube.com
 173.194.120.88   apiblog.youtube.com
@@ -2837,9 +2828,6 @@
 216.239.32.39    v23.lscache8.c.youtube.com
 173.194.120.88   v24.lscache8.c.youtube.com
 216.239.32.39    v24.lscache8.c.youtube.com
-# Section End: youtube
-
-# Section Start: wikipedia
 208.80.154.224   wikipedia.org
 91.198.174.239   wikipedia.org
 208.80.152.214   wikipedia.org
@@ -3008,9 +2996,6 @@
 198.35.26.96     incubator.wikimedia.org
 91.198.174.192   incubator.wikimedia.org
 208.80.154.224   incubator.wikimedia.org
-# Section End: wikipedia
-
-# Section Start: flickr
 203.84.197.27    geo.yahoo.com
 119.161.24.27    geo.yahoo.com
 119.161.24.8     geo.yahoo.com
@@ -3199,9 +3184,6 @@
 192.55.83.30     ne1.farm7.staticflickr.com
 68.142.255.16    ne1.farm7.staticflickr.com
 192.33.14.30     ne1.farm7.staticflickr.com
-# Section End: flickr
-
-# Section Start: github
 192.30.252.129   github.com
 192.30.252.130   github.com
 192.30.252.131   github.com
@@ -3247,9 +3229,6 @@
 185.31.19.133    training.github.com
 199.27.76.133    training.github.com
 185.31.18.133    training.github.com
-# Section End: github
-
-# Section Start: dropbox
 108.160.166.62   dropbox.com
 192.26.92.30     dropbox.com
 192.55.83.30     dropbox.com
@@ -9037,9 +9016,6 @@
 156.154.102.25   notify10.dropbox.co
 156.154.101.25   notify10.dropbox.co
 156.154.104.25   notify10.dropbox.co
-# Section End: dropbox
-
-# Section Start: onedrive
 134.170.108.154  onedrive.live.com
 134.170.104.90   onedrive.live.com
 134.170.107.154  onedrive.live.com
@@ -9050,9 +9026,6 @@
 134.170.105.72   skyapi.onedrive.live.com
 134.170.104.104  skyapi.onedrive.live.com
 134.170.109.72   skyapi.onedrive.live.com
-# Section End: onedrive
-
-# Section Start: wordpress
 72.21.91.19      i.polldaddy.com
 72.21.80.6       i.polldaddy.com
 93.184.220.20    i.polldaddy.com
@@ -9180,420 +9153,4 @@
 192.0.80.241     lb.gravatar.com
 192.0.80.240     lb.gravatar.com
 192.0.80.242     lb.gravatar.com
-# Section End: wordpress
-
-# Section Start: others
-192.26.92.30     operachina.com
-42.120.248.248   operachina.com
-192.55.83.30     operachina.com
-192.5.6.30       operachina.com
-192.31.80.30     operachina.com
-59.151.113.209   bbs.operachina.com
-42.120.248.248   bbs.operachina.com
-58.67.157.90     bbs.operachina.com
-192.26.92.30     bbs.operachina.com
-192.55.83.30     bbs.operachina.com
-59.151.113.209   mini.operachina.com
-42.120.248.248   mini.operachina.com
-58.67.157.90     mini.operachina.com
-192.26.92.30     mini.operachina.com
-192.55.83.30     mini.operachina.com
-59.151.113.209   portal.operachina.com
-42.120.248.248   portal.operachina.com
-58.67.157.90     portal.operachina.com
-192.26.92.30     portal.operachina.com
-192.55.83.30     portal.operachina.com
-59.151.113.209   press.operachina.com
-42.120.248.248   press.operachina.com
-58.67.157.90     press.operachina.com
-192.26.92.30     press.operachina.com
-192.55.83.30     press.operachina.com
-192.26.92.30     redir.operachina.com
-42.120.248.248   redir.operachina.com
-192.55.83.30     redir.operachina.com
-42.120.248.217   redir.operachina.com
-182.92.19.217    redir.operachina.com
-59.151.113.209   static.operachina.com
-42.120.248.248   static.operachina.com
-58.67.157.90     static.operachina.com
-192.55.83.30     static.operachina.com
-192.26.92.30     static.operachina.com
-59.151.113.209   wiki.operachina.com
-42.120.248.248   wiki.operachina.com
-58.67.157.90     wiki.operachina.com
-192.26.92.30     wiki.operachina.com
-192.55.83.30     wiki.operachina.com
-59.151.113.209   www.operachina.com
-42.120.248.248   www.operachina.com
-58.67.157.90     www.operachina.com
-192.55.83.30     www.operachina.com
-192.5.6.30       www.operachina.com
-173.194.120.88   www.panoramio.com
-216.239.32.39    www.panoramio.com
-74.125.206.141   www.panoramio.com
-121.9.209.183    hub5idx.shub.sandai.net
-123.129.242.139  hub5idx.shub.sandai.net
-123.129.242.140  hub5idx.shub.sandai.net
-121.9.209.183    hub5pr.sandai.net
-58.254.134.136   hub5pr.sandai.net
-58.254.134.139   hub5pr.sandai.net
-58.254.134.204   hub5pr.sandai.net
-58.254.134.205   hub5pr.sandai.net
-199.182.233.22   s5.flashget.com
-192.26.92.30     s5.flashget.com
-192.5.6.30       s5.flashget.com
-192.55.83.30     s5.flashget.com
-221.123.176.123  s5.flashget.com
-199.182.233.22   cplog.flashget.com
-192.26.92.30     cplog.flashget.com
-192.5.6.30       cplog.flashget.com
-192.55.83.30     cplog.flashget.com
-221.123.176.102  cplog.flashget.com
-220.90.198.74    premium.avira-update.com
-220.90.198.81    premium.avira-update.com
-61.111.58.14     premium.avira-update.com
-72.247.9.67      premium.avira-update.com
-124.155.223.19   premium.avira-update.com
-210.61.248.232   premium.avira-update.com
-62.24.131.144    premium.avira-update.com
-188.43.72.55     premium.avira-update.com
-213.248.117.47   premium.avira-update.com
-89.105.213.25    prempeak.avira-update.com
-89.105.213.26    prempeak.avira-update.com
-62.146.210.111   prempeak.avira-update.com
-80.190.148.70    premium.de.avira-update.com
-89.105.213.24    premium.de.avira-update.com
-80.190.148.71    premium.de.avira-update.com
-74.208.254.45    premium.nl.avira-update.com
-62.146.210.111   premium.nl.avira-update.com
-89.146.248.46    premium.nl.avira-update.com
-80.190.148.70    premium.avira-update.net
-89.105.213.24    premium.avira-update.net
-80.190.148.71    premium.avira-update.net
-62.146.210.111   premium.avira-update.net
-192.26.92.30     premium.avira-update.net
-199.19.56.1      ipv6.5isotoi5.org
-199.249.112.1    ipv6.5isotoi5.org
-64.85.164.212    ipv6.5isotoi5.org
-199.249.120.1    ipv6.5isotoi5.org
-66.85.182.220    ipv6.5isotoi5.org
-198.41.0.4       soutong.iloveyou
-193.0.14.129     soutong.iloveyou
-202.12.27.33     soutong.iloveyou
-192.33.4.12      soutong.iloveyou
-192.5.5.241      soutong.iloveyou
-204.45.2.141     soutong.com
-192.26.92.30     soutong.com
-98.124.193.1     soutong.com
-192.55.83.30     soutong.com
-192.5.6.30       soutong.com
-205.251.195.153  mediafire.com
-205.251.196.155  mediafire.com
-205.251.193.68   mediafire.com
-205.196.120.6    www.mediafire.com
-205.196.120.8    www.mediafire.com
-205.251.195.153  www.mediafire.com
-199.93.48.126    i37.photobucket.com
-207.123.55.126   i37.photobucket.com
-209.84.13.118    i37.photobucket.com
-8.12.198.126     i37.photobucket.com
-199.93.52.126    i37.photobucket.com
-192.221.115.126  i37.photobucket.com
-188.43.72.55     ia.media-imdb.com
-220.90.198.82    ia.media-imdb.com
-23.76.204.67     ia.media-imdb.com
-220.250.64.20    ia.media-imdb.com
-184.51.102.64    ia.media-imdb.com
-124.155.222.228  ia.media-imdb.com
-124.155.223.33   ia.media-imdb.com
-203.69.138.82    ia.media-imdb.com
-63.219.18.167    ia.media-imdb.com
-87.245.200.49    ia.media-imdb.com
-184.51.7.7       ia.media-imdb.com
-124.155.222.221  ia.media-imdb.com
-188.43.72.52     ia.media-imdb.com
-23.74.24.171     ia.media-imdb.com
-54.230.233.192   i.media-imdb.com
-54.230.214.92    i.media-imdb.com
-54.192.54.213    i.media-imdb.com
-54.230.140.128   i.media-imdb.com
-54.230.233.254   i.media-imdb.com
-54.230.140.126   i.media-imdb.com
-54.230.234.67    i.media-imdb.com
-54.192.14.199    i.media-imdb.com
-54.230.235.86    i.media-imdb.com
-54.230.141.138   i.media-imdb.com
-54.230.215.58    i.media-imdb.com
-54.230.214.105   i.media-imdb.com
-54.230.12.73     i.media-imdb.com
-54.239.194.111   i.media-imdb.com
-54.230.235.132   i.media-imdb.com
-54.230.215.162   i.media-imdb.com
-54.239.194.80    i.media-imdb.com
-54.230.74.188    i.media-imdb.com
-54.239.130.214   i.media-imdb.com
-54.230.8.182     i.media-imdb.com
-54.230.234.208   i.media-imdb.com
-192.26.92.30     multiupload.com
-192.55.83.30     multiupload.com
-192.99.44.213    multiupload.com
-192.5.6.30       multiupload.com
-110.232.113.197  multiupload.com
-192.26.92.30     www.multiupload.com
-192.55.83.30     www.multiupload.com
-192.99.44.213    www.multiupload.com
-192.5.6.30       www.multiupload.com
-110.232.113.197  www.multiupload.com
-192.26.92.30     www2.multiupload.com
-95.211.87.165    www2.multiupload.com
-192.55.83.30     www2.multiupload.com
-192.99.44.213    www2.multiupload.com
-192.5.6.30       www2.multiupload.com
-192.26.92.30     www3.multiupload.com
-192.55.83.30     www3.multiupload.com
-192.99.44.213    www3.multiupload.com
-192.5.6.30       www3.multiupload.com
-192.33.14.30     www3.multiupload.com
-192.26.92.30     www4.multiupload.com
-192.55.83.30     www4.multiupload.com
-192.99.44.213    www4.multiupload.com
-192.5.6.30       www4.multiupload.com
-192.33.14.30     www4.multiupload.com
-192.26.92.30     www5.multiupload.com
-192.55.83.30     www5.multiupload.com
-192.99.44.213    www5.multiupload.com
-192.5.6.30       www5.multiupload.com
-192.33.14.30     www5.multiupload.com
-192.26.92.30     www6.multiupload.com
-192.55.83.30     www6.multiupload.com
-192.99.44.213    www6.multiupload.com
-192.5.6.30       www6.multiupload.com
-192.33.14.30     www6.multiupload.com
-192.26.92.30     www7.multiupload.com
-192.55.83.30     www7.multiupload.com
-192.99.44.213    www7.multiupload.com
-192.5.6.30       www7.multiupload.com
-95.211.99.3      www7.multiupload.com
-220.250.64.20    www8.multiupload.com
-192.26.92.30     www8.multiupload.com
-192.55.83.30     www8.multiupload.com
-192.99.44.213    www8.multiupload.com
-192.5.6.30       www8.multiupload.com
-192.26.92.30     www9.multiupload.com
-192.55.83.30     www9.multiupload.com
-192.99.44.213    www9.multiupload.com
-95.211.99.1      www9.multiupload.com
-192.5.6.30       www9.multiupload.com
-192.26.92.30     www10.multiupload.com
-192.55.83.30     www10.multiupload.com
-192.5.6.30       www10.multiupload.com
-192.99.44.213    www10.multiupload.com
-192.33.14.30     www10.multiupload.com
-85.17.83.97      www11.multiupload.com
-192.26.92.30     www11.multiupload.com
-192.55.83.30     www11.multiupload.com
-192.99.44.213    www11.multiupload.com
-192.5.6.30       www11.multiupload.com
-192.26.92.30     www12.multiupload.com
-192.55.83.30     www12.multiupload.com
-192.99.44.213    www12.multiupload.com
-192.5.6.30       www12.multiupload.com
-192.33.14.30     www12.multiupload.com
-192.26.92.30     www13.multiupload.com
-192.55.83.30     www13.multiupload.com
-192.99.44.213    www13.multiupload.com
-192.5.6.30       www13.multiupload.com
-192.33.14.30     www13.multiupload.com
-85.17.76.229     www14.multiupload.com
-192.26.92.30     www14.multiupload.com
-192.55.83.30     www14.multiupload.com
-192.99.44.213    www14.multiupload.com
-192.5.6.30       www14.multiupload.com
-192.26.92.30     www15.multiupload.com
-192.55.83.30     www15.multiupload.com
-85.17.81.143     www15.multiupload.com
-192.5.6.30       www15.multiupload.com
-192.99.44.213    www15.multiupload.com
-192.26.92.30     www16.multiupload.com
-192.55.83.30     www16.multiupload.com
-192.99.44.213    www16.multiupload.com
-192.5.6.30       www16.multiupload.com
-192.33.14.30     www16.multiupload.com
-192.26.92.30     www17.multiupload.com
-192.55.83.30     www17.multiupload.com
-192.99.44.213    www17.multiupload.com
-192.5.6.30       www17.multiupload.com
-192.33.14.30     www17.multiupload.com
-192.26.92.30     www18.multiupload.com
-192.55.83.30     www18.multiupload.com
-192.99.44.213    www18.multiupload.com
-192.5.6.30       www18.multiupload.com
-192.33.14.30     www18.multiupload.com
-192.26.92.30     www19.multiupload.com
-192.55.83.30     www19.multiupload.com
-192.99.44.213    www19.multiupload.com
-192.5.6.30       www19.multiupload.com
-192.33.14.30     www19.multiupload.com
-192.26.92.30     www20.multiupload.com
-192.55.83.30     www20.multiupload.com
-192.99.44.213    www20.multiupload.com
-192.5.6.30       www20.multiupload.com
-192.33.14.30     www20.multiupload.com
-192.26.92.30     www21.multiupload.com
-192.55.83.30     www21.multiupload.com
-95.211.72.17     www21.multiupload.com
-192.5.6.30       www21.multiupload.com
-192.99.44.213    www21.multiupload.com
-95.211.72.18     www22.multiupload.com
-192.26.92.30     www22.multiupload.com
-192.55.83.30     www22.multiupload.com
-192.99.44.213    www22.multiupload.com
-192.5.6.30       www22.multiupload.com
-192.26.92.30     www23.multiupload.com
-192.55.83.30     www23.multiupload.com
-192.99.44.213    www23.multiupload.com
-192.5.6.30       www23.multiupload.com
-192.33.14.30     www23.multiupload.com
-192.26.92.30     www24.multiupload.com
-192.55.83.30     www24.multiupload.com
-192.99.44.213    www24.multiupload.com
-192.5.6.30       www24.multiupload.com
-192.33.14.30     www24.multiupload.com
-192.26.92.30     www25.multiupload.com
-192.55.83.30     www25.multiupload.com
-192.99.44.213    www25.multiupload.com
-95.211.72.21     www25.multiupload.com
-192.5.6.30       www25.multiupload.com
-192.26.92.30     www26.multiupload.com
-192.55.83.30     www26.multiupload.com
-95.211.72.22     www26.multiupload.com
-192.5.6.30       www26.multiupload.com
-192.99.44.213    www26.multiupload.com
-95.211.72.24     www28.multiupload.com
-192.26.92.30     www28.multiupload.com
-192.55.83.30     www28.multiupload.com
-192.99.44.213    www28.multiupload.com
-192.5.6.30       www28.multiupload.com
-95.211.72.25     www29.multiupload.com
-192.26.92.30     www29.multiupload.com
-192.55.83.30     www29.multiupload.com
-192.99.44.213    www29.multiupload.com
-192.5.6.30       www29.multiupload.com
-192.26.92.30     www30.multiupload.com
-192.55.83.30     www30.multiupload.com
-192.5.6.30       www30.multiupload.com
-192.99.44.213    www30.multiupload.com
-192.33.14.30     www30.multiupload.com
-192.26.92.30     www31.multiupload.com
-192.55.83.30     www31.multiupload.com
-192.99.44.213    www31.multiupload.com
-192.5.6.30       www31.multiupload.com
-85.17.124.157    www31.multiupload.com
-192.26.92.30     www32.multiupload.com
-192.55.83.30     www32.multiupload.com
-192.99.44.213    www32.multiupload.com
-192.5.6.30       www32.multiupload.com
-85.17.124.158    www32.multiupload.com
-220.250.64.20    www33.multiupload.com
-192.26.92.30     www33.multiupload.com
-192.55.83.30     www33.multiupload.com
-192.99.44.213    www33.multiupload.com
-192.5.6.30       www33.multiupload.com
-192.26.92.30     www34.multiupload.com
-192.55.83.30     www34.multiupload.com
-192.99.44.213    www34.multiupload.com
-192.5.6.30       www34.multiupload.com
-192.33.14.30     www34.multiupload.com
-192.26.92.30     www35.multiupload.com
-192.55.83.30     www35.multiupload.com
-192.5.6.30       www35.multiupload.com
-192.99.44.213    www35.multiupload.com
-192.33.14.30     www35.multiupload.com
-192.26.92.30     www36.multiupload.com
-83.149.124.178   www36.multiupload.com
-192.99.44.213    www36.multiupload.com
-192.5.6.30       www36.multiupload.com
-192.55.83.30     www36.multiupload.com
-192.26.92.30     www37.multiupload.com
-192.55.83.30     www37.multiupload.com
-192.99.44.213    www37.multiupload.com
-192.5.6.30       www37.multiupload.com
-192.33.14.30     www37.multiupload.com
-192.26.92.30     www38.multiupload.com
-192.55.83.30     www38.multiupload.com
-192.99.44.213    www38.multiupload.com
-192.5.6.30       www38.multiupload.com
-192.33.14.30     www38.multiupload.com
-192.26.92.30     www39.multiupload.com
-192.55.83.30     www39.multiupload.com
-192.99.44.213    www39.multiupload.com
-192.5.6.30       www39.multiupload.com
-83.149.124.181   www39.multiupload.com
-192.26.92.30     www40.multiupload.com
-192.55.83.30     www40.multiupload.com
-192.99.44.213    www40.multiupload.com
-192.5.6.30       www40.multiupload.com
-83.149.124.182   www40.multiupload.com
-192.26.92.30     www41.multiupload.com
-192.55.83.30     www41.multiupload.com
-192.99.44.213    www41.multiupload.com
-192.5.6.30       www41.multiupload.com
-83.149.124.183   www41.multiupload.com
-192.26.92.30     www42.multiupload.com
-192.55.83.30     www42.multiupload.com
-192.99.44.213    www42.multiupload.com
-192.5.6.30       www42.multiupload.com
-83.149.124.184   www42.multiupload.com
-192.26.92.30     www43.multiupload.com
-192.55.83.30     www43.multiupload.com
-192.99.44.213    www43.multiupload.com
-192.5.6.30       www43.multiupload.com
-192.33.14.30     www43.multiupload.com
-192.26.92.30     www44.multiupload.com
-192.55.83.30     www44.multiupload.com
-192.99.44.213    www44.multiupload.com
-192.5.6.30       www44.multiupload.com
-192.33.14.30     www44.multiupload.com
-192.26.92.30     www45.multiupload.com
-192.55.83.30     www45.multiupload.com
-192.99.44.213    www45.multiupload.com
-192.5.6.30       www45.multiupload.com
-110.232.113.197  www45.multiupload.com
-192.26.92.30     www46.multiupload.com
-192.55.83.30     www46.multiupload.com
-192.99.44.213    www46.multiupload.com
-192.5.6.30       www46.multiupload.com
-110.232.113.197  www46.multiupload.com
-192.26.92.30     www47.multiupload.com
-192.55.83.30     www47.multiupload.com
-192.99.44.213    www47.multiupload.com
-192.5.6.30       www47.multiupload.com
-110.232.113.197  www47.multiupload.com
-192.26.92.30     www48.multiupload.com
-192.55.83.30     www48.multiupload.com
-192.99.44.213    www48.multiupload.com
-192.5.6.30       www48.multiupload.com
-110.232.113.197  www48.multiupload.com
-220.250.64.20    www49.multiupload.com
-192.26.92.30     www49.multiupload.com
-192.55.83.30     www49.multiupload.com
-192.5.6.30       www49.multiupload.com
-110.232.113.197  www49.multiupload.com
-192.26.92.30     www50.multiupload.com
-192.55.83.30     www50.multiupload.com
-192.99.44.213    www50.multiupload.com
-192.5.6.30       www50.multiupload.com
-110.232.113.197  www50.multiupload.com
-23.235.33.154    foursquare.com
-23.235.37.154    foursquare.com
-205.251.197.80   foursquare.com
-23.235.33.154    www.foursquare.com
-23.235.37.154    www.foursquare.com
-205.251.197.80   www.foursquare.com
-74.125.206.141   feedly-beta.appspot.com
-74.125.31.141    feedly-beta.appspot.com
-74.125.68.141    feedly-beta.appspot.com
-74.125.204.121   s3.feedly.com
-74.125.206.121   s3.feedly.com
-74.125.68.121    s3.feedly.com
 #REDICTION END
