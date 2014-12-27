@@ -551,7 +551,7 @@
 64.233.189.94   mts2.googleapis.com
 64.233.189.94   redirector-bigcache.googleapis.com
 64.233.189.94   translate.googleapis.com
-64.233.189.94   www.googleapis.com
+74.125.20.95   www.googleapis.com
 64.233.189.94   blogger.l.google.com
 64.233.189.94   googlehosted.l.google.com
 64.233.189.94   talkx.l.google.com
@@ -559,8 +559,10 @@
 64.233.189.94   tbn4.google.com
 64.233.189.94   tbn5.google.com
 64.233.189.94   tbn6.google.com
-64.233.189.94   uploads.clients.google.com
-64.233.189.94   android.clients.google.com
+#android
+74.125.20.102   uploads.clients.google.com
+74.125.20.102   android.clients.google.com
+#android
 64.233.189.94   android.l.google.com
 64.233.189.94   doc-0k-1s-docs.googleusercontent.com
 64.233.189.94   images1-esmobile-opensocial.googleusercontent.com
