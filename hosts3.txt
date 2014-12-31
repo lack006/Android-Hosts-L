@@ -1,10 +1,11 @@
-#本地 重定向 版本 2014-12-27
+#本地 重定向 版本 2014-12-31
 127.0.0.1       localhost
 ::1             localhost
 #可用高速
 #216.58.220.224|216.58.220.230|64.233.189.94
-
 #REDICTION START
+#作者lack006_CN
+#转载请留下此行，谢谢
 127.0.0.1        Lack006-PC
 64.233.189.94   0.docs.google.com
 64.233.189.94   0.drive.google.com
@@ -7969,7 +7970,7 @@
 192.31.80.30     www.operachina.com
 58.67.157.90     www.operachina.com
 42.120.249.217   www.operachina.com
-64.233.189.94   www.panoramio.com
+74.125.200.197   www.panoramio.com
 173.194.72.141   www.panoramio.com
 192.26.92.30     www.panoramio.com
 173.194.67.141   www.panoramio.com
@@ -8367,6 +8368,4 @@
 64.233.189.94				content.googleapis.com
 64.233.189.94				play.googleapis.com
 64.233.189.94				plus.googleapis.com
-
-
 #REDICTION END
