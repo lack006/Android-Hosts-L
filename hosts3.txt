@@ -228,7 +228,7 @@
 216.58.220.224		www.google.com.hk
 216.58.220.224		www.googleadservices.com
 216.58.220.224		www.google-analytics.com
-216.58.209.224		www.googleapis.com
+74.125.23.95		www.googleapis.com
 216.58.220.224		www.googlelabs.com
 216.58.220.224		www.gstatic.com
 216.58.220.224		www-calendar-opensocial.googleusercontent.com
@@ -334,7 +334,7 @@
 216.58.220.224		googleapis-ajax.google.com
 216.58.220.224		googleapis-ajax.l.google.com
 216.58.220.224		doc-0a9v4-0agdq-s-googleusercontent.commondatastorage.googleapis.com
-216.58.209.224		android.clients.google.com
+74.125.235.238		android.clients.google.com
 216.58.220.224		googlehosted.l.google.com
 216.58.220.224		base0.googlehosted.com
 216.58.220.224		base1.googlehosted.com
