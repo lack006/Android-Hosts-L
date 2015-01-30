@@ -1,4 +1,4 @@
-#本地 重定向 版本 2015-01-28
+#本地 重定向 版本 2015-01-30
 127.0.0.1       localhost
 ::1             localhost
 #可用高速
@@ -403,9 +403,6 @@
 216.58.220.22   hwswbits.blogspot.com
 216.58.220.22   huhamhire-hosts.googlecode.com
 216.58.220.22   wiki.huhamhire-hosts.googlecode.com
-
-
-
 216.58.220.22   0-open-opensocial.googleusercontent.com
 216.58.220.22   0-focus-opensocial.googleusercontent.com
 216.58.220.22   1-focus-opensocial.googleusercontent.com
@@ -588,9 +585,6 @@
 216.58.220.22   img0.gmodules.com
 216.58.220.22   betaspike.appspot.com
 216.58.220.22   m-dot-betaspike.appspot.com
-
-
-
 69.171.255.12    s-static.ak.facebook.net
 69.171.239.12    s-static.ak.facebook.net
 23.53.74.237     s-static.ak.facebook.com
@@ -869,9 +863,6 @@
 69.171.255.12    channel-testing-ecmp-05-ash3.facebook.com
 69.171.246.18    channel-testing-ecmp-05-ash3.facebook.com
 69.171.239.12    channel-testing-ecmp-05-ash3.facebook.com
-
-
-
 199.16.158.8     twitter.com
 199.16.158.8     www.twitter.com
 199.16.158.13    mobile.twitter.com
@@ -946,9 +937,6 @@
 96.127.160.130   web8.twitpic.com
 96.127.160.130   web9.twitpic.com
 96.127.160.130   web10.twitpic.com
-
-
-
 216.58.220.22   accounts.youtube.com
 216.58.220.22   apiblog.youtube.com
 216.58.220.22   clients1.youtube.com
@@ -1567,9 +1555,6 @@
 216.58.220.22   v22.lscache8.c.youtube.com
 216.58.220.22   v23.lscache8.c.youtube.com
 216.58.220.22   v24.lscache8.c.youtube.com
-
-
-
 91.198.174.192   wikipedia.org
 208.80.154.224   wikipedia.org
 198.35.26.96     wikipedia.org
@@ -1736,9 +1721,6 @@
 91.198.174.192   incubator.wikimedia.org
 208.80.154.224   incubator.wikimedia.org
 198.35.26.96     incubator.wikimedia.org
-
-
-
 98.138.81.73     geo.yahoo.com
 208.71.44.30     geo.yahoo.com
 217.12.13.41     geo.yahoo.com
@@ -1912,9 +1894,6 @@
 192.33.14.30     ne1.farm7.staticflickr.com
 192.48.79.30     ne1.farm7.staticflickr.com
 68.180.131.16    ne1.farm7.staticflickr.com
-
-
-
 192.30.252.131   github.com
 192.30.252.129   github.com
 192.30.252.128   github.com
@@ -1958,9 +1937,6 @@
 103.245.222.133  training.github.com
 204.13.250.16    training.github.com
 208.78.70.4      training.github.com
-
-
-
 192.26.92.30     dropbox.com
 192.33.14.30     dropbox.com
 108.160.165.62   dropbox.com
@@ -7735,9 +7711,6 @@
 156.154.102.25   notify10.dropbox.co
 156.154.104.25   notify10.dropbox.co
 156.154.100.25   notify10.dropbox.co
-
-
-
 134.170.108.154  onedrive.live.com
 134.170.107.26   onedrive.live.com
 134.170.108.26   onedrive.live.com
@@ -7751,9 +7724,6 @@
 134.170.106.72   skyapi.onedrive.live.com
 134.170.104.240  skyapi.onedrive.live.com
 134.170.120.72   skyapi.onedrive.live.com
-
-
-
 199.67.181.41    i.polldaddy.com
 72.21.80.5       i.polldaddy.com
 192.48.79.30     i.polldaddy.com
@@ -7877,9 +7847,6 @@
 192.0.80.240     lb.gravatar.com
 192.0.80.239     lb.gravatar.com
 192.0.80.241     lb.gravatar.com
-
-
-
 192.33.14.30     operachina.com
 42.120.248.248   operachina.com
 192.54.112.30    operachina.com
@@ -8293,4 +8260,288 @@
 162.159.252.4    s3.feedly.com
 198.41.247.157   s3.feedly.com
 66.155.11.238    ccfox.info
+216.58.220.22	lh0.googleusercontent.com
+216.58.220.22	lh1.googleusercontent.com
+216.58.220.22	lh2.googleusercontent.com
+216.58.220.22	lh3.googleusercontent.com
+216.58.220.22	lh4.googleusercontent.com
+216.58.220.22	lh5.googleusercontent.com
+216.58.220.22	lh6.googleusercontent.com
+216.58.220.22	lh0.ggpht.com
+216.58.220.22	lh1.ggpht.com
+216.58.220.22	lh2.ggpht.com
+216.58.220.22	lh3.ggpht.com
+216.58.220.22	lh4.ggpht.com
+216.58.220.22	lh5.ggpht.com
+216.58.220.22	lh6.ggpht.com
+216.58.220.22	nt0.ggpht.com
+216.58.220.22	nt1.ggpht.com
+216.58.220.22	nt2.ggpht.com
+216.58.220.22	nt3.ggpht.com
+216.58.220.22	nt4.ggpht.com
+216.58.220.22	nt5.ggpht.com
+216.58.220.22	nt6.ggpht.com
+216.58.220.22	yt0.ggpht.com
+216.58.220.22	yt1.ggpht.com
+216.58.220.22	yt2.ggpht.com
+216.58.220.22	yt3.ggpht.com
+216.58.220.22	yt4.ggpht.com
+216.58.220.22	yt5.ggpht.com
+216.58.220.22	yt6.ggpht.com
+216.58.220.22	gm0.ggpht.com
+216.58.220.22	gm1.ggpht.com
+216.58.220.22	gm2.ggpht.com
+216.58.220.22	gm3.ggpht.com
+216.58.220.22	gm4.ggpht.com
+216.58.220.22	gm5.ggpht.com
+216.58.220.22	gm6.ggpht.com
+216.58.220.22	geo0.ggpht.com
+216.58.220.22	geo1.ggpht.com
+216.58.220.22	geo2.ggpht.com
+216.58.220.22	geo3.ggpht.com
+216.58.220.22	geo4.ggpht.com
+216.58.220.22	geo5.ggpht.com
+216.58.220.22	geo6.ggpht.com
+216.58.220.22	ci1.googleusercontent.com
+216.58.220.22	ci2.googleusercontent.com
+216.58.220.22	ci3.googleusercontent.com
+216.58.220.22	ci4.googleusercontent.com
+216.58.220.22	ci5.googleusercontent.com
+216.58.220.22	ci6.googleusercontent.com
+216.58.220.22	s1.googleusercontent.com
+216.58.220.22	s2.googleusercontent.com
+216.58.220.22	s3.googleusercontent.com
+216.58.220.22	s4.googleusercontent.com
+216.58.220.22	s5.googleusercontent.com
+216.58.220.22	s6.googleusercontent.com
+216.58.220.22	sp0.googleusercontent.com
+216.58.220.22	sp1.googleusercontent.com
+216.58.220.22	sp2.googleusercontent.com
+216.58.220.22	sp3.googleusercontent.com
+216.58.220.22	sp4.googleusercontent.com
+216.58.220.22	sp5.googleusercontent.com
+216.58.220.22	sp6.googleusercontent.com
+216.58.220.22	sp7.googleusercontent.com
+216.58.220.22	sp8.googleusercontent.com
+216.58.220.22	sp9.googleusercontent.com
+216.58.220.22	r1---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r2---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r3---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r4---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r5---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r6---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r7---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r8---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r9---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r10---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r11---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r12---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r13---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r14---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r15---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r16---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r17---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r18---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r19---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r20---sn-a5m7znee.c.android.clients.google.com
+216.58.220.22	r1---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r2---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r3---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r4---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r5---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r6---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r7---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r8---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r9---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r10---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r11---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r12---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r13---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r14---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r15---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r16---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r17---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r18---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r19---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r20---sn-a5m7zne7.c.android.clients.google.com
+216.58.220.22	r1---pek01s02.c.android.clients.google.com
+216.58.220.22	r2---pek01s02.c.android.clients.google.com
+216.58.220.22	r3---pek01s02.c.android.clients.google.com
+216.58.220.22	r4---pek01s02.c.android.clients.google.com
+216.58.220.22	r5---pek01s02.c.android.clients.google.com
+216.58.220.22	r6---pek01s02.c.android.clients.google.com
+216.58.220.22	r7---pek01s02.c.android.clients.google.com
+216.58.220.22	r8---pek01s02.c.android.clients.google.com
+216.58.220.22	r9---pek01s02.c.android.clients.google.com
+216.58.220.22	r10---pek01s02.c.android.clients.google.com
+216.58.220.22	r11---pek01s02.c.android.clients.google.com
+216.58.220.22	r12---pek01s02.c.android.clients.google.com
+216.58.220.22	r13---pek01s02.c.android.clients.google.com
+216.58.220.22	r14---pek01s02.c.android.clients.google.com
+216.58.220.22	r15---pek01s02.c.android.clients.google.com
+216.58.220.22	r16---pek01s02.c.android.clients.google.com
+216.58.220.22	r17---pek01s02.c.android.clients.google.com
+216.58.220.22	r18---pek01s02.c.android.clients.google.com
+216.58.220.22	r19---pek01s02.c.android.clients.google.com
+216.58.220.22	r20---pek01s02.c.android.clients.google.com
+216.58.220.22	r1---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r2---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r3---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r4---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r5---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r6---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r7---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r8---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r9---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r10---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r11---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r12---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r13---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r14---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r15---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r16---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r17---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r18---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r19---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r20---sn-i3b7sn7d.c.android.clients.google.com
+216.58.220.22	r1---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r2---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r3---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r4---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r5---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r6---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r7---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r8---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r9---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r10---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r11---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r12---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r13---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r14---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r15---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r16---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r17---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r18---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r19---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r20---sn-i3b76n7e.c.android.clients.google.com
+216.58.220.22	r1---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r2---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r3---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r4---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r5---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r6---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r7---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r8---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r9---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r10---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r11---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r12---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r13---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r14---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r15---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r16---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r17---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r18---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r19---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r20---sn-i3b76n7l.c.android.clients.google.com
+216.58.220.22	r1---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r2---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r3---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r4---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r5---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r6---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r7---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r8---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r9---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r10---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r11---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r12---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r13---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r14---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r15---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r16---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r17---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r18---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r19---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r20---sn-30a7en7d.c.android.clients.google.com
+216.58.220.22	r1---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r2---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r3---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r4---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r5---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r6---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r7---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r8---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r9---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r10---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r11--sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r12---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r13---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r14---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r15---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r16---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r17---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r18---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r19---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r20---sn-npo7ene7.c.android.clients.google.com
+216.58.220.22	r1---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r2---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r3---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r4---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r5---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r6---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r7---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r8---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r9---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r10---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r11---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r12---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r13---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r14---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r15---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r16---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r17---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r18---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r19---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r20---sn-npo7enee.c.android.clients.google.com
+216.58.220.22	r1---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r2---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r3---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r4---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r5---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r6---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r7---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r8---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r9---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r19---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r11---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r12---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r13---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r14---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r15---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r16---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r17---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r18---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r19---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r20---sn-npo7enel.c.android.clients.google.com
+216.58.220.22	r1---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r2---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r3---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r4---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r5---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r6---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r7---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r8---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r9---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r10---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r11---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r12---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r13---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r14---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r15---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r16---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r17---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r18---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r19---sn-npo7enes.c.android.clients.google.com
+216.58.220.22	r20---sn-npo7enes.c.android.clients.google.com
 #REDICTION END
