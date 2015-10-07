@@ -4,7 +4,8 @@
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1        Lack006-PC
-#NO AD START 
+
+#NO AD START
 127.0.0.1 new-event.sng.qq.com
 127.0.0.1 ad.doubleclick.net.77638.9663.302br.net
 127.0.0.1 119xpg.go2cloud.org
