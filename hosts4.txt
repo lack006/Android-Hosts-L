@@ -1,4 +1,4 @@
-#本地 去广告 版本 2015-10-08
+#本地 去广告 版本 2015-10-07
 #作者lack006_CN
 #转载请留下此行，谢谢
 127.0.0.1 localhost
@@ -1598,7 +1598,6 @@
 127.0.0.1 opf.ooyala.com
 127.0.0.1 3773523.fls.doubleclick.net
 127.0.0.1 img.coldstoragemn.com
-127.0.0.1 ads178.hpg.com.br
 127.0.0.1 ad.doubleclick.net.40678.9311.302br.net
 127.0.0.1 buy-vicodin.hut1.ru
 127.0.0.1 hitlogger.com
@@ -16783,7 +16782,7 @@
 127.0.0.1 freelotto.com
 127.0.0.1 catharon.com
 127.0.0.1 allrefer.us.intellitxt.com
-127.0.0.1 ruurqo.pop.kaixinjiehun.com
+127.0.0.1 bs.serving-sys.com.55653.9244.302br.net
 127.0.0.1 www.zuverink.net
 127.0.0.1 ad.doubleclick.net.48629.9318.302br.net
 127.0.0.1 zbxproxy01.bob.local.vmsn.de
@@ -38250,6 +38249,7 @@
 127.0.0.1 ad.doubleclick.net.73155.9617.302br.net
 127.0.0.1 ad.doubleclick.net.65956.9501.302br.net
 127.0.0.1 www.primecups.com
+127.0.0.1 tongji.miercn.com
 127.0.0.1 pinaccesscode.com
 127.0.0.1 u1.puls.lv
 127.0.0.1 view.atdmt.com.71415.9489.302br.net
@@ -41020,7 +41020,7 @@
 127.0.0.1 view.atdmt.com.27102.9202.302br.net
 127.0.0.1 aff.adland.co.il
 127.0.0.1 fra261.ib.adnxs.com
-127.0.0.1 bs.serving-sys.com.55653.9244.302br.net
+127.0.0.1 ads178.hpg.com.br
 127.0.0.1 playboynet.playboy.com
 127.0.0.1 stats.style.com
 127.0.0.1 adserver.reklamstore.com
@@ -55001,6 +55001,7 @@
 127.0.0.1 public41.bravenet.com
 127.0.0.1 ad.doubleclick.net.73309.9423.302br.net
 127.0.0.1 ultimatelyreveal.com
+127.0.0.1 ka.duowan.com
 127.0.0.1 www.russianangels.com
 127.0.0.1 ad.doubleclick.net.44597.9335.302br.net
 127.0.0.1 ad.doubleclick.net.65784.9503.302br.net
@@ -67217,6 +67218,7 @@
 127.0.0.1 ac.ybinst8.ec.yimg.com
 127.0.0.1 shonline.wrating.com
 127.0.0.1 www.jenneyjones.com
+127.0.0.1 ruurqo.pop.kaixinjiehun.com
 127.0.0.1 home4bizstart.ru
 127.0.0.1 servedby.flashtalking.com.16510.9069.302br.net
 127.0.0.1 yiyansi.com
@@ -71877,6 +71879,7 @@
 127.0.0.1 ad.doubleclick.net.25701.9190.302br.net
 127.0.0.1 deals.macupdate.com
 127.0.0.1 wy.chinaih.com
+127.0.0.1 pflq.duowan.com
 127.0.0.1 thinkdigitaladro.hit.gemius.pl
 127.0.0.1 www.whoson.co.uk
 127.0.0.1 cctv.adsunion.com
