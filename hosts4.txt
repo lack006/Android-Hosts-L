@@ -1,13 +1,14 @@
-#本地 去广告 版本 2015-10-07
+#本地 去广告 版本 2015-10-08
 #作者lack006_CN
 #转载请留下此行，谢谢
-######################请注意 ！############################
-#     Android hosts 文件 默认换行符为 LF！                #
-#     本文档默认编码为 UTF-8！                            #
-#     PAY ATTENTION PLEASE !                              #
-#     Android hosts default line break is LF!             #
-#     This hosts default encoding is UTF-8!               #  
-###########################################################
+######################请注意 ！######################
+#       Android hosts 文件 默认换行符为 LF！
+#       本文档默认编码为 UTF-8！
+
+##############PAY ATTENTION PLEASE !#################
+#       Android hosts default line break is LF!
+#       This hosts default encoding is UTF-8!
+
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1        Lack006-PC
