@@ -1,3 +1,11 @@
+#本地 重定向 版本 2015-08-02
+127.0.0.1       localhost
+::1             localhost
+#可用高速
+#..
+#作者lack006_CN
+#转载请留下此行，谢谢
+127.0.0.1        Lack006-PC
 #REDICTION START
 64.233.162.84    xn--flw351e.xn--fiqs8s     
 64.233.162.84    xn--flw351e.xn--55qx5d     
