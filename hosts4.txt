@@ -1,13 +1,10 @@
 #本地 去广告 版本 2015-10-07
-127.0.0.1       localhost
-::1             localhost
 #作者lack006_CN
 #转载请留下此行，谢谢
 127.0.0.1 localhost
 ::1 localhost
 127.0.0.1        Lack006-PC
 #NO AD START 
-
 127.0.0.1 new-event.sng.qq.com
 127.0.0.1 ad.doubleclick.net.77638.9663.302br.net
 127.0.0.1 119xpg.go2cloud.org
