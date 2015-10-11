@@ -55,7 +55,13 @@ public class Showchoose {
                 }
                 Downloadhosts.Download(mpDialog, context, hosts_url, btn_AD, btn_RE, btn_AR, umeng, mybus, jiajia, tieba);
             }
-        }).show();
+        })
+                .setNegativeButton(R.string.Cancel, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+
+
+                    }
+                }).show();
 
     }
 
@@ -94,7 +100,13 @@ public class Showchoose {
                     Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_RE_noplay), btn_AD, btn_RE, btn_AR, 0, 0, 0, 0);
                 }
             }
-        }).show();
+        })
+                .setNegativeButton(R.string.Cancel, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+
+
+                    }
+                }).show();
 
     }
 
@@ -167,10 +179,22 @@ public class Showchoose {
                             Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_AR_noplay), btn_AD, btn_RE, btn_AR, umeng, mybus, jiajia, tieba);
                         }
                     }
-                }).show();
+                })
+                        .setNegativeButton(R.string.Cancel, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+
+
+                            }
+                        }).show();
 
             }
-        }).show();
+        })
+                .setNegativeButton(R.string.Cancel, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int whichButton) {
+
+
+                    }
+                }).show();
 
     }
 

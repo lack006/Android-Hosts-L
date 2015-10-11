@@ -124,6 +124,7 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(MainActivity.this, R.string.Refresh_DNS_complete, Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_Backup) {
+
             Backup();
 
         } else if (id == R.id.nav_Rotate) {
@@ -205,7 +206,7 @@ public class MainActivity extends AppCompatActivity
     public void Backup() {
         Context context = MainActivity.this;
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        Backup.Backuphosts(context, builder);
+        Backup.Backuphosts(context, builder,btn_AD,btn_RE,btn_AR);
     }
 
 

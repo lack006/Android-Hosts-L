@@ -22,7 +22,11 @@ public class Copy {
     static Button btn_AR1;
     static Context context1;
 
-    public static void Copy_backup2hosts(Context context) {
+    public static void Copy_backup2hosts(Context context,Button btn_AD, Button btn_RE, Button btn_AR) {
+        btn_AD1 = btn_AD;
+        btn_RE1 = btn_RE;
+        btn_AR1 = btn_AR;
+        context1 = context;
         ProcessBuilder pb = new ProcessBuilder("/system/bin/sh");
         pb.directory(new File("/"));// 设置shell的当前目录。
         try {

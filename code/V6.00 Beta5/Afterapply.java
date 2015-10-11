@@ -72,6 +72,7 @@ public class Afterapply {
 
                 break;
             }
+            Log.i("handler001","check");
 
             After_setversion();
 
@@ -161,7 +162,9 @@ public class Afterapply {
             } else if (a == 2) {
                 a = 0;
             } else if (a == 3) {
+                Log.i("handler111", String.valueOf(a));
                 btn_AD1.setText(R.string.AD_is_new);
+                Log.i("handler112", String.valueOf(a));
                 btn_RE1.setText(R.string.RE);
                 btn_AR1.setText(R.string.AR);
                 Toast.makeText(context1, R.string.Apply_complete, Toast.LENGTH_SHORT).show();
@@ -179,6 +182,7 @@ public class Afterapply {
                 Toast.makeText(context1, R.string.Apply_complete, Toast.LENGTH_SHORT).show();
                 a = 0;
             }
+
 
 
         } catch (Exception ignored) {
