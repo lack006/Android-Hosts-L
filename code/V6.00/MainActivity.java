@@ -15,6 +15,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 
 import java.io.InputStream;
 
+import static com.lack006.hosts_l.Checkbusybox.checkbusybox;
 import static com.lack006.hosts_l.Del.Deloldfile;
 import static com.lack006.hosts_l.Installbusybox.Install;
 import static com.lack006.hosts_l.Reboot.Reboot_switch;
@@ -66,13 +68,18 @@ public class MainActivity extends AppCompatActivity
 
         Checkroot();
         Deloldfile();
+
         CheckNet(AD, RE, AR, btn_AD, btn_RE, btn_AR);
+        checkbusybox(context);
+
 
         btn_AD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 ProgressDialog mpDialog = new ProgressDialog(MainActivity.this);
                 Context context = MainActivity.this;
+                checkbusybox(context);
                 ADchoose(mpDialog, context, URL_AD, btn_AD, btn_RE, btn_AR);
             }
 
@@ -83,6 +90,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 ProgressDialog mpDialog = new ProgressDialog(MainActivity.this);
                 Context context = MainActivity.this;
+                checkbusybox(context);
 //                Downloadhosts.Download(mpDialog, context, URL_RE, btn_AD, btn_RE, btn_AR,0,0,0,0);
                 REchoose(mpDialog, context, null, btn_AD, btn_RE, btn_AR);
             }
@@ -92,6 +100,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 ProgressDialog mpDialog = new ProgressDialog(MainActivity.this);
                 Context context = MainActivity.this;
+                checkbusybox(context);
 //                Downloadhosts.Download(mpDialog, context, URL_AR, btn_AD, btn_RE, btn_AR,0,0,0,0);
                 ARchoose(mpDialog, context, null, btn_AD, btn_RE, btn_AR);
             }
@@ -110,6 +119,29 @@ public class MainActivity extends AppCompatActivity
             Deloldfile();
             super.onBackPressed();
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_help) {
+            Toast.makeText(MainActivity.this, R.string.Help_words, Toast.LENGTH_LONG).show();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 

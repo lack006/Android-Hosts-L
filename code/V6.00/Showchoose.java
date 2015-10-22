@@ -14,6 +14,7 @@ public class Showchoose {
     static int mybus = 0;
     static int jiajia = 0;
     static int tieba = 0;
+
     static int google_play = 0;
 
 
@@ -35,6 +36,7 @@ public class Showchoose {
                 for (int i = 0; i < arrayFruitSelected.length; i++) {
                     if (arrayFruitSelected[i]) {
 
+
                         if (i == 0) {
                             umeng = 1;
                         }
@@ -53,7 +55,7 @@ public class Showchoose {
 
                     }
                 }
-                Downloadhosts.Download(mpDialog, context, hosts_url, btn_AD, btn_RE, btn_AR, umeng, mybus, jiajia, tieba);
+                Downloadhosts.Download(mpDialog, context, hosts_url, btn_AD, btn_RE, btn_AR ,umeng, mybus, jiajia, tieba);
             }
         })
                 .setNegativeButton(R.string.Cancel, new DialogInterface.OnClickListener() {
@@ -128,7 +130,8 @@ public class Showchoose {
                 for (int i = 0; i < arrayFruitSelected.length; i++) {
                     if (arrayFruitSelected[i]) {
 
-                        if (i == 0) {
+
+                        if (i ==0) {
                             umeng = 1;
                         }
                         if (i == 1) {
@@ -173,10 +176,10 @@ public class Showchoose {
                         }
                         if (google_play == 1) {
 
-                            Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_AR), btn_AD, btn_RE, btn_AR, umeng, mybus, jiajia, tieba);
+                            Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_AR), btn_AD, btn_RE, btn_AR,umeng, mybus, jiajia, tieba);
                         } else {
 
-                            Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_AR_noplay), btn_AD, btn_RE, btn_AR, umeng, mybus, jiajia, tieba);
+                            Downloadhosts.Download(mpDialog, context, context.getString(R.string.URL_AR_noplay), btn_AD, btn_RE, btn_AR,umeng, mybus, jiajia, tieba);
                         }
                     }
                 })

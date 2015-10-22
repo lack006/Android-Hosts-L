@@ -40,30 +40,15 @@ public class Installbusybox {
 
                         PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(proc.getOutputStream())), true);
                         out.println("su");
-                        out.println("toolbox chmod 755 /data/data/com.lack006.hosts_l/files/busybox");
-                        out.println("export PATH=/data/data/com.lack006.hosts_l/files:/system/xbin:$PATH");
-                        out.println("toolbox mount -o remount,rw /system");
-                        out.println("busybox mount -o remount,rw /system");
-                        out.println("busybox mount -o rw,remount yassf2 /system/");
-                        out.println("busybox chmod 777 /system");
-                        out.println("busybox chmod 777 /system/xbin");
-                        out.println("busybox cat /data/data/com.lack006.hosts_l/files/busybox>/system/xbin/busybox");
+                        out.println("export PATH=/system/xbin:$PATH");
+                        out.println("mount -o remount,rw /system");
+                        out.println("mount -o rw,remount yassf2 /system/");
+
+                        out.println("cp /data/data/com.lack006.hosts_l/files/busybox /system/xbin/busybox");
                         out.println("sleep 0.5");
-                        out.println("busybox chmod 755 /system/xbin/busybox");
-                        out.println("busybox chmod 755 /system");
-                        out.println("busybox chmod 755 /system/xbin");
+                        out.println("chmod 755 /system/xbin/busybox");
                         out.println("busybox --install /system/xbin");
-                        out.println("toolbox mount -o remount,rw /system");
-                        out.println("busybox mount -o remount,rw /system");
-                        out.println("toolbox mount -o rw,remount yassf2 /system/");
-                        out.println("toolbox chmod 777 /system");
-                        out.println("toolbox chmod 777 /system/xbin");
-                        out.println("toolbox cat /data/data/com.lack006.hosts_l/files/busybox>/system/xbin/busybox");
                         out.println("sleep 0.5");
-                        out.println("toolbox chmod 755 /system/xbin/busybox");
-                        out.println("toolbox chmod 755 /system");
-                        out.println("toolbox chmod 755 /system/xbin");
-                        out.println("busybox --install /system/xbin");
                         out.println("exit");
                         out.close();
                         proc.waitFor();
@@ -90,6 +75,8 @@ public class Installbusybox {
                                     out.println("su");
 
                                     out.println("export PATH=/system/xbin:$PATH");
+                                    out.println("mount -o remount,rw /system");
+                                    out.println("mount -o rw,remount yassf2 /system/");
                                     out.println("busybox --install /system/xbin");
                                     out.println("exit");
                                     out.close();
@@ -118,7 +105,7 @@ public class Installbusybox {
 
                 }
             });
-            builder.setNeutralButton(R.string.Install, new DialogInterface.OnClickListener() {
+            builder.setNeutralButton(R.string.RE_Install, new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int whichButton) {
 
 
@@ -129,30 +116,15 @@ public class Installbusybox {
 
                         PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(proc.getOutputStream())), true);
                         out.println("su");
-                        out.println("toolbox chmod 755 /data/data/com.lack006.hosts_l/files/busybox");
-                        out.println("export PATH=/data/data/com.lack006.hosts_l/files:/system/xbin:$PATH");
-                        out.println("toolbox mount -o remount,rw /system");
-                        out.println("busybox mount -o remount,rw /system");
-                        out.println("busybox mount -o rw,remount yassf2 /system/");
-                        out.println("busybox chmod 777 /system");
-                        out.println("busybox chmod 777 /system/xbin");
-                        out.println("busybox cat /data/data/com.lack006.hosts_l/files/busybox>/system/xbin/busybox");
+                        out.println("export PATH=/system/xbin:$PATH");
+                        out.println("mount -o remount,rw /system");
+                        out.println("mount -o rw,remount yassf2 /system/");
+
+                        out.println("cp /data/data/com.lack006.hosts_l/files/busybox /system/xbin/busybox");
                         out.println("sleep 0.5");
-                        out.println("busybox chmod 755 /system/xbin/busybox");
-                        out.println("busybox chmod 755 /system");
-                        out.println("busybox chmod 755 /system/xbin");
+                        out.println("chmod 755 /system/xbin/busybox");
                         out.println("busybox --install /system/xbin");
-                        out.println("toolbox mount -o remount,rw /system");
-                        out.println("busybox mount -o remount,rw /system");
-                        out.println("toolbox mount -o rw,remount yassf2 /system/");
-                        out.println("toolbox chmod 777 /system");
-                        out.println("toolbox chmod 777 /system/xbin");
-                        out.println("toolbox cat /data/data/com.lack006.hosts_l/files/busybox>/system/xbin/busybox");
                         out.println("sleep 0.5");
-                        out.println("toolbox chmod 755 /system/xbin/busybox");
-                        out.println("toolbox chmod 755 /system");
-                        out.println("toolbox chmod 755 /system/xbin");
-                        out.println("busybox --install /system/xbin");
                         out.println("exit");
                         out.close();
                         proc.waitFor();
@@ -179,6 +151,8 @@ public class Installbusybox {
                                     out.println("su");
 
                                     out.println("export PATH=/system/xbin:$PATH");
+                                    out.println("mount -o remount,rw /system");
+                                    out.println("mount -o rw,remount yassf2 /system/");
                                     out.println("busybox --install /system/xbin");
                                     out.println("exit");
                                     out.close();

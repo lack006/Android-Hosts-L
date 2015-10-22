@@ -31,6 +31,7 @@ public class Downloadhosts {
     static Button btn_AR1;
     static Context context1;
 
+
     public static void Download(final ProgressDialog mpDialog, final Context context, final String hosts_url, Button btn_AD, Button btn_RE, Button btn_AR, final int umeng, final int mybus, final int jiajia, final int tieba) {
         btn_AD1 = btn_AD;
         btn_RE1 = btn_RE;
@@ -184,7 +185,9 @@ public class Downloadhosts {
                     break;
                     case 2:
 
-                        Copy_download2hosts(context1, btn_AD1, btn_RE1, btn_AR1);
+                            Copy_download2hosts(context1, btn_AD1, btn_RE1, btn_AR1);
+
+
 
 
                         break;

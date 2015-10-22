@@ -33,28 +33,14 @@ public class Copy {
             Process proc = pb.start();
             PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(proc.getOutputStream())), true);
             out.println("su");
-            out.println("toolbox chmod 755 /data/data/com.lack006.hosts_l/files/busybox");
-            out.println("export PATH=/data/data/com.lack006.hosts_l/files:/system/xbin:$PATH");
-            out.println("busybox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox mount -o remount,rw /system");
-            out.println("busybox mount -o remount,rw /system");
-            out.println("busybox chmod 777 /system");
-            out.println("busybox chmod 777 /system/etc");
-            out.println("busybox chmod 777 /system/etc/hosts");
-            out.println("busybox cp /data/data/com.lack006.hosts_l/files/backup /system/etc/hosts");
+            out.println("export PATH=/system/xbin:$PATH");
+
+            out.println(" mount -o remount,rw /system");
+
+            out.println("cp /data/data/com.lack006.hosts_l/files/backup /system/etc/hosts");
             out.println("sleep 0.5");
-            out.println("busybox chmod 644 /system/etc/hosts");
-            out.println("busybox chmod 755 /system");
-            out.println("busybox chmod 755 /system/etc");
-            out.println("toolbox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox chmod 777 /system");
-            out.println("toolbox chmod 777 /system/etc");
-            out.println("toolbox chmod 777 /system/etc/hosts");
-            out.println("toolbox cp /data/data/com.lack006.hosts_l/files/backup /system/etc/hosts");
-            out.println("sleep 0.5");
-            out.println("toolbox chmod 644 /system/etc/hosts");
-            out.println("toolbox chmod 755 /system");
-            out.println("toolbox chmod 755 /system/etc");
+            out.println("chmod 644 /system/etc/hosts");
+
             out.println("ndc resolver flushdefaultif");
             out.println("ndc resolver flushif wlan0");
             out.println("exit");
@@ -77,32 +63,13 @@ public class Copy {
             Process proc = pb.start();
             PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(proc.getOutputStream())), true);
             out.println("su");
-            out.println("toolbox chmod 755 /data/data/com.lack006.hosts_l/files/busybox");
-            out.println("export PATH=/data/data/com.lack006.hosts_l/files:/system/xbin:$PATH");
-            out.println("busybox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox mount -o remount,rw /system");
-            out.println("busybox mount -o remount,rw /system");
-            out.println("busybox chmod 777 /system");
-            out.println("busybox chmod 777 /system/etc");
-            out.println("busybox chmod 777 /system/etc/hosts");
-            out.println("busybox rm /data/data/com.lack006.hosts_l/files/backup");
+            out.println("export PATH=/system/xbin:$PATH");
+            out.println("mount -o rw,remount yassf2 /system/");
+            out.println("mount -o remount,rw /system");
+            out.println("rm /data/data/com.lack006.hosts_l/files/backup");
             out.println("sleep 0.5");
-            out.println("busybox cp  /system/etc/hosts /data/data/com.lack006.hosts_l/files/backup");
+            out.println("cp  /system/etc/hosts /data/data/com.lack006.hosts_l/files/backup");
             out.println("sleep 0.5");
-            out.println("busybox chmod 644 /system/etc/hosts");
-            out.println("busybox chmod 755 /system");
-            out.println("busybox chmod 755 /system/etc");
-            out.println("toolbox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox chmod 777 /system");
-            out.println("toolbox chmod 777 /system/etc");
-            out.println("toolbox chmod 777 /system/etc/hosts");
-            out.println("toolbox rm /data/data/com.lack006.hosts_l/files/backup");
-            out.println("sleep 0.5");
-            out.println("toolbox cp /system/etc/hosts /data/data/com.lack006.hosts_l/files/backup");
-            out.println("sleep 0.5");
-            out.println("toolbox chmod 644 /system/etc/hosts");
-            out.println("toolbox chmod 755 /system");
-            out.println("toolbox chmod 755 /system/etc");
             out.println("exit");
             out.close();
             proc.waitFor();
@@ -113,6 +80,7 @@ public class Copy {
         } catch (Exception ignored) {
         }
     }
+
 
     public static void Copy_download2hosts(final Context context, Button btn_AD, Button btn_RE, Button btn_AR) {
         btn_AD1 = btn_AD;
@@ -125,30 +93,13 @@ public class Copy {
             Process proc = pb.start();
             PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(proc.getOutputStream())), true);
             out.println("su");
-            out.println("toolbox chmod 755 /data/data/com.lack006.hosts_l/files/busybox");
-            out.println("export PATH=/data/data/com.lack006.hosts_l/files:/system/xbin:$PATH");
-            out.println("busybox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox mount -o remount,rw /system");
-            out.println("busybox mount -o remount,rw /system");
-            out.println("busybox chmod 777 /system");
-            out.println("busybox chmod 777 /system/etc");
-            out.println("busybox chmod 777 /system/etc/hosts");
-            out.println("busybox cp /data/data/com.lack006.hosts_l/files/hosts /system/etc/hosts");
+            out.println("export PATH=/system/xbin:$PATH");
+            out.println("mount -o rw,remount yassf2 /system/");
+            out.println("mount -o remount,rw /system");
+            out.println("cp /data/data/com.lack006.hosts_l/files/hosts /system/etc/hosts");
             out.println("sleep 0.5");
-            out.println("busybox chmod 644 /system/etc/hosts");
-            out.println("busybox chmod 755 /system");
-            out.println("busybox chmod 755 /system/etc");
-            out.println("toolbox mount -o rw,remount yassf2 /system/");
-            out.println("toolbox chmod 777 /system");
-            out.println("toolbox chmod 777 /system/etc");
-            out.println("toolbox chmod 777 /system/etc/hosts");
-            out.println("toolbox cp /data/data/com.lack006.hosts_l/files/hosts /system/etc/hosts");
-            out.println("sleep 0.5");
-            out.println("toolbox chmod 644 /system/etc/hosts");
-            out.println("toolbox chmod 755 /system");
-            out.println("toolbox chmod 755 /system/etc");
-            out.println("busybox rm /data/data/com.lack006.hosts_l/files/hosts");
-            out.println("toolbox rm /data/data/com.lack006.hosts_l/files/hosts");
+            out.println("chmod 644 /system/etc/hosts");
+            out.println("rm /data/data/com.lack006.hosts_l/files/hosts");
             out.println("ndc resolver flushdefaultif");
             out.println("ndc resolver flushif wlan0");
             out.println("exit");
