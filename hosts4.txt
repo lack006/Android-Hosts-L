@@ -1,7 +1,7 @@
 #############################################################
 
 
-#已经转移到 https://github.com/lack006/Android-Hosts-L/tree/master/hosts
+#已经转移到 https://github.com/lack006/Android-Hosts-L/tree/master/hosts_files/2016_hosts
 #本文件已经停止更新啦！
 #换上面的地址吧！！！
 
