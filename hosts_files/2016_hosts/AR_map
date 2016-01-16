@@ -1,4 +1,4 @@
-#V201601161735AR
+#V201601161944AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -24,14 +24,13 @@
 #216.239.38.124    android.clients.google.com
 #2
 216.239.38.124    clients1.google.com
-216.239.38.124    clients2.google.com
+216.239.38.124    clients2.google.com 
 216.239.38.124    clients3.google.com
 216.239.38.124    clients4.google.com
 216.239.38.124    clients5.google.com
 216.239.38.124    clients6.google.com
 216.239.38.124    clients7.google.com
 #Google Map END
-
 #NO AD START
 127.0.0.1 ad.doubleclick.net.80911.9682.302br.net
 127.0.0.1 anrtx.tacoda.net
