@@ -1,4 +1,4 @@
-#V201601111125AD
+#V201601161310AD
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -13,10 +13,10 @@
 ::1 localhost
 127.0.0.1        Lack006-PC
 #去除Android 5.0及以上系统的网络图标感叹号
-#6.0
+#Android 6.0
 216.239.38.124    connectivitycheck.gstatic.com
-#5.0
-216.239.38.124    clients3.google.com
+#Android 5.0
+#216.239.38.124    clients3.google.com
 #! END
 #NO AD START
 127.0.0.1 ad.doubleclick.net.80911.9682.302br.net
