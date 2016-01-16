@@ -1,4 +1,4 @@
-#V201601161544AR
+#V201601161648AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -23,13 +23,13 @@
 #1
 #216.239.38.124    android.clients.google.com
 #2
-216.239.38.124    clients1.google.com
-216.239.38.124    clients2.google.com
-216.239.38.124    clients3.google.com
-216.239.38.124    clients4.google.com
-216.239.38.124    clients5.google.com
-216.239.38.124    clients6.google.com
-216.239.38.124    clients7.google.com
+#216.239.38.124    clients1.google.com
+#216.239.38.124    clients2.google.com
+#216.239.38.124    clients3.google.com
+#216.239.38.124    clients4.google.com
+#216.239.38.124    clients5.google.com
+#216.239.38.124    clients6.google.com
+#216.239.38.124    clients7.google.com
 #3
 216.239.38.124    clients1.googleusercontent.com
 216.239.38.124    clients2.googleusercontent.com
