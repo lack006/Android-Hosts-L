@@ -1,4 +1,4 @@
-#V201601161542AD
+#V201601202304AD
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,9 +14,9 @@
 127.0.0.1        Lack006-PC
 #去除Android 5.0及以上系统的网络图标感叹号
 #Android 6.0
-216.239.38.124    connectivitycheck.gstatic.com
+173.194.68.195    connectivitycheck.gstatic.com
 #Android 5.0
-#216.239.38.124    clients3.google.com
+#173.194.68.195    clients3.google.com
 #! END
 #NO AD START
 127.0.0.1 ad.doubleclick.net.80911.9682.302br.net
@@ -51208,7 +51208,6 @@
 127.0.0.1 gcirm.thestarpress.gcion.com
 127.0.0.1 ad.doubleclick.net.78524.9671.302br.net
 127.0.0.1 webvoo.com
-127.0.0.1 ssl.google-analytics.com
 127.0.0.1 top-casting-termine.de
 127.0.0.1 www.mellissa-lack.us
 127.0.0.1 www.d16.net

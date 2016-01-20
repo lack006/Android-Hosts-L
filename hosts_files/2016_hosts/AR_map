@@ -1,4 +1,4 @@
-#V201601182110AR
+#V201601202332AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,57 +14,57 @@
 127.0.0.1        Lack006-PC
 #去除Android 5.0及以上系统的网络图标感叹号
 #Android 6.0
-216.239.38.124    connectivitycheck.gstatic.com
+216.58.199.188    connectivitycheck.gstatic.com
 #Android 5.0
-#216.239.38.124    clients3.google.com
+#216.58.199.188    clients3.google.com
 #! END
 
 
 #Google Map START
 #1
-#216.239.38.124    android.clients.google.com
+#216.58.199.188    android.clients.google.com
 #2
-216.239.38.124    clients1.google.com
-216.239.38.124    clients2.google.com
-216.239.38.124    clients3.google.com
-216.239.38.124    clients4.google.com
-216.239.38.124    clients5.google.com
-216.239.38.124    clients6.google.com
-216.239.38.124    clients7.google.com
+216.58.199.188    clients1.google.com
+216.58.199.188    clients2.google.com
+216.58.199.188    clients3.google.com
+216.58.199.188    clients4.google.com
+216.58.199.188    clients5.google.com
+216.58.199.188    clients6.google.com
+216.58.199.188    clients7.google.com
 #3
-#216.239.38.124    clients1.googleusercontent.com
-#216.239.38.124    clients2.googleusercontent.com
-#216.239.38.124    clients3.googleusercontent.com
-#216.239.38.124    clients4.googleusercontent.com
-#216.239.38.124    clients5.googleusercontent.com
-#216.239.38.124    clients6.googleusercontent.com
-#216.239.38.124    clients7.googleusercontent.com
-#216.239.38.124    lh0.googleusercontent.com
-#216.239.38.124    lh1.googleusercontent.com
-#216.239.38.124    lh2.googleusercontent.com
-#216.239.38.124    lh3.googleusercontent.com
-#216.239.38.124    lh4.googleusercontent.com
-#216.239.38.124    lh5.googleusercontent.com
-#216.239.38.124    lh6.googleusercontent.com
+#216.58.199.188    clients1.googleusercontent.com
+#216.58.199.188    clients2.googleusercontent.com
+#216.58.199.188    clients3.googleusercontent.com
+#216.58.199.188    clients4.googleusercontent.com
+#216.58.199.188    clients5.googleusercontent.com
+#216.58.199.188    clients6.googleusercontent.com
+#216.58.199.188    clients7.googleusercontent.com
+#216.58.199.188    lh0.googleusercontent.com
+#216.58.199.188    lh1.googleusercontent.com
+#216.58.199.188    lh2.googleusercontent.com
+#216.58.199.188    lh3.googleusercontent.com
+#216.58.199.188    lh4.googleusercontent.com
+#216.58.199.188    lh5.googleusercontent.com
+#216.58.199.188    lh6.googleusercontent.com
 #4
-216.239.38.124    gm0.ggpht.com
-216.239.38.124    gm5.ggpht.com
-216.239.38.124    gm6.ggpht.com
-216.239.38.124    geo0.ggpht.com
-216.239.38.124    geo1.ggpht.com
-216.239.38.124    geo2.ggpht.com
-216.239.38.124    geo3.ggpht.com
-216.239.38.124    geo4.ggpht.com
-216.239.38.124    geo5.ggpht.com
-216.239.38.124    geo6.ggpht.com
+216.58.199.188    gm0.ggpht.com
+216.58.199.188    gm5.ggpht.com
+216.58.199.188    gm6.ggpht.com
+216.58.199.188    geo0.ggpht.com
+216.58.199.188    geo1.ggpht.com
+216.58.199.188    geo2.ggpht.com
+216.58.199.188    geo3.ggpht.com
+216.58.199.188    geo4.ggpht.com
+216.58.199.188    geo5.ggpht.com
+216.58.199.188    geo6.ggpht.com
 #5
-216.239.38.124    lh1.ggpht.com
-216.239.38.124    lh2.ggpht.com
-216.239.38.124    lh3.ggpht.com
-216.239.38.124    lh4.ggpht.com
-216.239.38.124    lh5.ggpht.com
-216.239.38.124    lh6.ggpht.com
-216.239.38.124    lh0.ggpht.com
+216.58.199.188    lh1.ggpht.com
+216.58.199.188    lh2.ggpht.com
+216.58.199.188    lh3.ggpht.com
+216.58.199.188    lh4.ggpht.com
+216.58.199.188    lh5.ggpht.com
+216.58.199.188    lh6.ggpht.com
+216.58.199.188    lh0.ggpht.com
 #Google Map END
 #NO AD START
 127.0.0.1 ad.doubleclick.net.80911.9682.302br.net
@@ -51256,7 +51256,6 @@
 127.0.0.1 gcirm.thestarpress.gcion.com
 127.0.0.1 ad.doubleclick.net.78524.9671.302br.net
 127.0.0.1 webvoo.com
-127.0.0.1 ssl.google-analytics.com
 127.0.0.1 top-casting-termine.de
 127.0.0.1 www.mellissa-lack.us
 127.0.0.1 www.d16.net
