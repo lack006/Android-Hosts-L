@@ -1,4 +1,4 @@
-#V201601231205RE
+#V201601240018RE
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,53 +14,53 @@
 127.0.0.1        Lack006-PC
 #去除Android 5.0及以上系统的网络图标感叹号
 #Android 6.0
-208.117.228.148    connectivitycheck.gstatic.com
+216.58.199.155    connectivitycheck.gstatic.com
 #Android 5.0
-#208.117.228.148    clients3.google.com
+#216.58.199.155    clients3.google.com
 #! END
 #Google Map START
 #1
-#208.117.228.148    android.clients.google.com
+#216.58.199.155    android.clients.google.com
 #2
-208.117.228.148    clients1.google.com
-208.117.228.148    clients2.google.com
-208.117.228.148    clients3.google.com
-208.117.228.148    clients4.google.com
-208.117.228.148    clients5.google.com
-208.117.228.148    clients6.google.com
-208.117.228.148    clients7.google.com
+216.58.199.155    clients1.google.com
+216.58.199.155    clients2.google.com
+216.58.199.155    clients3.google.com
+216.58.199.155    clients4.google.com
+216.58.199.155    clients5.google.com
+216.58.199.155    clients6.google.com
+216.58.199.155    clients7.google.com
 #3
-#208.117.228.148    clients1.googleusercontent.com
-#208.117.228.148    clients2.googleusercontent.com
-#208.117.228.148    clients3.googleusercontent.com
-#208.117.228.148    clients4.googleusercontent.com
-#208.117.228.148    clients5.googleusercontent.com
-#208.117.228.148    clients6.googleusercontent.com
-#208.117.228.148    clients7.googleusercontent.com
-#208.117.228.148    lh0.googleusercontent.com
-#208.117.228.148    lh1.googleusercontent.com
-#208.117.228.148    lh2.googleusercontent.com
-#208.117.228.148    lh3.googleusercontent.com
-#208.117.228.148    lh4.googleusercontent.com
-#208.117.228.148    lh5.googleusercontent.com
-#208.117.228.148    lh6.googleusercontent.com
+#216.58.199.155    clients1.googleusercontent.com
+#216.58.199.155    clients2.googleusercontent.com
+#216.58.199.155    clients3.googleusercontent.com
+#216.58.199.155    clients4.googleusercontent.com
+#216.58.199.155    clients5.googleusercontent.com
+#216.58.199.155    clients6.googleusercontent.com
+#216.58.199.155    clients7.googleusercontent.com
+#216.58.199.155    lh0.googleusercontent.com
+#216.58.199.155    lh1.googleusercontent.com
+#216.58.199.155    lh2.googleusercontent.com
+#216.58.199.155    lh3.googleusercontent.com
+#216.58.199.155    lh4.googleusercontent.com
+#216.58.199.155    lh5.googleusercontent.com
+#216.58.199.155    lh6.googleusercontent.com
 #4
-208.117.228.148    gm0.ggpht.com
-208.117.228.148    gm5.ggpht.com
-208.117.228.148    gm6.ggpht.com
-208.117.228.148    geo0.ggpht.com
-208.117.228.148    geo1.ggpht.com
-208.117.228.148    geo2.ggpht.com
-208.117.228.148    geo3.ggpht.com
-208.117.228.148    geo4.ggpht.com
-208.117.228.148    geo5.ggpht.com
-208.117.228.148    geo6.ggpht.com
+216.58.199.155    gm0.ggpht.com
+216.58.199.155    gm5.ggpht.com
+216.58.199.155    gm6.ggpht.com
+216.58.199.155    geo0.ggpht.com
+216.58.199.155    geo1.ggpht.com
+216.58.199.155    geo2.ggpht.com
+216.58.199.155    geo3.ggpht.com
+216.58.199.155    geo4.ggpht.com
+216.58.199.155    geo5.ggpht.com
+216.58.199.155    geo6.ggpht.com
 #5
-208.117.228.148    lh1.ggpht.com
-208.117.228.148    lh2.ggpht.com
-208.117.228.148    lh3.ggpht.com
-208.117.228.148    lh4.ggpht.com
-208.117.228.148    lh5.ggpht.com
-208.117.228.148    lh6.ggpht.com
-208.117.228.148    lh0.ggpht.com
+216.58.199.155    lh1.ggpht.com
+216.58.199.155    lh2.ggpht.com
+216.58.199.155    lh3.ggpht.com
+216.58.199.155    lh4.ggpht.com
+216.58.199.155    lh5.ggpht.com
+216.58.199.155    lh6.ggpht.com
+216.58.199.155    lh0.ggpht.com
 #Google Map END
