@@ -1,7 +1,6 @@
 Android-Hosts-L
 ===============
-FUCK GFW AND ADs which are IN Android software
+去广告 hosts 误杀\漏杀 请在 [这里反馈](https://github.com/lack006/Android-Hosts-L/issues/2)
 ===============
-Google 可用 的ip越来越少，目前尽量保证hosts可连接性与去广告的效果
-===============
+
 
