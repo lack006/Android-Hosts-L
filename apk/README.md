@@ -1,6 +1,6 @@
 您即将下载最新版的 Android Hosts-L V6.28 Stable(V6.20之前的版本停止更新！)
 ===============
-V6.27：修复连接速度。
+V6.28：修复连接速度。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
