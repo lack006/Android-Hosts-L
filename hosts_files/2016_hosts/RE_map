@@ -1,4 +1,4 @@
-#V201601311357RE
+#V201601311526RE
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,47 +14,47 @@
 127.0.0.1        Lack006-PC
 #Google Map START
 #1
-#208.117.237.74    android.clients.google.com
+#66.102.12.33    android.clients.google.com
 #2
-208.117.237.74    clients1.google.com
-208.117.237.74    clients2.google.com
-208.117.237.74    clients3.google.com
-208.117.237.74    clients4.google.com
-208.117.237.74    clients5.google.com
-208.117.237.74    clients6.google.com
-208.117.237.74    clients7.google.com
+66.102.12.33    clients1.google.com
+66.102.12.33    clients2.google.com
+66.102.12.33    clients3.google.com
+66.102.12.33    clients4.google.com
+66.102.12.33    clients5.google.com
+66.102.12.33    clients6.google.com
+66.102.12.33    clients7.google.com
 #3
-#208.117.237.74    clients1.googleusercontent.com
-#208.117.237.74    clients2.googleusercontent.com
-#208.117.237.74    clients3.googleusercontent.com
-#208.117.237.74    clients4.googleusercontent.com
-#208.117.237.74    clients5.googleusercontent.com
-#208.117.237.74    clients6.googleusercontent.com
-#208.117.237.74    clients7.googleusercontent.com
-#208.117.237.74    lh0.googleusercontent.com
-#208.117.237.74    lh1.googleusercontent.com
-#208.117.237.74    lh2.googleusercontent.com
-#208.117.237.74    lh3.googleusercontent.com
-#208.117.237.74    lh4.googleusercontent.com
-#208.117.237.74    lh5.googleusercontent.com
-#208.117.237.74    lh6.googleusercontent.com
+#66.102.12.33    clients1.googleusercontent.com
+#66.102.12.33    clients2.googleusercontent.com
+#66.102.12.33    clients3.googleusercontent.com
+#66.102.12.33    clients4.googleusercontent.com
+#66.102.12.33    clients5.googleusercontent.com
+#66.102.12.33    clients6.googleusercontent.com
+#66.102.12.33    clients7.googleusercontent.com
+#66.102.12.33    lh0.googleusercontent.com
+#66.102.12.33    lh1.googleusercontent.com
+#66.102.12.33    lh2.googleusercontent.com
+#66.102.12.33    lh3.googleusercontent.com
+#66.102.12.33    lh4.googleusercontent.com
+#66.102.12.33    lh5.googleusercontent.com
+#66.102.12.33    lh6.googleusercontent.com
 #4
-208.117.237.74    gm0.ggpht.com
-208.117.237.74    gm5.ggpht.com
-208.117.237.74    gm6.ggpht.com
-208.117.237.74    geo0.ggpht.com
-208.117.237.74    geo1.ggpht.com
-208.117.237.74    geo2.ggpht.com
-208.117.237.74    geo3.ggpht.com
-208.117.237.74    geo4.ggpht.com
-208.117.237.74    geo5.ggpht.com
-208.117.237.74    geo6.ggpht.com
+66.102.12.33    gm0.ggpht.com
+66.102.12.33    gm5.ggpht.com
+66.102.12.33    gm6.ggpht.com
+66.102.12.33    geo0.ggpht.com
+66.102.12.33    geo1.ggpht.com
+66.102.12.33    geo2.ggpht.com
+66.102.12.33    geo3.ggpht.com
+66.102.12.33    geo4.ggpht.com
+66.102.12.33    geo5.ggpht.com
+66.102.12.33    geo6.ggpht.com
 #5
-208.117.237.74    lh1.ggpht.com
-208.117.237.74    lh2.ggpht.com
-208.117.237.74    lh3.ggpht.com
-208.117.237.74    lh4.ggpht.com
-208.117.237.74    lh5.ggpht.com
-208.117.237.74    lh6.ggpht.com
-208.117.237.74    lh0.ggpht.com
+66.102.12.33    lh1.ggpht.com
+66.102.12.33    lh2.ggpht.com
+66.102.12.33    lh3.ggpht.com
+66.102.12.33    lh4.ggpht.com
+66.102.12.33    lh5.ggpht.com
+66.102.12.33    lh6.ggpht.com
+66.102.12.33    lh0.ggpht.com
 #Google Map END
