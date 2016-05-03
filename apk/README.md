@@ -1,6 +1,6 @@
-您即将下载最新版的 Android Hosts-L V6.31 Stable(V6.20之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V6.32 Stable(V6.20之前的版本停止更新！)
 ===============
-V6.31：修复一个逻辑错误；修改安装Busybox的方式以兼容systemless root模式；更新软件内置Busybox版本为V1.24.2；修改“去除网络图标感叹号”为可自定义网址。
+V6.32：增加“快速替换Google重定向IP”功能；优化处理界面。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
