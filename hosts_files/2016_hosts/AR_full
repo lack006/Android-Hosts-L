@@ -1,4 +1,4 @@
-#V201607241325AR
+#V201607251939AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -288,22 +288,6 @@
 172.217.26.168    www.google.co.zm
 172.217.26.168    www.google.co.zw
 172.217.26.168    www.google.cat
-172.217.26.168    static.googleadsserving.cn
-172.217.26.168    ad.doubleclick.net
-172.217.26.168    ad-g.doubleclick.net
-172.217.26.168    ad-apac.doubleclick.net
-172.217.26.168    dart-apac.l.doubleclick.net
-172.217.26.168    dart.l.doubleclick.net
-172.217.26.168    n4061ad.hk.doubleclick.net
-172.217.26.168    fls.doubleclick.net
-172.217.26.168    googleads.g.doubleclick.net
-172.217.26.168    feedads.g.doubleclick.net
-172.217.26.168    pubads.g.doubleclick.net
-172.217.26.168    www.googletagservices.com
-172.217.26.168    partnerad.l.doubleclick.net
-172.217.26.168    pagead2.googlesyndication.com
-172.217.26.168    pagead2.googleadservices.com
-172.217.26.168    pagead.l.google.com
 172.217.26.168    www.google-analytics.com
 172.217.26.168    ssl.google-analytics.com
 172.217.26.168    www.googleadservices.com
@@ -624,12 +608,8 @@
 172.217.26.168    www.gcr.io
 172.217.26.168    privacy.google.com
 172.217.26.168    accounts.blogger.com
-172.217.26.168    admob.com
-172.217.26.168    www.admob.com
-172.217.26.168    apps.admob.com
 172.217.26.168    contacts.google.com
 172.217.26.168    store.google.com
-172.217.26.168    survey.g.doubleclick.net
 172.217.26.168    encrypted-tbn0.google.com
 172.217.26.168    encrypted-tbn1.google.com
 172.217.26.168    encrypted-tbn2.google.com
@@ -1584,16 +1564,6 @@
 172.217.26.168    apacdeveloper.blogspot.com
 172.217.26.168    booksearch.blogspot.com
 172.217.26.168    chrome.blogspot.com
-172.217.26.168    fls.uk.doubleclick.net
-172.217.26.168    au.doubleclick.net
-172.217.26.168    de.doubleclick.net
-172.217.26.168    uk.doubleclick.net
-172.217.26.168    fr.doubleclick.net
-172.217.26.168    jp.doubleclick.net
-172.217.26.168    pagead.google.com
-172.217.26.168    ads.google.com
-172.217.26.168    pagead-tpc.l.google.com
-172.217.26.168    doubleclickpublishersapi.blogspot.com
 172.217.26.168    emeadev.blogspot.com
 172.217.26.168    gearsblog.blogspot.com
 172.217.26.168    google-code-featured.blogspot.com
