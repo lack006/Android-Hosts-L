@@ -1,4 +1,4 @@
-#V201607251939AR
+#V201607252123AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -288,9 +288,6 @@
 172.217.26.168    www.google.co.zm
 172.217.26.168    www.google.co.zw
 172.217.26.168    www.google.cat
-172.217.26.168    www.google-analytics.com
-172.217.26.168    ssl.google-analytics.com
-172.217.26.168    www.googleadservices.com
 172.217.26.168    tpc.googlesyndication.com
 172.217.26.168    265.com
 172.217.26.168    www.265.com
@@ -1314,7 +1311,6 @@
 172.217.26.168    m.gmail.com
 172.217.26.168    m.googlemail.com
 172.217.26.168    ngrams.googlelabs.com
-172.217.26.168    www-google-analytics.l.google.com
 172.217.26.168    www.googlesource.com
 172.217.26.168    googleblog.blogspot.com
 172.217.26.168    googlechinablog.blogspot.com
@@ -1687,7 +1683,6 @@
 172.217.26.168    www.gmodules.com
 172.217.26.168    www.ig.gmodules.com
 172.217.26.168    ig.gmodules.com
-172.217.26.168    ads.gmodules.com
 172.217.26.168    p.gmodules.com
 172.217.26.168    1.ig.gmodules.com
 172.217.26.168    2.ig.gmodules.com
@@ -2333,7 +2328,6 @@
 172.217.26.168    ru.youtube.com
 172.217.26.168    uk.youtube.com
 172.217.26.168    tw.youtube.com
-172.217.26.168    ads.youtube.com
 172.217.26.168    www.youtube-nocookie.com
 172.217.26.168    youtube-ui.l.google.com
 172.217.26.168    youtu.be
@@ -2727,15 +2721,9 @@
 172.217.26.168    v24.lscache6.c.googlesyndication.com
 172.217.26.168    v24.lscache7.c.googlesyndication.com
 172.217.26.168    v24.lscache8.c.googlesyndication.com
-172.217.26.168    adwords.google.com
-172.217.26.168    adwords.google.sk
-172.217.26.168    partner.googleadservices.com
-172.217.26.168    partnerad.l.google.com
 172.217.26.168    s0.2mdn.net
 172.217.26.168    s1.2mdn.net
 172.217.26.168    service.urchin.com
-172.217.26.168    ssl-google-analytics.l.google.com
-172.217.26.168    analytics.google.com
 172.217.26.168    www.android.com
 172.217.26.168    android.com
 172.217.26.168    source.android.com
