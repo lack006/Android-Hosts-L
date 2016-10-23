@@ -1,4 +1,4 @@
-#V201607252123RE
+#V201610231403RE
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,47 +14,47 @@
 127.0.0.1        Lack006-PC
 #Google Map START
 #1
-#172.217.26.168    android.clients.google.com
+#172.217.26.109    android.clients.google.com
 #2
-172.217.26.168    clients1.google.com
-172.217.26.168    clients2.google.com
-172.217.26.168    clients3.google.com
-172.217.26.168    clients4.google.com
-172.217.26.168    clients5.google.com
-172.217.26.168    clients6.google.com
-172.217.26.168    clients7.google.com
+172.217.26.109    clients1.google.com
+172.217.26.109    clients2.google.com
+172.217.26.109    clients3.google.com
+172.217.26.109    clients4.google.com
+172.217.26.109    clients5.google.com
+172.217.26.109    clients6.google.com
+172.217.26.109    clients7.google.com
 #3
-#172.217.26.168    clients1.googleusercontent.com
-#172.217.26.168    clients2.googleusercontent.com
-#172.217.26.168    clients3.googleusercontent.com
-#172.217.26.168    clients4.googleusercontent.com
-#172.217.26.168    clients5.googleusercontent.com
-#172.217.26.168    clients6.googleusercontent.com
-#172.217.26.168    clients7.googleusercontent.com
-#172.217.26.168    lh0.googleusercontent.com
-#172.217.26.168    lh1.googleusercontent.com
-#172.217.26.168    lh2.googleusercontent.com
-#172.217.26.168    lh3.googleusercontent.com
-#172.217.26.168    lh4.googleusercontent.com
-#172.217.26.168    lh5.googleusercontent.com
-#172.217.26.168    lh6.googleusercontent.com
+#172.217.26.109    clients1.googleusercontent.com
+#172.217.26.109    clients2.googleusercontent.com
+#172.217.26.109    clients3.googleusercontent.com
+#172.217.26.109    clients4.googleusercontent.com
+#172.217.26.109    clients5.googleusercontent.com
+#172.217.26.109    clients6.googleusercontent.com
+#172.217.26.109    clients7.googleusercontent.com
+#172.217.26.109    lh0.googleusercontent.com
+#172.217.26.109    lh1.googleusercontent.com
+#172.217.26.109    lh2.googleusercontent.com
+#172.217.26.109    lh3.googleusercontent.com
+#172.217.26.109    lh4.googleusercontent.com
+#172.217.26.109    lh5.googleusercontent.com
+#172.217.26.109    lh6.googleusercontent.com
 #4
-172.217.26.168    gm0.ggpht.com
-172.217.26.168    gm5.ggpht.com
-172.217.26.168    gm6.ggpht.com
-172.217.26.168    geo0.ggpht.com
-172.217.26.168    geo1.ggpht.com
-172.217.26.168    geo2.ggpht.com
-172.217.26.168    geo3.ggpht.com
-172.217.26.168    geo4.ggpht.com
-172.217.26.168    geo5.ggpht.com
-172.217.26.168    geo6.ggpht.com
+172.217.26.109    gm0.ggpht.com
+172.217.26.109    gm5.ggpht.com
+172.217.26.109    gm6.ggpht.com
+172.217.26.109    geo0.ggpht.com
+172.217.26.109    geo1.ggpht.com
+172.217.26.109    geo2.ggpht.com
+172.217.26.109    geo3.ggpht.com
+172.217.26.109    geo4.ggpht.com
+172.217.26.109    geo5.ggpht.com
+172.217.26.109    geo6.ggpht.com
 #5
-172.217.26.168    lh1.ggpht.com
-172.217.26.168    lh2.ggpht.com
-172.217.26.168    lh3.ggpht.com
-172.217.26.168    lh4.ggpht.com
-172.217.26.168    lh5.ggpht.com
-172.217.26.168    lh6.ggpht.com
-172.217.26.168    lh0.ggpht.com
+172.217.26.109    lh1.ggpht.com
+172.217.26.109    lh2.ggpht.com
+172.217.26.109    lh3.ggpht.com
+172.217.26.109    lh4.ggpht.com
+172.217.26.109    lh5.ggpht.com
+172.217.26.109    lh6.ggpht.com
+172.217.26.109    lh0.ggpht.com
 #Google Map END
