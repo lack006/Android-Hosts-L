@@ -1,5 +1,5 @@
-tb1.bdstatic.com\n(ÄÜ¹»È¥³ı°Ù¶ÈÌù°ÉÀà¿Í»§¶ËµÄ¹ã¸æÓëºóÌ¨ÏÂÔØ£¬µ«¿ÉÄÜÑÏÖØÓ°ÏìµçÄÔ°æ°Ù¶ÈÌù°ÉÍøÒ³µÄä¯ÀÀ):\n#tieba start\n127.0.0.1   tb1.bdstatic.com\n#tieba end
-au.umeng.*\n(¿ÉÄÜ»áÓ°ÏìÒ»Ğ©Èí¼ş¸üĞÂÈç£ºbilibili¿Í»§¶Ë):\n#umeng start\n127.0.0.1 au.umeng.co\n127.0.0.1  au.umeng.com\n#umeng end
-0591.mygolbs.com\n(»áµ¼ÖÂÕÆÉÏ¹«½»¸£ÖİÇøÓòÎŞ·¨Õı³£Ê¹ÓÃ):\n#mybus start\n127.0.0.1 0591.mygolbs.com\n#mybus end
-api.mofang.com\n(»áµ¼ÖÂÎŞ·¨Ê¹ÓÃÄ³Ğ©ÓÎÏ·ÖĞµÄ¡°¼Ó¼Ó¡±Ä£¿é):\n#jiajia start\n127.0.0.1 api.mofang.com\n127.0.0.1  spapi.i-moible.co.jp\n#jiajia end
-nj.bs.baidu.com\n(»áµ¼ÖÂ°Ù¶ÈµÄÄ³Ğ©¡°²»Õı³£¡±Èí¼şµÄÕı³£ÏÂÔØ):\n#nj start\n127.0.0.1   nj.bs.baidu.com\n#nj end
+tb1.bdstatic.com\n(èƒ½å¤Ÿå»é™¤ç™¾åº¦è´´å§ç±»å®¢æˆ·ç«¯çš„å¹¿å‘Šä¸åå°ä¸‹è½½ï¼Œä½†å¯èƒ½ä¸¥é‡å½±å“ç”µè„‘ç‰ˆç™¾åº¦è´´å§ç½‘é¡µçš„æµè§ˆ):\n#tieba start\n127.0.0.1   tb1.bdstatic.com\n#tieba end
+au.umeng.*\n(å¯èƒ½ä¼šå½±å“ä¸€äº›è½¯ä»¶æ›´æ–°å¦‚ï¼šbilibiliå®¢æˆ·ç«¯):\n#umeng start\n127.0.0.1 au.umeng.co\n127.0.0.1  au.umeng.com\n#umeng end
+0591.mygolbs.com\n(ä¼šå¯¼è‡´æŒä¸Šå…¬äº¤ç¦å·åŒºåŸŸæ— æ³•æ­£å¸¸ä½¿ç”¨):\n#mybus start\n127.0.0.1 0591.mygolbs.com\n#mybus end
+api.mofang.com\n(ä¼šå¯¼è‡´æ— æ³•ä½¿ç”¨æŸäº›æ¸¸æˆä¸­çš„â€œåŠ åŠ â€æ¨¡å—):\n#jiajia start\n127.0.0.1 api.mofang.com\n127.0.0.1  spapi.i-moible.co.jp\n#jiajia end
+nj.bs.baidu.com\n(ä¼šå¯¼è‡´ç™¾åº¦çš„æŸäº›â€œä¸æ­£å¸¸â€è½¯ä»¶çš„æ­£å¸¸ä¸‹è½½):\n#nj start\n127.0.0.1   nj.bs.baidu.com\n#nj end
