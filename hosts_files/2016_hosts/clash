@@ -3,3 +3,4 @@ au.umeng.*;(可能会影响一些软件更新如：bilibili客户端):;#umeng st
 0591.mygolbs.com;(会导致掌上公交福州区域无法正常使用):;#mybus start;127.0.0.1 0591.mygolbs.com;#mybus end
 api.mofang.com;(会导致无法使用某些游戏中的“加加”模块):;#jiajia start;127.0.0.1 api.mofang.com;127.0.0.1  spapi.i-moible.co.jp;#jiajia end
 nj.bs.baidu.com;(会导致百度的某些“不正常”软件的正常下载):;#nj start;127.0.0.1   nj.bs.baidu.com;#nj end
+*.map.baidu.com;(保证百度普通定位服务以及地图功能的前提下，屏蔽百度高精度定位以及数据上传):;#baidu map start;127.0.0.1  api.map.baidu.com;127.0.0.1 ps.map.baidu.com;127.0.0.1  sv.map.baidu.com;127.0.0.1  offnavi.map.baidu.com;127.0.0.1 newvector.map.baidu.com;127.0.0.1 ulog.imap.baidu.com;127.0.0.1 newloc.map.n.shifen.com;#baidu map end
