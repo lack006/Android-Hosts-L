@@ -1,10 +1,10 @@
-您即将下载最新版的 Android Hosts-L V6.32 Stable(V6.20之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V7.00 Stable(V6.20之前的版本停止更新！)
 ===============
-V6.32：增加“快速替换Google重定向IP”功能；优化处理界面。
+V7.00：重构代码：降低资源消耗，提高算法效率；增加“去除网络图标符号”功能对 https 认证方式的支持，增加增加“自动切换 DNS 服务器”功能，修改“冲突域名”列表获取方式；上架 Google Play。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
 ===============
-网盘的链接已经失效，不再修复，争取在今年（2016）内将软件 V7.00 版本上架 Google Play
+[Google Play(待正式发布)]
 ===============
 
