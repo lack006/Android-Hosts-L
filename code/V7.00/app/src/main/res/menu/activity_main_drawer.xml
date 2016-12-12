@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/backup_group">
+        <menu>
+
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="?attr/actionModeCopyDrawable"
+                android:title="@string/backup_hosts" />
+            <item
+                android:id="@+id/nav_rotate"
+                android:icon="?attr/actionModePasteDrawable"
+                android:title="@string/rotate" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/tools_group">
+        <menu>
+
+            <item
+                android:id="@+id/nav_auto_change_dns"
+                android:icon="@android:drawable/stat_notify_sdcard_prepare"
+                android:title="@string/auto_change_dns" />
+
+            <item
+                android:id="@+id/nav_remove_mark"
+                android:icon="?android:attr/alertDialogIcon"
+                android:title="@string/remove_net_mark" />
+            <item
+                android:id="@+id/nav_enable_google_location"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/enable_google_location" />
+            <item
+                android:id="@+id/nav_change_ip"
+                android:icon="@android:drawable/ic_search_category_default"
+                android:title="@string/change_google_ip" />
+            <item
+                android:id="@+id/nav_reboot"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/reboot" />
+        </menu>
+    </item>
+    <item android:title="@string/software_group">
+        <menu>
+            <item
+                android:id="@+id/nav_log"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/update_log" />
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@android:drawable/stat_sys_upload_done"
+                android:title="@string/software_update" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="?android:attr/actionModeCloseDrawable"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>

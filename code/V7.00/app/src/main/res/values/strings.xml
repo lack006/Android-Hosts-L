@@ -1,0 +1,187 @@
+<resources>
+    <!-- -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main-->
+    <string name="app_name">Android Hosts-L</string>
+    <!--Title-->
+    <string name="hosts_title">使用 hosts 文件</string>
+    <!--Button-->
+    <string name="AD_hosts">去广告</string>
+    <string name="RE_hosts">重定向</string>
+    <string name="AR_hosts">去广告 + 重定向</string>
+    <!--Dialog-->
+    <string name="confirm">确定</string>
+    <string name="next_step">继续</string>
+    <string name="exit">退出</string>
+    <string name="cancel">取消</string>
+    <string name="wait">请稍候</string>
+
+    <!--Apply Dialog-->
+    <string name="download_clash">正在下载冲突域名，请稍候。</string>
+    <string name="clash_title">请选择要屏蔽的冲突域名</string>
+    <string name="choose_re_title">请选择要使用的重定向版本</string>
+    <string name="google_map_only">仅使用 Google Map 重定向\n(未勾选则使用完整版)</string>
+    <string name="connecting">正在连接，请稍候。</string>
+    <string name="downloading">正在下载，请稍候。</string>
+    <string name="insert_clash">正在应用冲突域名。</string>
+    <string name="applying">正在应用 hosts 文件。</string>
+
+    <!--CheckBox-->
+    <string name="AD_hosts_last_version">最新版的去广告</string>
+    <string name="RE_hosts_last_version">最新版的重定向</string>
+    <string name="AR_hosts_last_version">最新版的去广告 + 重定向</string>
+    <string name="AD_hosts_new_version">有新版的去广告</string>
+    <string name="RE_hosts_new_version">有新版的重定向</string>
+    <string name="AR_hosts_new_version">有新版的去广告 + 重定向</string>
+    <string name="hosts_none">未应用hosts文件</string>
+
+    <string name="software_last_version">最新版的软件</string>
+    <string name="software_new_version">有新版本的软件</string>
+
+    <string name="busybox_expressed">Busybox 释放成功</string>
+    <string name="busybox_no_exists">Busybox 未释放</string>
+
+    <string name="mark_server_default">未去除网络图标符号</string>
+    <string name="mark_server_changed">已去除网络图标符号</string>
+
+    <string name="local_enable">已激活谷歌位置报告</string>
+    <string name="local_disable">未激活谷歌位置报告</string>
+
+    <string name="dns_enable">已激活自动修改 DNS 服务器</string>
+    <string name="dns_disable">未激活自动修改 DNS 服务器</string>
+
+    <!--Menu-->
+    <string name="backup_group">备份/还原/恢复</string>
+    <string name="backup_hosts">还原/备份 hosts 文件</string>
+    <string name="rotate">恢复系统默认 hosts 文件</string>
+
+    <string name="tools_group">工具</string>
+    <string name="refresh_dns">刷新 DNS 缓存</string>
+    <string name="auto_change_dns">自动修改 DNS 地址</string>
+    <string name="remove_net_mark">去除网络图标符号</string>
+    <string name="enable_google_location">启用谷歌位置报告</string>
+    <string name="change_google_ip">快速替换谷歌重定向 IP</string>
+    <string name="reboot">重启设备</string>
+
+    <string name="software_group">软件</string>
+    <string name="update_log">更新日志</string>
+    <string name="software_update">软件更新</string>
+    <!--Check System Write-->
+    <string name="system_write_failed">软件似乎无法获取系统读写权限，请向作者反馈手机型号以及系统版本。</string>
+
+    <!--Check root-->
+    <string name="check_root_doing">正在获取 Root 权限，请稍候。</string>
+    <string name="no_root_title">软件无法获取 Root 权限</string>
+    <string name="no_root">请确认本设备是否已经 Root，或是否授予本软件获取权限。</string>
+
+    <!--Check net-->
+    <string name="check_net_doing">正在检查网络，请稍后。</string>
+    <string name="no_net">软件无法访问网络,请检查网络连接。</string>
+
+    <!--Express Busybox-->
+    <string name="express_busybox_doing">正在准备 Busybox 。</string>
+    <!--Refresh DNS-->
+    <string name="refreshing_dns">正在刷新 DNS</string>
+    <string name="refresh_dns_error">刷新失败：\n</string>
+    <string name="refresh_dns_success">刷新 DNS 成功</string>
+
+    <!--Enable Google Location -->
+    <string name="no_phone_permission">为了实现激活谷歌位置报告的功能，本软件需要获取“电话”权限用来监听 SIM 卡的准备情况。\n\n无法获取“电话”权限，激活谷歌位置报告无法启动。\n\n若以已选“不再询问”请前往“设置-应用”中开启“电话”权限。</string>
+
+    <!--Apply hosts-->
+    <string name="apply_hosts_success">hosts 文件应用成功！</string>
+    <string name="apply_hosts_failed">hosts 文件应用失败：\n</string>
+
+    <!--Backup Dialog-->
+    <string name="backup_exists">发现已备份的 hosts 文件，请选择。</string>
+    <string name="backup_no_exists">设备中不存在备份的 hosts 文件，请选择。</string>
+    <string name="backup">备份</string>
+    <string name="restore">还原</string>
+    <string name="doing_backup">正在备份，请稍后。</string>
+    <string name="doing_restore">正在还原，请稍后。</string>
+    <string name="backup_copy_success">备份成功</string>
+    <string name="backup_copy_failed">备份失败：复制失败</string>
+    <string name="restore_success">还原成功</string>
+    <string name="restore_failed">还原失败：\n</string>
+    <string name="backup_exists_checkbox">hosts 文件已备份</string>
+    <string name="backup_no_exists_checkbox">hosts 文件未备份</string>
+
+    <!--Clean-->
+    <string name="version_del_failed">版本文件删除失败！</string>
+    <string name="backup_del_failed">备份文件删除失败！</string>
+    <string name="hosts_temp_del_failed">hosts 临时文件删除失败！</string>
+    <string name="hosts_del_failed">hosts 文件删除失败！</string>
+    <string name="cache_del_failed">缓存删除失败！</string>
+    <string name="clash_del_failed">冲突域名临时缓存删除失败！</string>
+
+    <!--Restore-->
+    <string name="restoring">正在恢复，请稍候。</string>
+
+    <!--Remove mark-->
+    <string name="getting_mark_info">正在获取信息，请稍候。</string>
+    <string name="no_need_remove_mark">该设备不需要此功能。</string>
+    <string name="mark_url">请输入想要替换的服务器域名</string>
+    <string name="https_disable">该设备不支持此功能</string>
+    <string name="default_server">系统默认</string>
+    <string name="use_https">使用 https 连接</string>
+    <string name="use_http">使用 http 连接</string>
+    <string name="check_on">开启网络检测</string>
+    <string name="check_off">关闭网络检测</string>
+    <string name="captive_portal_server">当前 captive portal server:</string>
+    <string name="set_default_server">恢复默认</string>
+    <string name="do_change">确认修改</string>
+    <string name="default_no_support_https">作者提供的服务器不支持 https 连接</string>
+    <string name="no_customer_server">请输入服务器域名</string>
+    <string name="Applying_Mark">正在应用设置，请稍候。</string>
+    <string name="remove_mark_error">发生错误：\n</string>
+    <string name="remove_mark_success">应用成功，请重新连接网络。</string>
+
+    <!--Change Ip-->
+    <string name="copy2temp">复制临时文件失败。</string>
+    <string name="change_ip_premise">本功能目前仅适用与本软件提供的“重定向” hosts 文件，请先应用带有“重定向”功能的 hosts 文件再使用本功能。</string>
+    <string name="change_ip_title">\u3000\u3000本软件提供的“重定向” IP 可能由于运营商和所在地区等原因无法正常使用，用户可以输入当前网络状态下可用的 IP 来替换软件提供的 IP 。</string>
+    <string name="input_ip_hint">请输入可用的 IP（IPV4）</string>
+    <string name="ip_input_error">请输入合法的 IPV4 </string>
+    <string name="ip_input_same">请输入不同的 IP </string>
+    <string name="ip_style">0123456789.</string>
+    <string name="ip_replacing">正在替换 IP ，请稍候。</string>
+    <string name="ip_replace_complete">替换成功</string>
+    <string name="ip_replace_failed">替换失败：\n</string>
+    <string name="no_zuo_no_die">竟然敢用 127.0.0.1 不做死就不会死</string>
+
+    <!--Google location-->
+    <string name="set_default">恢复默认</string>
+    <string name="set_change">激活记录</string>
+    <string name="local_choose">请选择启用位置报告后的操作（非必选）</string>
+    <string name="location_report_enable">谷歌位置报告 启动 </string>
+    <string name="location_report_disable">谷歌位置报告 关闭 </string>
+    <string name="applying_local">正在应用设置，请稍候。</string>
+
+    <!--Change DNS-->
+    <string name="change_dns_title">\u3000\u3000本功能可以在设备切换网络状态时及时修改 DNS 地址，以达到避免运营商 DNS 劫持以及屏蔽运营商广告的功能。</string>
+    <string name="change_dns_hint_first">请输入主 DNS 地址</string>
+    <string name="change_dns_hint_second">请输入副 DNS 地址</string>
+    <string name="dns_one">112.124.47.27</string>
+    <string name="dns_114">114.114.114.114</string>
+    <string name="auto_change_dns_enable">激活功能</string>
+    <string name="auto_change_dns_disable">恢复默认</string>
+    <string name="wrong_dns">请输入正确的 DNS 地址</string>
+    <string name="apply_dns">正在修改设置，请稍后。</string>
+    <string name="change_dns_enable">自动修改 DNS 服务器 激活</string>
+    <string name="change_dns_disable">自动修改 DNS 服务器 关闭</string>
+
+    <!--Reboot-->
+    <string name="reboot_title">重启设备</string>
+    <string name="reboot_msg">即将重启设备，请确定该设备其他不可中断的操作已经结束！</string>
+    <string name="hot_reboot">热重启</string>
+    
+    <!--About-->
+    <string name="back">返回</string>
+    <string name="send_report">发送反馈</string>
+    <string name="explanation">说明</string>
+    <string name="market_hint">官方的发布渠道只有Google Play 与 Github ，未曾在国内市场上架！</string>
+
+</resources>

@@ -5,6 +5,6 @@ V7.00：重构代码：降低资源消耗，提高算法效率；增加“去除
 ===============
 或
 ===============
-[Google Play(待正式发布)]
+[Google Play](https://play.google.com/store/apps/details?id=com.lack006.hosts_l)
 ===============
 

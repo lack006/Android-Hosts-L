@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choose">
+        <item>清除 Play Service 数据</item>
+        <item>清除 Google Maps 数据</item>
+        <item>立即重启</item>
+    </string-array>
+</resources>
