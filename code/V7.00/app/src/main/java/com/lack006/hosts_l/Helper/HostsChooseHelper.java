@@ -2,9 +2,19 @@ package com.lack006.hosts_l.Helper;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.support.design.widget.TextInputEditText;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AlertDialog;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.Switch;
 
+import com.lack006.hosts_l.Consistent;
 import com.lack006.hosts_l.R;
 
 import java.util.Map;
@@ -23,6 +33,7 @@ public class HostsChooseHelper {
     private boolean mIsAR = false;
     private String[] mReText = null;
     private boolean[] mReCheck = null;
+    private String mCustomUrl = null;
 
     void adHostsChoose(Context context, Map<String[], String[]> clashMap, CheckBox checkBox, final boolean isAR) {
         mContext = context;
@@ -75,43 +86,147 @@ public class HostsChooseHelper {
         mReText = new String[]{mContext.getString(R.string.google_map_only)};
         mReCheck = new boolean[]{false};
 
-        new AlertDialog.Builder(mContext)
-                .setCancelable(false)
-                .setTitle(mContext.getString(R.string.choose_re_title))
-                .setMultiChoiceItems(mReText, mReCheck, new DialogInterface.OnMultiChoiceClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-                        mReCheck[which] = isChecked;
-                    }
-                }).setPositiveButton(mContext.getString(R.string.next_step), new DialogInterface.OnClickListener() {
+        final LayoutInflater factory = LayoutInflater.from(mContext);
+        final View reChooseView = factory.inflate(R.layout.re_choose_dialog_layout, null);
+        final TextInputLayout textInputLayout = (TextInputLayout) reChooseView.findViewById(R.id.custom_edt_layout);
+        final TextInputEditText textInputEditText = (TextInputEditText) reChooseView.findViewById(R.id.custom_edit);
+        final Switch defaultSwitch = (Switch) reChooseView.findViewById(R.id.default_switch);
+        final Switch customSwitch = (Switch) reChooseView.findViewById(R.id.custom_switch);
+        final CheckBox mapCheckBox = (CheckBox) reChooseView.findViewById(R.id.map_checkbox);
+        defaultSwitch.setChecked(true);
+
+        SharedPreferences sharedPreferences = context.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, Context.MODE_PRIVATE);
+        mCustomUrl = sharedPreferences.getString(Consistent.CUSTOM_URL, "");
+        if (!mCustomUrl.equals("")) {
+            textInputEditText.setText(mCustomUrl);
+            customSwitch.setChecked(true);
+            defaultSwitch.setChecked(false);
+        }
+
+        defaultSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int witch) {
-                if (mIsAR) {
-
-                    if (mReCheck[0]) {
-                        DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
-                        downloadTaskHelper.download(mContext, mContext.getString(R.string.ar_map_url), mHosts, mCheck, mCheckBox);
-                    } else {
-                        DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
-                        downloadTaskHelper.download(mContext, mContext.getString(R.string.ar_url), mHosts, mCheck, mCheckBox);
-                    }
-
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (defaultSwitch.isChecked()) {
+                    customSwitch.setChecked(false);
                 } else {
-                    if (mReCheck[0]) {
-                        DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
-                        downloadTaskHelper.download(mContext, mContext.getString(R.string.re_map_url), null, null, mCheckBox);
-                    } else {
-                        DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
-                        downloadTaskHelper.download(mContext, mContext.getString(R.string.re_url), null, null, mCheckBox);
-                    }
+                    customSwitch.setChecked(true);
+                    mapCheckBox.setChecked(false);
                 }
             }
-        })
-                .setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int whichButton) {
+        });
+        customSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (customSwitch.isChecked()) {
+                    defaultSwitch.setChecked(false);
+                    mapCheckBox.setChecked(false);
+                } else {
+                    defaultSwitch.setChecked(true);
+                }
+            }
+        });
+
+        mapCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                if (mapCheckBox.isChecked()) {
+                    defaultSwitch.setChecked(true);
+                    customSwitch.setChecked(false);
+                }
+            }
+        });
+        textInputEditText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+                defaultSwitch.setChecked(false);
+                mapCheckBox.setChecked(false);
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }
+        });
+
+
+        AlertDialog.Builder dialog = new AlertDialog.Builder(mContext);
+        dialog.setCancelable(false);
+        dialog.setTitle(mContext.getString(R.string.choose_re_title));
+        dialog.setView(reChooseView);
+        dialog.setView(reChooseView).setPositiveButton(mContext.getString(R.string.next_step), null);
+        dialog.setNegativeButton(mContext.getString(R.string.cancel), new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+
+            }
+        });
+        final AlertDialog alertDialog = dialog.create();
+        alertDialog.show();
+        if (null != alertDialog.getButton(AlertDialog.BUTTON_POSITIVE)) {
+            alertDialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mIsAR) {
+                        if (defaultSwitch.isChecked()) {
+                            if (mapCheckBox.isChecked()) {
+                                DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
+                                downloadTaskHelper.download(mContext, mContext.getString(R.string.ar_map_url), mHosts, mCheck, mCheckBox);
+                            } else {
+                                DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
+                                downloadTaskHelper.download(mContext, mContext.getString(R.string.ar_url), mHosts, mCheck, mCheckBox);
+                            }
+                            alertDialog.cancel();
+                        } else {
+                            mCustomUrl = textInputEditText.getText().toString();
+                            if (mCustomUrl.replace(" ", "").equals("")) {
+                                textInputLayout.setError(mContext.getString(R.string.wrong_custom_url));
+                            } else {
+                                SharedPreferences sharedPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putString(Consistent.CUSTOM_URL, mCustomUrl);
+                                editor.apply();
+                                CustomDownloadTaskHelper customDownloadTaskHelper = new CustomDownloadTaskHelper();
+                                customDownloadTaskHelper.download(mContext, mCustomUrl, mHosts, mCheck, mCheckBox);
+                                alertDialog.cancel();
+                            }
+                        }
+
+                    } else {
+                        if (defaultSwitch.isChecked()) {
+                            if (mapCheckBox.isChecked()) {
+                                DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
+                                downloadTaskHelper.download(mContext, mContext.getString(R.string.re_map_url), null, null, mCheckBox);
+                            } else {
+                                DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
+                                downloadTaskHelper.download(mContext, mContext.getString(R.string.re_url), null, null, mCheckBox);
+                            }
+                            alertDialog.cancel();
+                        } else {
+                            mCustomUrl = textInputEditText.getText().toString();
+                            if (mCustomUrl.replace(" ", "").equals("")) {
+                                textInputLayout.setError(mContext.getString(R.string.wrong_custom_url));
+                            } else {
+                                SharedPreferences sharedPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putString(Consistent.CUSTOM_URL, mCustomUrl);
+                                editor.apply();
+                                DownloadTaskHelper downloadTaskHelper = new DownloadTaskHelper();
+                                downloadTaskHelper.download(mContext, mCustomUrl, null, null, mCheckBox);
+                                alertDialog.cancel();
+                            }
+                        }
 
                     }
-                }).show();
+                }
+
+
+            });
+        }
+
 
     }
 }

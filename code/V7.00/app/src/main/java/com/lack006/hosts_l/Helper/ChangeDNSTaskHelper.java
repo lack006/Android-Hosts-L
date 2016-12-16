@@ -149,8 +149,8 @@ public class ChangeDNSTaskHelper {
     }
 
     public void setDNSSharedPreference(boolean enable) {
-        final SharedPreferences mPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, ContextWrapper.MODE_PRIVATE);
-        SharedPreferences.Editor editor = mPreferences.edit();
+        final SharedPreferences sharedPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, ContextWrapper.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
         if (enable) {
 
             editor.putBoolean(Consistent.SHARED_PREFERENCES_ENABLE_DNS, Consistent.ON);

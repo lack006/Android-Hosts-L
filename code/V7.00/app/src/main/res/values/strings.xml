@@ -8,6 +8,8 @@
     <string name="app_name">Android Hosts-L</string>
     <!--Title-->
     <string name="hosts_title">使用 hosts 文件</string>
+    <string name="email">lankehostsl@gmail.com</string>
+    <string name="version">V7.01</string>
     <!--Button-->
     <string name="AD_hosts">去广告</string>
     <string name="RE_hosts">重定向</string>
@@ -24,6 +26,13 @@
     <string name="clash_title">请选择要屏蔽的冲突域名</string>
     <string name="choose_re_title">请选择要使用的重定向版本</string>
     <string name="google_map_only">仅使用 Google Map 重定向\n(未勾选则使用完整版)</string>
+    <string name="use_custom">自定义</string>
+    <string name="custom_hosts_hint">请注意：若使用自定义重定向 hosts 源，本软件将不会检测自定义源的版本情况！</string>
+    <string name="wrong_custom_url">请输入正确的自定义源</string>
+    <string name="custom_error">自定义地址有误，任务已终止！</string>
+    <string name="mix_hosts">正在解析并去除 hosts 文件重复项，大概需要三分钟的时间，请耐心等待。</string>
+    <string name="use_default">默认</string>
+    <string name="custom_hint">请输入重定向 hosts 源(http:// 或 https://)</string>
     <string name="connecting">正在连接，请稍候。</string>
     <string name="downloading">正在下载，请稍候。</string>
     <string name="insert_clash">正在应用冲突域名。</string>
@@ -36,7 +45,7 @@
     <string name="AD_hosts_new_version">有新版的去广告</string>
     <string name="RE_hosts_new_version">有新版的重定向</string>
     <string name="AR_hosts_new_version">有新版的去广告 + 重定向</string>
-    <string name="hosts_none">未应用hosts文件</string>
+    <string name="hosts_none">未应用 hosts 文件或使用自定义源</string>
 
     <string name="software_last_version">最新版的软件</string>
     <string name="software_new_version">有新版本的软件</string>
@@ -177,7 +186,7 @@
     <string name="reboot_title">重启设备</string>
     <string name="reboot_msg">即将重启设备，请确定该设备其他不可中断的操作已经结束！</string>
     <string name="hot_reboot">热重启</string>
-    
+
     <!--About-->
     <string name="back">返回</string>
     <string name="send_report">发送反馈</string>

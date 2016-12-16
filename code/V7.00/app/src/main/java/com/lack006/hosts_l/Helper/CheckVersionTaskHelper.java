@@ -214,7 +214,7 @@ public class CheckVersionTaskHelper {
                     mCheckBoxVersion.setChecked(true);
                     mCheckBoxVersion.setText(R.string.software_last_version);
                 } else {
-                    mCheckBoxVersion.setChecked(true);
+                    mCheckBoxVersion.setChecked(false);
                     mCheckBoxVersion.setText(R.string.software_new_version);
                 }
             }

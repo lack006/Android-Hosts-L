@@ -3,10 +3,8 @@ package com.lack006.hosts_l.Helper;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.widget.Toast;
 
 import com.lack006.hosts_l.Consistent;
-import com.lack006.hosts_l.R;
 
 /**
  * Created by lack on 2016/12/11.
@@ -15,7 +13,7 @@ import com.lack006.hosts_l.R;
 
 public class MarketHelper {
     public void openApplicationMarket(Context context) {
-        Toast.makeText(context, context.getString(R.string.market_hint), Toast.LENGTH_LONG).show();
+//        Toast.makeText(context, context.getString(R.string.market_hint), Toast.LENGTH_LONG).show();
         if (Consistent.PLAY_VERSION) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
             String uri = Consistent.MARKET_URI + context.getPackageName();

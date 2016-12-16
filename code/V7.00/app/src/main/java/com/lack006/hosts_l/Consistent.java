@@ -7,9 +7,9 @@ package com.lack006.hosts_l;
 
 public class Consistent {
 
-    public final static boolean PLAY_VERSION =  false;
+    public final static boolean PLAY_VERSION = false;
 
-    public final static int SOFTWARE_VERSION = 52061459;
+    public final static int SOFTWARE_VERSION = 52061463;
 
     public final static int DURATION_TIME = 500;
 
@@ -18,6 +18,10 @@ public class Consistent {
     public final static int CONNECTED = -1;
 
     public final static int DOWNLOAD_CANCEL = -2;
+
+    public final static int MIX_HOSTS = -3;
+
+    public final static int CUSTOM_ERROR = -4;
 
     public final static int TIME_OUT = 3000;
 
@@ -42,6 +46,10 @@ public class Consistent {
     public final static String CLASH_FILE = "/clash";
 
     public final static String HOSTS_FILE = "/hosts";
+
+    public final static String AD_FILE = "/ad";
+
+    public final static String RE_FILE = "/re";
 
     public final static String BUSYBOX_FILE = "/busybox";
 
@@ -132,6 +140,10 @@ public class Consistent {
     public final static String PROJECT_URL = "https://github.com/lack006/Android-Hosts-L/tree/master/apk";
 
     public final static String MARKET_URI = "market://details?id=";
+
+    public final static String CUSTOM_URL = "url";
+
+    public final static String HASH_TAG = "#";
 
 
 }

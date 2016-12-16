@@ -36,10 +36,8 @@ import static com.lack006.hosts_l.Consistent.SYSTEM_ETC_HOSTS;
 
 public class ChangeIpTaskHelper {
     private Context mContext = null;
-    private ProgressDialog mGetInfoProgressDialog = null;
     private ProgressDialog mReplaceProgressDialog = null;
     private AlertDialog.Builder mDialog = null;
-    private String mCacheFilePath = null;
     private List<String> mCopyResult = null;
     private String mIpAddress = null;
     private String mReplaceIpAddress = null;
@@ -58,8 +56,6 @@ public class ChangeIpTaskHelper {
         @Override
         protected Boolean doInBackground(Object... objects) {
 
-            File tempFile = mContext.getCacheDir();
-            mCacheFilePath = tempFile.getAbsolutePath();
             CleanCacheHelper cleanCacheHelper = new CleanCacheHelper();
             cleanCacheHelper.cleanChange(mContext);
             mDialog = new AlertDialog.Builder(mContext);
