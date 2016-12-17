@@ -9,16 +9,16 @@ import eu.chainfire.libsuperuser.Shell;
  * AndroidHosts-LV7
  */
 
-class SuShellReturnHelper {
+public class SuShellReturnHelper {
     /**
      * @param commands shell commands
      * @return all shell output
      */
-    List<String> run(String[] commands) {
+    public List<String> run(String[] commands) {
         return Shell.run("su", commands, null, true);
     }
 
-    List<String> run(List<String> listCmd) {
+    public List<String> run(List<String> listCmd) {
         int size = listCmd.size();
         String[] commands = new String[size];
         for (int i = 0; i < listCmd.size(); i++) {

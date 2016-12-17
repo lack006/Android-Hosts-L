@@ -1,52 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/captive_portal_server" />
-
-    <TextView
-        android:id="@+id/captive_portal_server_txv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <Switch
-            android:id="@+id/https_switch"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/use_http" />
+            android:text="@string/captive_portal_server" />
 
-        <Switch
-            android:id="@+id/check_switch"
+        <TextView
+            android:id="@+id/captive_portal_server_txv"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/check_on" />
+            android:layout_height="wrap_content" />
+
+        <!--<TextView-->
+            <!--android:text="@string/hint_7_1_1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView_7_1_1" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/https_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/use_http" />
+
+            <Switch
+                android:id="@+id/check_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/check_on" />
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/server_edt_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/remove_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mark_url" />
+        </android.support.design.widget.TextInputLayout>
     </LinearLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/server_edt_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/remove_edt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/mark_url" />
-    </android.support.design.widget.TextInputLayout>
-</LinearLayout>
+</ScrollView>

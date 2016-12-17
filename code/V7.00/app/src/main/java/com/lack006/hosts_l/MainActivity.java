@@ -1,7 +1,9 @@
 package com.lack006.hosts_l;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,27 +18,32 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.LinkMovementMethod;
+import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.lack006.hosts_l.Helper.AboutHelper;
-import com.lack006.hosts_l.Helper.BackupHostsTaskHelper;
-import com.lack006.hosts_l.Helper.ChangeDNSTaskHelper;
-import com.lack006.hosts_l.Helper.ChangeIpTaskHelper;
-import com.lack006.hosts_l.Helper.CheckRootTaskHelper;
-import com.lack006.hosts_l.Helper.CheckVersionTaskHelper;
-import com.lack006.hosts_l.Helper.CleanCacheHelper;
-import com.lack006.hosts_l.Helper.DownloadClashHelper;
-import com.lack006.hosts_l.Helper.GoogleLocationReportTaskHelper;
-import com.lack006.hosts_l.Helper.HostsChooseHelper;
-import com.lack006.hosts_l.Helper.MarketHelper;
+import com.lack006.hosts_l.About.AboutHelper;
+import com.lack006.hosts_l.Backup.BackupHostsTaskHelper;
+import com.lack006.hosts_l.Consistent.Consistent;
+import com.lack006.hosts_l.DNS.ChangeDNSTaskHelper;
+import com.lack006.hosts_l.ChangeIp.ChangeIpTaskHelper;
+import com.lack006.hosts_l.CheckVersion.CheckRootTaskHelper;
+import com.lack006.hosts_l.CheckVersion.CheckVersionTaskHelper;
+import com.lack006.hosts_l.CleanCache.CleanCacheHelper;
+import com.lack006.hosts_l.Download.DownloadClashHelper;
+import com.lack006.hosts_l.GoogleLocation.GoogleLocationReportTaskHelper;
+import com.lack006.hosts_l.Dialog.HostsChooseHelper;
+import com.lack006.hosts_l.About.MarketHelper;
 import com.lack006.hosts_l.Helper.ObjectAnimatorHelper;
-import com.lack006.hosts_l.Helper.RebootHelper;
-import com.lack006.hosts_l.Helper.RemoveMarkTaskHelper;
-import com.lack006.hosts_l.Helper.RestoreHostsTaskHelper;
+import com.lack006.hosts_l.Reboot.RebootHelper;
+import com.lack006.hosts_l.RemoveMark.RemoveMarkTaskHelper;
+import com.lack006.hosts_l.Backup.RestoreHostsTaskHelper;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -250,6 +257,42 @@ public class MainActivity extends AppCompatActivity
 
             }
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+        if (id == R.id.action_help) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+            builder.setTitle(R.string.help_title);
+            LayoutInflater factory = LayoutInflater.from(mContext);
+            View layout = factory.inflate(R.layout.about_dialog_layout, null);
+
+            TextView text = (TextView) layout.findViewById(R.id.text);
+            text.setMovementMethod(LinkMovementMethod.getInstance());
+            text.setText(R.string.help_msg);
+            builder.setNegativeButton(R.string.back, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            });
+
+            builder.setView(layout);
+            builder.show();
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
     }
 
 }

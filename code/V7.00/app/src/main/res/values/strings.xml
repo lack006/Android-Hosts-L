@@ -9,7 +9,7 @@
     <!--Title-->
     <string name="hosts_title">使用 hosts 文件</string>
     <string name="email">lankehostsl@gmail.com</string>
-    <string name="version">V7.01</string>
+    <string name="version">V7.02</string>
     <!--Button-->
     <string name="AD_hosts">去广告</string>
     <string name="RE_hosts">重定向</string>
@@ -20,11 +20,16 @@
     <string name="exit">退出</string>
     <string name="cancel">取消</string>
     <string name="wait">请稍候</string>
+    <!--Tool Bar-->
+    <string name="help">使用帮助</string>
 
     <!--Apply Dialog-->
     <string name="download_clash">正在下载冲突域名，请稍候。</string>
     <string name="clash_title">请选择要屏蔽的冲突域名</string>
     <string name="choose_re_title">请选择要使用的重定向版本</string>
+    <string name="keep_screen_on_checkbox">自定义源去除重复项时保持屏幕唤醒</string>
+    <string name="keep_screen_on_hint_on">保持屏幕唤醒 激活</string>
+    <string name="keep_screen_on_hint_off">保持屏幕唤醒 关闭</string>
     <string name="google_map_only">仅使用 Google Map 重定向\n(未勾选则使用完整版)</string>
     <string name="use_custom">自定义</string>
     <string name="custom_hosts_hint">请注意：若使用自定义重定向 hosts 源，本软件将不会检测自定义源的版本情况！</string>
@@ -56,8 +61,8 @@
     <string name="mark_server_default">未去除网络图标符号</string>
     <string name="mark_server_changed">已去除网络图标符号</string>
 
-    <string name="local_enable">已激活谷歌位置报告</string>
-    <string name="local_disable">未激活谷歌位置报告</string>
+    <string name="local_enable">已激活谷歌位置记录</string>
+    <string name="local_disable">未激活谷歌位置记录</string>
 
     <string name="dns_enable">已激活自动修改 DNS 服务器</string>
     <string name="dns_disable">未激活自动修改 DNS 服务器</string>
@@ -71,7 +76,7 @@
     <string name="refresh_dns">刷新 DNS 缓存</string>
     <string name="auto_change_dns">自动修改 DNS 地址</string>
     <string name="remove_net_mark">去除网络图标符号</string>
-    <string name="enable_google_location">启用谷歌位置报告</string>
+    <string name="enable_google_location">启用谷歌位置记录</string>
     <string name="change_google_ip">快速替换谷歌重定向 IP</string>
     <string name="reboot">重启设备</string>
 
@@ -98,7 +103,9 @@
     <string name="refresh_dns_success">刷新 DNS 成功</string>
 
     <!--Enable Google Location -->
-    <string name="no_phone_permission">为了实现激活谷歌位置报告的功能，本软件需要获取“电话”权限用来监听 SIM 卡的准备情况。\n\n无法获取“电话”权限，激活谷歌位置报告无法启动。\n\n若以已选“不再询问”请前往“设置-应用”中开启“电话”权限。</string>
+    <string name="no_phone_permission">为了实现激活谷歌位置记录的功能，本软件需要获取“电话”权限用来监听 SIM 卡的准备情况。\n\n无法获取“电话”权限，激活谷歌位置记录无法启动。\n\n若以已选“不再询问”请前往“设置-应用”中开启“电话”权限。</string>
+    <string name="google_location_before_hint">注意！！！\n首次使用本功能请勾选所有操作，激活本功能后需手动打开“谷歌位置记录”。</string>
+    <string name="google_location_hint">\u3000\u3000若提示“无法在中国使用”是正常现象，可打开 google fit （健身）并适当移动设备位置，步数增加则表示已经激活谷歌位置记录。</string>
 
     <!--Apply hosts-->
     <string name="apply_hosts_success">hosts 文件应用成功！</string>
@@ -132,6 +139,7 @@
     <!--Remove mark-->
     <string name="getting_mark_info">正在获取信息，请稍候。</string>
     <string name="no_need_remove_mark">该设备不需要此功能。</string>
+    <string name="hint_7_1_1">Android 7.1.1 请填写完成的域名\n如：1.lack00006.applinzi.com/generate_204</string>
     <string name="mark_url">请输入想要替换的服务器域名</string>
     <string name="https_disable">该设备不支持此功能</string>
     <string name="default_server">系统默认</string>
@@ -151,7 +159,7 @@
     <!--Change Ip-->
     <string name="copy2temp">复制临时文件失败。</string>
     <string name="change_ip_premise">本功能目前仅适用与本软件提供的“重定向” hosts 文件，请先应用带有“重定向”功能的 hosts 文件再使用本功能。</string>
-    <string name="change_ip_title">\u3000\u3000本软件提供的“重定向” IP 可能由于运营商和所在地区等原因无法正常使用，用户可以输入当前网络状态下可用的 IP 来替换软件提供的 IP 。</string>
+    <string name="change_ip_title">\u3000\u3000本软件提供的谷歌“重定向” IP 可能由于运营商和所在地区等原因无法正常使用，用户可以输入当前网络状态下可用的谷歌 IP 来替换软件提供的 IP 。</string>
     <string name="input_ip_hint">请输入可用的 IP（IPV4）</string>
     <string name="ip_input_error">请输入合法的 IPV4 </string>
     <string name="ip_input_same">请输入不同的 IP </string>
@@ -164,9 +172,9 @@
     <!--Google location-->
     <string name="set_default">恢复默认</string>
     <string name="set_change">激活记录</string>
-    <string name="local_choose">请选择启用位置报告后的操作（非必选）</string>
-    <string name="location_report_enable">谷歌位置报告 启动 </string>
-    <string name="location_report_disable">谷歌位置报告 关闭 </string>
+    <string name="local_choose">请选择启用位置记录后的操作（非必选）</string>
+    <string name="location_report_enable">谷歌位置记录 启动 </string>
+    <string name="location_report_disable">谷歌位置记录 关闭 </string>
     <string name="applying_local">正在应用设置，请稍候。</string>
 
     <!--Change DNS-->
@@ -192,5 +200,31 @@
     <string name="send_report">发送反馈</string>
     <string name="explanation">说明</string>
     <string name="market_hint">官方的发布渠道只有Google Play 与 Github ，未曾在国内市场上架！</string>
+
+    <!--help-->
+    <string name="help_title">欢迎使用</string>
+    <string name="help_msg">\u3000\u3000如果您是初次使用本软件请务必花少许时间仔细阅读本帮助。
+    \n\n去广告/重定向的实现方法：\n本软件通过修改设备内置的 hosts 文件来实现去广告与重定向的功能。
+    \n\n什么是 hosts 文件：\nhosts 文件是一个用于储存计算机网络中各节点信息的计算机文件。这个文件负责将主机名称映射到相应的 IP 地址。
+        hosts 文件通常用于补充或替换网络中 DNS 的功能。
+        hosts 文件也可以用于其它情况，例如可以将已知的广告服务器重定向到无广告的机器（通常是该电脑自身的 IP 地址：\n127.0.0.1）上来过滤广告。
+        同时也可以通过不下载网络广告，从而减少带宽。
+        在中国大陆，由于防火长城的 DNS 劫持，有一些网民也借使用 hosts 文件来强制将特定网站指定到未封锁的 IP 上。
+        例如网络上有很多教授修改 hosts 文件来访问 Google 搜索的教程。
+        \n-摘自 维基百科 hosts
+    \n\n怎么使用本软件提供的的 hosts 文件：\n根据所需要的功能点击主界面的按钮，并按照提示完成操作即可。
+    \n\n关于去广告冲突域名：\n有一些软件的广告与功能共用同一域名，若盲目屏蔽可能会导致软件无法使用，故将是否屏蔽已知冲突域名的选择权交给用户。
+    \n\n关于重定向自定义源：\n本软件只提供一个自定义重定向源，需要用户自行填写目标源网址，如果您不知道什么是重定向自定义源，请使用默认的源。
+    \n\n关于自动修改 DNS 地址：\n本软件会在设备切换网络状态时立刻修改对应网卡的 DNS 地址，以达到避免运营商 DNS 劫持以及屏蔽运营商广告的功能，如果你不知道什么是 DNS地址，请不要修改软件提供的 DNS 地址。
+    \n\n关于去除网络图标符号：\nAndroid 5.0 增加了一个判断设备网络连通性的方法，通过访问测试连通性的服务器并获取返回值，如果返回值为空则表示正常；如果返回一个网页则判断是需要登入的网络；
+    没有返回值则表示无法连接，会在网络图标上显示“感叹号”（或x）；
+    由于默认的服务器在中国大陆无法访问，所以没有返回值；
+    本软件可以修改默认的认证连通性服务器来去除网络图标符号。
+    \n\n关于激活 Google 位置记录：\n Android 会判断设备的 SIM 卡所在的运营商，如果为特定地区则无法使用 Google 位置记录；
+    本软件可以通过修改 SIM 卡所在的运营商从而来使设备允许用户激活 Google 位置记录。
+    \n注意！！！首次使用此功能请勾选所有操作，激活本功能后需手动打开“谷歌位置记录”。
+    \n若激活后仍提示“无法在中国使用”是正常现象，可打开 google fit （健身）并适当移动设备位置，步数增加则表示已经激活谷歌位置记录。
+    \n\n最后，再次感谢您使用本软件。
+    </string>
 
 </resources>

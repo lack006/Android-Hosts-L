@@ -3,14 +3,15 @@ package com.lack006.hosts_l.Helper;
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
+import com.lack006.hosts_l.Delay.DelayHelper;
 import com.lack006.hosts_l.R;
 
 /**
  * Created by lack006 on 2016/9/17.
  * AndroidHosts-LV7
  */
-class SnackBarHelper {
-    static Snackbar showSnackBar(Snackbar snackbar, View view, String text) {
+public class SnackBarHelper {
+    public static Snackbar showSnackBar(Snackbar snackbar, View view, String text) {
         if (null != snackbar && snackbar.isShown()) {
             snackbar.dismiss();
         }

@@ -26,7 +26,7 @@
         </activity>
 
         <receiver
-            android:name=".GoogleLocationEnableReceiver"
+            android:name=".GoogleLocation.GoogleLocationEnableReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter android:priority="1000">
@@ -34,8 +34,8 @@
                 <action android:name="android.intent.action.SIM_STATE_CHANGED" />
             </intent-filter>
         </receiver>
-        <service android:name=".ChangeDNSService" />
-        <service android:name=".DNSShellService" />
+        <service android:name=".DNS.ChangeDNSService" />
+        <service android:name=".DNS.DNSShellService" />
 
     </application>
 

@@ -8,8 +8,8 @@ android {
         applicationId "com.lack006.hosts_l"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 59
-        versionName "7.00"
+        versionCode 64
+        versionName "7.02"
     }
     buildTypes {
         release {
