@@ -1,6 +1,6 @@
-您即将下载最新版的 Android Hosts-L V7.04 (V6.20之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V7.05 (V6.20之前的版本停止更新！)
 ===============
-V7.04：重写“去除网络符号功能”验证模式，修复“关闭网络检测”对话框不消失BUG。
+V7.05：修复“去除网络符号功能”一处逻辑错误。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
