@@ -1,6 +1,6 @@
-您即将下载最新版的 Android Hosts-L V7.05 (V6.20之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V7.06 (V6.20之前的版本停止更新！)
 ===============
-V7.05：修复“去除网络符号功能”一处逻辑错误。
+V7.06：优化布局。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
