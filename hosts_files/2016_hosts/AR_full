@@ -1,4 +1,4 @@
-#V201612211152AR
+#V201612211947AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -11,7 +11,7 @@
 
 127.0.0.1 localhost
 ::1 localhost
-127.0.0.1        Lack006-PC
+127.0.0.1 Lack006-PC
 #REDICTION START
 # Apkpure Start
 104.20.82.194	apkpure.com
@@ -154,6 +154,8 @@
 202.86.162.172	clients4.google.com
 202.86.162.172	clients5.google.com
 202.86.162.172	clients6.google.com
+202.86.162.172	classroom.google.com
+202.86.162.172	classroom.google.ca
 202.86.162.172	clouderrorreporting.clients6.google.com
 202.86.162.172	datastore.clients6.google.com
 202.86.162.172	contributor.google.com
@@ -826,6 +828,7 @@
 202.86.162.172	tools.l.google.com
 202.86.162.172	video.l.google.com
 202.86.162.172	googlecl.googlecode.com
+202.86.162.172	video-analytics.l.google.com
 202.86.162.172	video-thumbnails.l.google.com
 202.86.162.172	wifi.l.google.com
 202.86.162.172	writely.l.google.com
@@ -2144,6 +2147,7 @@
 202.86.162.172	onetoday.google.com
 202.86.162.172	notifications.google.com
 # Google:others Start
+202.86.162.172	google.ad
 202.86.162.172	google.ae
 202.86.162.172	google.al
 202.86.162.172	google.am
@@ -2329,6 +2333,7 @@
 202.86.162.172	google.vg
 202.86.162.172	google.vu
 202.86.162.172	google.ws
+202.86.162.172	www.google.ad
 202.86.162.172	www.google.ae
 202.86.162.172	www.google.al
 202.86.162.172	www.google.am
@@ -2605,8 +2610,8 @@
 202.86.162.172	supl.google.com
 # Google:A-GPS End
 # Google:Made the code for girls Start
-202.86.162.172	madewithcode.com
-202.86.162.172	www.madewithcode.com
+202.86.162.1721	madewithcode.com
+202.86.162.1721	www.madewithcode.com
 # Google:Made the code for girls End
 # Google End
 # Instagram Start
@@ -2915,10 +2920,10 @@
 110.4.24.178	debates.twitter.com
 # Twitter End
 # Wikipedia Start
-91.198.174.192	wuu.wikipedia.org
-91.198.174.192	zh-yue.wikipedia.org
-91.198.174.192	zh.wikipedia.org
-91.198.174.192	zh.m.wikipedia.org
+198.35.26.96	wuu.wikipedia.org
+198.35.26.96	zh-yue.wikipedia.org
+198.35.26.96	zh.wikipedia.org
+198.35.26.96	zh.m.wikipedia.org
 # Wikipedia End
 # WordPress Start
 192.0.73.2	www.gravatar.com
