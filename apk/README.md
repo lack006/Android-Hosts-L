@@ -1,6 +1,6 @@
-您即将下载最新版的 Android Hosts-L V7.11 (V7.10之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V7.12 (V7.10之前的版本停止更新！)
 ===============
-V7.11：修复设备“无信号”情况下“自动修改 DNS”功能崩溃的Bug。
+V7.12：增加 hosts 文件“保护模式”；修改部分提示内容。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
