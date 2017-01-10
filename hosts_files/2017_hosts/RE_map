@@ -1,4 +1,4 @@
-#V201701071328RE
+#V201701102211RE
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -14,49 +14,49 @@
 127.0.0.1 Lack006-PC
 #Google Map START
 #1
-#219.76.4.3    android.clients.google.com
+#219.76.4.4    android.clients.google.com
 #2
-219.76.4.3    clients1.google.com
-219.76.4.3    clients2.google.com
-219.76.4.3    clients3.google.com
-219.76.4.3    clients4.google.com
-219.76.4.3    clients5.google.com
-219.76.4.3    clients6.google.com
-219.76.4.3    clients7.google.com
+219.76.4.4    clients1.google.com
+219.76.4.4    clients2.google.com
+219.76.4.4    clients3.google.com
+219.76.4.4    clients4.google.com
+219.76.4.4    clients5.google.com
+219.76.4.4    clients6.google.com
+219.76.4.4    clients7.google.com
 #3
-#219.76.4.3    clients1.googleusercontent.com
-#219.76.4.3    clients2.googleusercontent.com
-#219.76.4.3    clients3.googleusercontent.com
-#219.76.4.3    clients4.googleusercontent.com
-#219.76.4.3    clients5.googleusercontent.com
-#219.76.4.3    clients6.googleusercontent.com
-#219.76.4.3    clients7.googleusercontent.com
-#219.76.4.3    lh0.googleusercontent.com
-#219.76.4.3    lh1.googleusercontent.com
-#219.76.4.3    lh2.googleusercontent.com
-#219.76.4.3    lh3.googleusercontent.com
-#219.76.4.3    lh4.googleusercontent.com
-#219.76.4.3    lh5.googleusercontent.com
-#219.76.4.3    lh6.googleusercontent.com
+#219.76.4.4    clients1.googleusercontent.com
+#219.76.4.4    clients2.googleusercontent.com
+#219.76.4.4    clients3.googleusercontent.com
+#219.76.4.4    clients4.googleusercontent.com
+#219.76.4.4    clients5.googleusercontent.com
+#219.76.4.4    clients6.googleusercontent.com
+#219.76.4.4    clients7.googleusercontent.com
+#219.76.4.4    lh0.googleusercontent.com
+#219.76.4.4    lh1.googleusercontent.com
+#219.76.4.4    lh2.googleusercontent.com
+#219.76.4.4    lh3.googleusercontent.com
+#219.76.4.4    lh4.googleusercontent.com
+#219.76.4.4    lh5.googleusercontent.com
+#219.76.4.4    lh6.googleusercontent.com
 #4
-219.76.4.3 geo0.ggpht.com
-219.76.4.3 geo1.ggpht.com
-219.76.4.3 geo2.ggpht.com
-219.76.4.3 geo3.ggpht.com
-219.76.4.3 geo4.ggpht.com
-219.76.4.3 geo5.ggpht.com
-219.76.4.3 geo6.ggpht.com
-219.76.4.3 gm0.ggpht.com
-219.76.4.3 gm1.ggpht.com
-219.76.4.3 gm2.ggpht.com
-219.76.4.3 gm3.ggpht.com
-219.76.4.3 gm4.ggpht.com
+219.76.4.4 geo0.ggpht.com
+219.76.4.4 geo1.ggpht.com
+219.76.4.4 geo2.ggpht.com
+219.76.4.4 geo3.ggpht.com
+219.76.4.4 geo4.ggpht.com
+219.76.4.4 geo5.ggpht.com
+219.76.4.4 geo6.ggpht.com
+219.76.4.4 gm0.ggpht.com
+219.76.4.4 gm1.ggpht.com
+219.76.4.4 gm2.ggpht.com
+219.76.4.4 gm3.ggpht.com
+219.76.4.4 gm4.ggpht.com
 #5
-219.76.4.3    lh1.ggpht.com
-219.76.4.3    lh2.ggpht.com
-219.76.4.3    lh3.ggpht.com
-219.76.4.3    lh4.ggpht.com
-219.76.4.3    lh5.ggpht.com
-219.76.4.3    lh6.ggpht.com
-219.76.4.3    lh0.ggpht.com
+219.76.4.4    lh1.ggpht.com
+219.76.4.4    lh2.ggpht.com
+219.76.4.4    lh3.ggpht.com
+219.76.4.4    lh4.ggpht.com
+219.76.4.4    lh5.ggpht.com
+219.76.4.4    lh6.ggpht.com
+219.76.4.4    lh0.ggpht.com
 #Google Map END
