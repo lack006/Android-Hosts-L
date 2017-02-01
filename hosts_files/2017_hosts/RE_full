@@ -1,4 +1,4 @@
-#V201701241320RE
+#V201702011300RE
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -472,7 +472,7 @@
 219.76.4.9	scholar.google.com.sg
 219.76.4.9	toolbar.google.com.sg
 219.76.4.9	toolbarqueries.google.com.sg
-219.76.4.9	translate.google.com.sg
+61.91.161.217	translate.google.com.sg
 219.76.4.9	apps.google.com
 219.76.4.9	googlemashups.com
 219.76.4.9	www.googlemashups.com
@@ -872,7 +872,7 @@
 219.76.4.9	t3.gstatic.com
 219.76.4.9	chart.apis.google.com
 219.76.4.9	googleapis.com
-219.76.4.9	www.googleapis.com
+61.91.161.217	www.googleapis.com
 219.76.4.9	ajax.googleapis.com
 219.76.4.9	android.googleapis.com
 219.76.4.9	bigcache.googleapis.com
@@ -5875,7 +5875,7 @@
 219.76.4.9	isolated.mail.google.com
 219.76.4.9	m.gmail.com
 219.76.4.9	m.googlemail.com
-219.76.4.9	mail.google.com
+61.91.161.217	mail.google.com
 219.76.4.9	www.gmail.com
 219.76.4.9	mail-settings.google.com
 219.76.4.9	m.android.com
