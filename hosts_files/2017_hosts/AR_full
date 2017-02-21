@@ -1,4 +1,4 @@
-#V201702201115AR
+#V201702211115AR
 #作者lack006_CN
 #转载请留下此行，谢谢
 ######################请注意 ！######################
@@ -2764,12 +2764,12 @@
 219.76.4.3	news.dartlang.org
 219.76.4.3	dartpad.dartlang.org
 219.76.4.3	mobile-gtalk.l.google.com
-219.76.4.3	mtalk.google.com
-219.76.4.3	gcm.googleapis.com
-219.76.4.3	gcm.l.google.com
-219.76.4.3	gcm-xmpp.googleapis.com
-219.76.4.3	gcm-preprod.l.google.com
-219.76.4.3	gcm-preprod.googleapis.com
+64.233.186.188	mtalk.google.com
+64.233.186.188	gcm.googleapis.com
+64.233.186.188	gcm.l.google.com
+64.233.186.188	gcm-xmpp.googleapis.com
+64.233.186.188	gcm-preprod.l.google.com
+64.233.186.188	gcm-preprod.googleapis.com
 219.76.4.3	instantmessaging-pa.googleapis.com
 219.76.4.3	supl.google.com
 219.76.4.3	madewithcode.com
