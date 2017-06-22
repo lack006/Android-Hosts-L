@@ -4,7 +4,7 @@ sqimg.qq.com;(手机QQ的启动广告，屏蔽后可能会影响腾讯其他图�
 api.mofang.com;(会导致无法使用某些游戏中的“加加”模块):;#jiajia start;127.0.0.1	api.mofang.com;127.0.0.1	spapi.i-moible.co.jp;#jiajia end
 nj.bs.baidu.com;(会导致百度的某些“不正常”软件的正常下载):;#nj start;127.0.0.1	nj.bs.baidu.com;#nj end
 *.map.baidu.com;(保证百度普通定位服务以及地图功能的前提下，屏蔽百度高精度定位以及数据上传):;#baidu map start;127.0.0.1	ps.map.baidu.com;127.0.0.1	sv.map.baidu.com;127.0.0.1	offnavi.map.baidu.com;127.0.0.1	newvector.map.baidu.com;127.0.0.1	ulog.imap.baidu.com;127.0.0.1	newloc.map.n.shifen.com;#baidu map end
-返利网站;(屏蔽部分返利网站跳转，可能会导致某些返利网站无法跳转成功):;#shop start;127.0.0.1	click.linktech.cn;127.0.0.1	c.duomai.com;127.0.0.1	p.yiqifa.com;127.0.0.1	union.dangdang.com;#shop end;
+返利网站;(屏蔽部分返利网站跳转，可能会导致某些返利网站无法跳转成功):;#shop start;127.0.0.1	click.linktech.cn;127.0.0.1	c.duomai.com;127.0.0.1	p.yiqifa.com;127.0.0.1	union.dangdang.com;127.0.0.1	acs4baichuan.m.taobao.com;#shop end;
 tb1.bdstatic.com;(能够去除百度贴吧类客户端的广告与后台下载，但可能严重影响电脑版百度贴吧网页的浏览):;#tieba start;127.0.0.1	tb1.bdstatic.com;#tieba end
 api.map.baidu.com;(屏蔽百度高精度定位以及数据上传,但会影响某些使用百度地图 api 的程序无法使用):;#baidu api map start;127.0.0.1	api.map.baidu.com;#baidu api map end
 mclick.simba.taobao.com;(会导致淘宝手机网页链接跳转失败):;#mobile simba.taobao start;127.0.0.1	mclick.simba.taobao.com;#simba.taobao end
