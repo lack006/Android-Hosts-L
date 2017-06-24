@@ -1,6 +1,5 @@
 #V201706222125AD
-#作者lack006_CN
-#转载请留下此行，谢谢
+#lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
 #       本文档默认编码为 UTF-8！
@@ -11,7 +10,6 @@
 
 127.0.0.1 localhost
 ::1 localhost
-127.0.0.1 Lack006-PC
 #NO AD START
 127.0.0.1 new-event.sng.qq.com
 127.0.0.1 tk.9377co.com

@@ -1,3 +1,4 @@
+#Clash
 au.umeng.*;(可能会影响一些软件更新如：bilibili客户端):;#umeng start;127.0.0.1	au.umeng.co;127.0.0.1	au.umeng.com;#umeng end
 sqimg.qq.com;(手机QQ的启动广告，屏蔽后可能会影响腾讯其他图片显示):;#QQ sqimg start;127.0.0.1	sqimg.qq.com;#QQ sqimg end
 0591.mygolbs.com;(会导致掌上公交福州区域无法正常使用):;#mybus start;127.0.0.1	0591.mygolbs.com;#mybus end

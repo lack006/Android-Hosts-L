@@ -1,62 +1,60 @@
-#V201706171851RE
-#作者lack006_CN
-#转载请留下此行，谢谢
+#V201706241002RE
+#lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
 #       本文档默认编码为 UTF-8！
 
 ##############PAY ATTENTION PLEASE !#################
-#       Android hosts default line break is LF!
-#       This hosts default encoding is UTF-8!
+#       Android hosts' default line break is LF!
+#       This hosts' default encoding is UTF-8!
 
 127.0.0.1 localhost
 ::1 localhost
-127.0.0.1 Lack006-PC
 #Google Map START
 #1
-#219.76.4.4    android.clients.google.com
+#219.76.4.11    android.clients.google.com
 #2
-219.76.4.4    clients1.google.com
-219.76.4.4    clients2.google.com
-219.76.4.4    clients3.google.com
-219.76.4.4    clients4.google.com
-219.76.4.4    clients5.google.com
-219.76.4.4    clients6.google.com
-219.76.4.4    clients7.google.com
+219.76.4.11    clients1.google.com
+219.76.4.11    clients2.google.com
+219.76.4.11    clients3.google.com
+219.76.4.11    clients4.google.com
+219.76.4.11    clients5.google.com
+219.76.4.11    clients6.google.com
+219.76.4.11    clients7.google.com
 #3
-#219.76.4.4    clients1.googleusercontent.com
-#219.76.4.4    clients2.googleusercontent.com
-#219.76.4.4    clients3.googleusercontent.com
-#219.76.4.4    clients4.googleusercontent.com
-#219.76.4.4    clients5.googleusercontent.com
-#219.76.4.4    clients6.googleusercontent.com
-#219.76.4.4    clients7.googleusercontent.com
-#219.76.4.4    lh0.googleusercontent.com
-#219.76.4.4    lh1.googleusercontent.com
-#219.76.4.4    lh2.googleusercontent.com
-#219.76.4.4    lh3.googleusercontent.com
-#219.76.4.4    lh4.googleusercontent.com
-#219.76.4.4    lh5.googleusercontent.com
-#219.76.4.4    lh6.googleusercontent.com
+#219.76.4.11    clients1.googleusercontent.com
+#219.76.4.11    clients2.googleusercontent.com
+#219.76.4.11    clients3.googleusercontent.com
+#219.76.4.11    clients4.googleusercontent.com
+#219.76.4.11    clients5.googleusercontent.com
+#219.76.4.11    clients6.googleusercontent.com
+#219.76.4.11    clients7.googleusercontent.com
+#219.76.4.11    lh0.googleusercontent.com
+#219.76.4.11    lh1.googleusercontent.com
+#219.76.4.11    lh2.googleusercontent.com
+#219.76.4.11    lh3.googleusercontent.com
+#219.76.4.11    lh4.googleusercontent.com
+#219.76.4.11    lh5.googleusercontent.com
+#219.76.4.11    lh6.googleusercontent.com
 #4
-219.76.4.4 geo0.ggpht.com
-219.76.4.4 geo1.ggpht.com
-219.76.4.4 geo2.ggpht.com
-219.76.4.4 geo3.ggpht.com
-219.76.4.4 geo4.ggpht.com
-219.76.4.4 geo5.ggpht.com
-219.76.4.4 geo6.ggpht.com
-219.76.4.4 gm0.ggpht.com
-219.76.4.4 gm1.ggpht.com
-219.76.4.4 gm2.ggpht.com
-219.76.4.4 gm3.ggpht.com
-219.76.4.4 gm4.ggpht.com
+219.76.4.11 geo0.ggpht.com
+219.76.4.11 geo1.ggpht.com
+219.76.4.11 geo2.ggpht.com
+219.76.4.11 geo3.ggpht.com
+219.76.4.11 geo4.ggpht.com
+219.76.4.11 geo5.ggpht.com
+219.76.4.11 geo6.ggpht.com
+219.76.4.11 gm0.ggpht.com
+219.76.4.11 gm1.ggpht.com
+219.76.4.11 gm2.ggpht.com
+219.76.4.11 gm3.ggpht.com
+219.76.4.11 gm4.ggpht.com
 #5
-219.76.4.4    lh1.ggpht.com
-219.76.4.4    lh2.ggpht.com
-219.76.4.4    lh3.ggpht.com
-219.76.4.4    lh4.ggpht.com
-219.76.4.4    lh5.ggpht.com
-219.76.4.4    lh6.ggpht.com
-219.76.4.4    lh0.ggpht.com
+219.76.4.11    lh1.ggpht.com
+219.76.4.11    lh2.ggpht.com
+219.76.4.11    lh3.ggpht.com
+219.76.4.11    lh4.ggpht.com
+219.76.4.11    lh5.ggpht.com
+219.76.4.11    lh6.ggpht.com
+219.76.4.11    lh0.ggpht.com
 #Google Map END
