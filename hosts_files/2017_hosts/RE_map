@@ -1,12 +1,12 @@
-#V201707072138RE
+#V201707081112RE
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
 #       本文档默认编码为 UTF-8！
 
 ##############PAY ATTENTION PLEASE !#################
-#       Android hosts' default line break is LF!
-#       This hosts' default encoding is UTF-8!
+#       The default line break of Android hosts is LF!
+#       The default encoding of hosts is UTF-8!
 
 127.0.0.1 localhost
 ::1 localhost
