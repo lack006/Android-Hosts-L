@@ -1,4 +1,4 @@
-#V201707182058AR
+#V201707192147AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -12,51 +12,51 @@
 ::1 localhost
 #Google Map START
 #1
-#219.76.4.70    android.clients.google.com
+#216.58.200.192    android.clients.google.com
 #2
-219.76.4.70    clients1.google.com
-219.76.4.70    clients2.google.com
-219.76.4.70    clients3.google.com
-219.76.4.70    clients4.google.com
-219.76.4.70    clients5.google.com
-219.76.4.70    clients6.google.com
-219.76.4.70    clients7.google.com
+216.58.200.192    clients1.google.com
+216.58.200.192    clients2.google.com
+216.58.200.192    clients3.google.com
+216.58.200.192    clients4.google.com
+216.58.200.192    clients5.google.com
+216.58.200.192    clients6.google.com
+216.58.200.192    clients7.google.com
 #3
-#219.76.4.70    clients1.googleusercontent.com
-#219.76.4.70    clients2.googleusercontent.com
-#219.76.4.70    clients3.googleusercontent.com
-#219.76.4.70    clients4.googleusercontent.com
-#219.76.4.70    clients5.googleusercontent.com
-#219.76.4.70    clients6.googleusercontent.com
-#219.76.4.70    clients7.googleusercontent.com
-#219.76.4.70    lh0.googleusercontent.com
-#219.76.4.70    lh1.googleusercontent.com
-#219.76.4.70    lh2.googleusercontent.com
-#219.76.4.70    lh3.googleusercontent.com
-#219.76.4.70    lh4.googleusercontent.com
-#219.76.4.70    lh5.googleusercontent.com
-#219.76.4.70    lh6.googleusercontent.com
+#216.58.200.192    clients1.googleusercontent.com
+#216.58.200.192    clients2.googleusercontent.com
+#216.58.200.192    clients3.googleusercontent.com
+#216.58.200.192    clients4.googleusercontent.com
+#216.58.200.192    clients5.googleusercontent.com
+#216.58.200.192    clients6.googleusercontent.com
+#216.58.200.192    clients7.googleusercontent.com
+#216.58.200.192    lh0.googleusercontent.com
+#216.58.200.192    lh1.googleusercontent.com
+#216.58.200.192    lh2.googleusercontent.com
+#216.58.200.192    lh3.googleusercontent.com
+#216.58.200.192    lh4.googleusercontent.com
+#216.58.200.192    lh5.googleusercontent.com
+#216.58.200.192    lh6.googleusercontent.com
 #4
-219.76.4.70 geo0.ggpht.com
-219.76.4.70 geo1.ggpht.com
-219.76.4.70 geo2.ggpht.com
-219.76.4.70 geo3.ggpht.com
-219.76.4.70 geo4.ggpht.com
-219.76.4.70 geo5.ggpht.com
-219.76.4.70 geo6.ggpht.com
-219.76.4.70 gm0.ggpht.com
-219.76.4.70 gm1.ggpht.com
-219.76.4.70 gm2.ggpht.com
-219.76.4.70 gm3.ggpht.com
-219.76.4.70 gm4.ggpht.com
+216.58.200.192 geo0.ggpht.com
+216.58.200.192 geo1.ggpht.com
+216.58.200.192 geo2.ggpht.com
+216.58.200.192 geo3.ggpht.com
+216.58.200.192 geo4.ggpht.com
+216.58.200.192 geo5.ggpht.com
+216.58.200.192 geo6.ggpht.com
+216.58.200.192 gm0.ggpht.com
+216.58.200.192 gm1.ggpht.com
+216.58.200.192 gm2.ggpht.com
+216.58.200.192 gm3.ggpht.com
+216.58.200.192 gm4.ggpht.com
 #5
-219.76.4.70    lh1.ggpht.com
-219.76.4.70    lh2.ggpht.com
-219.76.4.70    lh3.ggpht.com
-219.76.4.70    lh4.ggpht.com
-219.76.4.70    lh5.ggpht.com
-219.76.4.70    lh6.ggpht.com
-219.76.4.70    lh0.ggpht.com
+216.58.200.192    lh1.ggpht.com
+216.58.200.192    lh2.ggpht.com
+216.58.200.192    lh3.ggpht.com
+216.58.200.192    lh4.ggpht.com
+216.58.200.192    lh5.ggpht.com
+216.58.200.192    lh6.ggpht.com
+216.58.200.192    lh0.ggpht.com
 #Google Map END
 #NO AD START
 127.0.0.1 new-event.sng.qq.com
