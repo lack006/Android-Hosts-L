@@ -1,4 +1,4 @@
-#V201709171015AR
+#V201710112348AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -29,13 +29,13 @@
 #223.197.123.2    clients5.googleusercontent.com
 #223.197.123.2    clients6.googleusercontent.com
 #223.197.123.2    clients7.googleusercontent.com
-#223.197.123.2    lh0.googleusercontent.com
-#223.197.123.2    lh1.googleusercontent.com
-#223.197.123.2    lh2.googleusercontent.com
-#223.197.123.2    lh3.googleusercontent.com
-#223.197.123.2    lh4.googleusercontent.com
-#223.197.123.2    lh5.googleusercontent.com
-#223.197.123.2    lh6.googleusercontent.com
+223.197.123.2    lh0.googleusercontent.com
+223.197.123.2    lh1.googleusercontent.com
+223.197.123.2    lh2.googleusercontent.com
+223.197.123.2    lh3.googleusercontent.com
+223.197.123.2    lh4.googleusercontent.com
+223.197.123.2    lh5.googleusercontent.com
+223.197.123.2    lh6.googleusercontent.com
 #4
 223.197.123.2 geo0.ggpht.com
 223.197.123.2 geo1.ggpht.com
@@ -57,6 +57,9 @@
 223.197.123.2    lh5.ggpht.com
 223.197.123.2    lh6.ggpht.com
 223.197.123.2    lh0.ggpht.com
+#6
+223.197.123.2    maps.gstatic.com
+223.197.123.2    ssl.panoramio.com
 #Google Map END
 #NO AD START
 127.0.0.1 stag.tivinci.com
