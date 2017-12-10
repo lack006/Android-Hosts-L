@@ -1,4 +1,4 @@
-#au.umeng.*;(可能会影响一些软件更新如：bilibili客户端):;#umeng start;127.0.0.1	au.umeng.co;127.0.0.1	au.umeng.com;#umeng end
+#au.umeng.*;(可能会影响一些基于“友盟”平台的软件更新):;#umeng start;127.0.0.1	au.umeng.co;127.0.0.1	au.umeng.com;#umeng end
 #sqimg.qq.com;(手机QQ的启动广告，屏蔽后可能会影响腾讯其他图片显示):;#QQ sqimg start;127.0.0.1	sqimg.qq.com;#QQ sqimg end
 #0591.mygolbs.com;(会导致掌上公交福州区域无法正常使用):;#mybus start;127.0.0.1	0591.mygolbs.com;#mybus end
 #api.mofang.com;(会导致无法使用某些游戏中的“加加”模块):;#jiajia start;127.0.0.1	api.mofang.com;127.0.0.1	spapi.i-moible.co.jp;#jiajia end
@@ -9,3 +9,4 @@
 #api.map.baidu.com;(屏蔽百度高精度定位以及数据上传,但会影响某些使用百度地图 api 的程序无法使用):;#baidu api map start;127.0.0.1	api.map.baidu.com;#baidu api map end
 #mclick.simba.taobao.com;(会导致淘宝手机网页链接跳转失败):;#mobile simba.taobao start;127.0.0.1	mclick.simba.taobao.com;#simba.taobao end
 #click.simba.taobao.com;(会导致淘宝电脑网页链接跳转失败):;#pc simba.taobao start;127.0.0.1	click.simba.taobao.com;#pc simba.taobao end
+#alicdn.sgame.lilithcdn.com;(会导致阿里CDN游戏推广无法下载):;#alicdn.sgame start;127.0.0.1	alicdn.sgame.lilithcdn.com;#pc alicdn.sgame end
