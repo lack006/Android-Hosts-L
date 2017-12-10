@@ -1,4 +1,4 @@
-#V201712102304AD
+#V201712102340AD
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -15768,7 +15768,7 @@
 127.0.0.1 p1839.ic-live.com
 127.0.0.1 www.geigercount.net
 127.0.0.1 bdsmtours.com
-127.0.0.1 123ticket.com
+127.0.0.1 ads.oneway.mobi
 127.0.0.1 bto.52yeyou.com
 127.0.0.1 20501671p.rfihub.com
 127.0.0.1 ad.doubleclick.net.35503.9269.302br.net
@@ -52805,6 +52805,7 @@
 127.0.0.1 mraidjs.adtilt.com
 127.0.0.1 ad.doubleclick.net.50252.9279.302br.net
 127.0.0.1 ad.doubleclick.net.37800.9301.302br.net
+127.0.0.1 webview.unityads.unity3d.com
 127.0.0.1 www.karen-westman.us
 127.0.0.1 ad.doubleclick.net.39446.9124.302br.net
 127.0.0.1 bs.serving-sys.com.36656.9244.302br.net
@@ -78285,6 +78286,7 @@
 127.0.0.1 ads.bta.net.cn
 127.0.0.1 www.metriweb.be
 127.0.0.1 oascentral.movietickets.com
+127.0.0.1 track.oneway.mobi
 127.0.0.1 ad.doubleclick.net.72578.9609.302br.net
 127.0.0.1 ads.ayads.co
 127.0.0.1 bc.ie222.com
@@ -91497,6 +91499,7 @@
 127.0.0.1 bs.serving-sys.com.20608.9120.302br.net
 127.0.0.1 sunglobal.112.2o7.net
 127.0.0.1 ads.registerguard.com
+127.0.0.1 123ticket.com
 127.0.0.1 ox.irv.si
 127.0.0.1 www.victoriasplanet.com
 127.0.0.1 c1.keyrun.cn
@@ -96027,6 +96030,7 @@
 127.0.0.1 prriceline.com
 127.0.0.1 www.lolhello.com
 127.0.0.1 susie-waddle.us
+127.0.0.1 config.unityads.unity3d.com
 127.0.0.1 5k9v3bc1-enehfzfv.netdna-ssl.com
 127.0.0.1 www.armadasearch.com
 127.0.0.1 imeds.ero-advertising.com
