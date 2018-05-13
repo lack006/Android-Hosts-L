@@ -1,4 +1,4 @@
-#V201805120002AR
+#V201805131126AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -36387,6 +36387,7 @@
 127.0.0.1 ads.g-media.com
 127.0.0.1 creatives.rgadvert.com
 127.0.0.1 view.atdmt.com.66737.9517.302br.net
+127.0.0.1 mp4.res.hunantv.com
 127.0.0.1 rebbeccasgarden.com
 127.0.0.1 www-shard11-vwxyz.justclick.ru
 127.0.0.1 view.atdmt.com.71451.9491.302br.net
