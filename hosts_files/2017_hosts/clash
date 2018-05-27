@@ -1,5 +1,5 @@
 #account.zhihu.com;(屏蔽“知乎隐私政策”，可能影响部分功能):;#privacy zhihu start;127.0.0.1	account.zhihu.com;#privacy zhihu end
-#微信小程序游戏广告;(不能通过看广告交换游戏内利益):;#wx game start;127.0.0.1	wxgm-res.u14.com;127.0.0.1	wxsnsdy.wxs.qq.com;127.0.0.1	wxsnsdythumb.wxs.qq.com;127.0.0.1	mmbiz.qpic.cn;#wx game end
+#微信小程序游戏广告;(不能通过看广告交换游戏内利益):;#wx game start;127.0.0.1	wxgm-res.u14.com;127.0.0.1	wxsnsdy.wxs.qq.com;127.0.0.1	wxsnsdythumb.wxs.qq.com;#wx game end
 #alicdn.sgame.lilithcdn.com;(会导致阿里CDN游戏推广无法下载):;#alicdn.sgame start;127.0.0.1	alicdn.sgame.lilithcdn.com;#alicdn.sgame end
 #au.umeng.*;(可能会影响一些基于“友盟”平台的软件更新):;#umeng start;127.0.0.1	au.umeng.co;127.0.0.1	au.umeng.com;#umeng end
 #sqimg.qq.com;(手机QQ的启动广告，屏蔽后可能会影响腾讯其他图片显示):;#QQ sqimg start;127.0.0.1	sqimg.qq.com;#QQ sqimg end
