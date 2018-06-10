@@ -1,4 +1,4 @@
-#V201805261648AR
+#V201806101419AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -8724,7 +8724,7 @@
 127.0.0.1 adserv.org
 127.0.0.1 ad.doubleclick.net.40083.9307.302br.net
 127.0.0.1 www.suncountryair.com
-127.0.0.1 www.discover-facts.com
+127.0.0.1 ad.anjien.com
 127.0.0.1 ad246.paycount.com
 127.0.0.1 b.webwise.com
 127.0.0.1 adserver.ezzhosting.com
@@ -8771,7 +8771,7 @@
 127.0.0.1 media.ventivmedia.com
 127.0.0.1 www3.nationalgeographic.com
 127.0.0.1 ad.doubleclick.net.34668.9252.302br.net
-127.0.0.1 view.atdmt.com.76554.9645.302br.net
+127.0.0.1 yesheng.im
 127.0.0.1 static.centrixlink.com
 127.0.0.1 ad.doubleclick.net.76712.9611.302br.net
 127.0.0.1 marlene-hunsinger.us
@@ -22685,6 +22685,7 @@
 127.0.0.1 www.spjoy.com
 127.0.0.1 metrics.homebase.co.uk
 127.0.0.1 million.francite.com
+127.0.0.1 view.atdmt.com.76554.9645.302br.net
 127.0.0.1 androidlog.shouji.baofeng.com
 127.0.0.1 ad.doubleclick.net.67363.9336.302br.net
 127.0.0.1 ad.doubleclick.net.60273.9318.302br.net
@@ -33499,6 +33500,7 @@
 127.0.0.1 www.hotdamnsam.com
 127.0.0.1 hentaicashmachine.com
 127.0.0.1 comicbookresources.us.intellitxt.com
+127.0.0.1 zpe-klre.18183.com
 127.0.0.1 ad.doubleclick.net.11914.9037.302br.net
 127.0.0.1 www.rtsg.com
 127.0.0.1 ad-emea.doubleclick.net.13031.9048.302br.net
@@ -61273,6 +61275,7 @@
 127.0.0.1 ad.doubleclick.net.51206.9318.302br.net
 127.0.0.1 planetactive.com
 127.0.0.1 bs.serving-sys.com.49369.9354.302br.net
+127.0.0.1 v5.jxycmy.com
 127.0.0.1 www.zhengjian.org
 127.0.0.1 ads.cdfreaks.com
 127.0.0.1 adsame.com
@@ -83631,6 +83634,7 @@
 127.0.0.1 www.guestbook.superstats.com
 127.0.0.1 www.cleanprint.net
 127.0.0.1 betcris.com
+127.0.0.1 www.discover-facts.com
 127.0.0.1 ad.doubleclick.net.28715.9225.302br.net
 127.0.0.1 viaaddictingclips.112.2o7.net
 127.0.0.1 ad.doubleclick.net.14160.9059.302br.net
