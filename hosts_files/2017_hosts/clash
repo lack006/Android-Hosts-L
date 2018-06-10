@@ -1,4 +1,4 @@
-#test;(test):;#test start;127.0.0.1	js1.18183.com;127.0.0.1	w.cnzz.com;127.0.0.1	zpe-klre.18183.com;127.0.0.1	yesheng.im;127.0.0.1	v5.jxycmy.com;127.0.0.1	www.gaoshouyou.com#test end
+#test;(test):;#test start;127.0.0.1	w.cnzz.com;127.0.0.1	zpe-klre.18183.com;127.0.0.1	yesheng.im;127.0.0.1	v5.jxycmy.com;127.0.0.1	www.gaoshouyou.com#test end
 #account.zhihu.com;(屏蔽“知乎隐私政策”，可能影响部分功能):;#privacy zhihu start;127.0.0.1	account.zhihu.com;#privacy zhihu end
 #微信小程序游戏广告;(不能通过看广告交换游戏内利益):;#wx game start;127.0.0.1	wxgm-res.u14.com;127.0.0.1	wxsnsdy.wxs.qq.com;127.0.0.1	wxsnsdythumb.wxs.qq.com;#wx game end
 #alicdn.sgame.lilithcdn.com;(会导致阿里CDN游戏推广无法下载):;#alicdn.sgame start;127.0.0.1	alicdn.sgame.lilithcdn.com;#alicdn.sgame end
