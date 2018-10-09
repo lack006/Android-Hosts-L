@@ -10,6 +10,8 @@
 #m.360buyimg.com;(去除“京东”开屏广告，但影响部分图片加载。需要手动清除“京东”的缓存):;#jd startimg start;127.0.0.1	m.360buyimg.com;127.0.0.1	1251412368.vod2.myqcloud.com;#jd startimg end
 #返利网站;(屏蔽部分返利网站跳转，可能会导致某些返利网站无法跳转成功):;#shop start;127.0.0.1	click.linktech.cn;127.0.0.1	c.duomai.com;127.0.0.1	p.yiqifa.com;127.0.0.1	union.dangdang.com;127.0.0.1	acs4baichuan.m.taobao.com;#shop end
 #pages.ctrip.com;(会影响某些订票软件部分功能):;#ctrip start;127.0.0.1	pages.ctrip.com;#ctrip end
+#网龙教育企宣图片;(会影响网龙教育部分图片显示):;#91yong start;127.0.0.1	cdnf.91yong.com;#91yong end
+#res.cc.cmbimg.com;(会影响招商银行“掌上生活”软件图片显示):;#cmbimg start;127.0.0.1	res.cc.cmbimg.com;#cmbimg end
 #api.map.baidu.com;(屏蔽百度高精度定位以及数据上传,但会影响某些使用百度地图 api 的程序无法使用):;#baidu api map start;127.0.0.1	api.map.baidu.com;#baidu api map end
 #tb1.bdstatic.com;(能够去除百度贴吧类客户端的广告与后台下载，但可能严重影响电脑版百度贴吧网页的浏览):;#tieba start;127.0.0.1	tb1.bdstatic.com;#tieba end
 #mclick.simba.taobao.com;(会导致淘宝手机网页链接跳转失败):;#mobile simba.taobao start;127.0.0.1	mclick.simba.taobao.com;#simba.taobao end
