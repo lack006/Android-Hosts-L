@@ -1,8 +1,7 @@
-您即将下载最新版的 Android Hosts-L V8.01 (V7.10之前的版本停止更新！)
+您即将下载最新版的 Android Hosts-L V8.02 (V8.0.1之前的版本停止更新！)
 ===============
-V8.01：
-    ·更新部分功能支持 Android P；
-    ·修复几处指令错误。
+V8.02：
+    ·修改下载模块。
 [点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
 ===============
 或
