@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="version_url">https://example.com/hosts_files/2017_hosts/version</string>
+    <string name="clash_url">https://example.com/hosts_files/2017_hosts/clash</string>
+    <string name="ad_url">https://example.com/hosts_files/2017_hosts/AD</string>
+    <string name="re_url">https://example.com/hosts_files/2017_hosts/RE_full</string>
+    <string name="re_map_url">https://example.com/hosts_files/2017_hosts/RE_map</string>
+    <string name="ar_url">https://example.com/hosts_files/2017_hosts/AR_full</string>
+    <string name="ar_map_url">https://example.com/hosts_files/2017_hosts/AR_map</string>
+</resources>

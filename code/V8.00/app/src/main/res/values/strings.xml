@@ -1,0 +1,255 @@
+<resources>
+    <!-- -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main-->
+    <string name="app_name">Android Hosts-L</string>
+    <!--Title-->
+    <string name="hosts_title">使用 hosts 文件</string>
+    <string name="email">lankehostsl@gmail.com</string>
+    <string name="version">V8.03</string>
+    <!--Button-->
+    <string name="AD_hosts">去广告</string>
+    <string name="RE_hosts">重定向</string>
+    <string name="AR_hosts">去广告 + 重定向</string>
+    <!--Dialog-->
+    <string name="confirm">确定</string>
+    <string name="next_step">继续</string>
+    <string name="exit">退出</string>
+    <string name="cancel">取消</string>
+    <string name="wait">请稍候</string>
+    <!--Tool Bar-->
+    <string name="help">使用帮助</string>
+
+    <!--Apply Dialog-->
+    <string name="download_clash">正在下载冲突域名，请稍候。</string>
+    <string name="clash_title">请选择要屏蔽的冲突域名</string>
+    <string name="choose_re_title">请选择要使用的重定向版本</string>
+    <string name="keep_screen_on_checkbox">自定义源去除重复项时保持屏幕唤醒</string>
+    <string name="keep_screen_on_hint_on">保持屏幕唤醒 激活</string>
+    <string name="keep_screen_on_hint_off">保持屏幕唤醒 关闭</string>
+    <string name="google_map_only">仅使用 Google Map 重定向\n(未勾选则使用完整版)</string>
+    <string name="use_custom">自定义</string>
+    <string name="custom_hosts_hint">请注意：若使用自定义重定向 hosts 源，本软件将不会检测自定义源的版本情况！</string>
+    <string name="wrong_custom_url">请输入正确的自定义源</string>
+    <string name="custom_error">自定义地址有误，任务已终止！</string>
+    <string name="mix_hosts">正在解析并去除 hosts 文件重复项，大概需要三分钟的时间，请耐心等待。</string>
+    <string name="mix_hosts_count">正在解析并去除 hosts 文件重复项，已完成%1$d行。</string>
+    <string name="use_default">默认</string>
+    <string name="custom_hint">请输入重定向 hosts 源(http:// 或 https://)</string>
+    <string name="connecting">正在连接，请稍候。</string>
+    <string name="downloading">正在下载，请稍候。</string>
+    <string name="downloading_progress">已下载%1$d字节。</string>
+    <string name="insert_clash">正在应用冲突域名。</string>
+    <string name="applying">正在应用 hosts 文件。</string>
+
+    <!--CheckBox-->
+    <string name="AD_hosts_last_version">最新版的去广告</string>
+    <string name="RE_hosts_last_version">最新版的重定向</string>
+    <string name="AR_hosts_last_version">最新版的去广告 + 重定向</string>
+    <string name="AD_hosts_new_version">有新版的去广告</string>
+    <string name="RE_hosts_new_version">有新版的重定向</string>
+    <string name="AR_hosts_new_version">有新版的去广告 + 重定向</string>
+    <string name="hosts_none">未应用 hosts 文件或使用自定义源</string>
+
+    <string name="software_last_version">最新版的软件</string>
+    <string name="software_new_version">有新版本的软件</string>
+
+    <string name="busybox_expressed">Busybox 释放成功</string>
+    <string name="busybox_no_exists">Busybox 未释放</string>
+
+    <string name="mark_server_default">未去除网络图标符号</string>
+    <string name="mark_server_changed">已去除网络图标符号</string>
+    <string name="mark_server_changed_no_mark">不需要去除网络图标符号</string>
+
+    <string name="local_enable">已激活谷歌位置记录</string>
+    <string name="local_disable">未激活谷歌位置记录</string>
+
+    <string name="dns_enable">已激活自动修改 DNS</string>
+    <string name="dns_disable">未激活自动修改 DNS</string>
+
+    <!--Menu-->
+    <string name="backup_group">备份/还原/恢复</string>
+    <string name="backup_hosts">还原/备份 hosts 文件</string>
+    <string name="rotate">恢复系统默认 hosts 文件</string>
+
+    <string name="tools_group">工具</string>
+    <string name="refresh_dns">刷新 DNS 缓存</string>
+    <string name="auto_change_dns">自动修改 DNS 地址</string>
+    <string name="remove_net_mark">去除网络图标符号</string>
+    <string name="enable_google_location">启用谷歌位置记录</string>
+    <string name="change_google_ip">快速替换谷歌重定向 IP</string>
+    <string name="reboot">重启设备</string>
+
+    <string name="software_group">软件</string>
+    <string name="update_log">更新日志</string>
+    <string name="software_update">软件更新</string>
+    <!--Check System Write-->
+    <string name="system_write_failed">软件似乎无法获取系统读写权限，请向作者反馈手机型号以及系统版本，或尝试安装BusyBox。</string>
+
+    <!--Check root-->
+    <string name="check_root_doing">正在获取 Root 权限，请稍候。</string>
+    <string name="no_root_title">软件无法获取 Root 权限</string>
+    <string name="no_root">请确认本设备是否已经 Root，或是否授予本软件获取权限。</string>
+
+    <!--Check net-->
+    <string name="check_net_doing">正在检查网络，请稍后。</string>
+    <string name="no_net">软件无法访问网络,请检查网络连接。</string>
+
+    <!--Express Busybox-->
+    <string name="express_busybox_doing">正在准备 Busybox 。</string>
+    <!--Refresh DNS-->
+    <string name="refreshing_dns">正在刷新 DNS</string>
+    <string name="refresh_dns_error">刷新失败：\n</string>
+    <string name="refresh_dns_success">刷新 DNS 成功</string>
+
+    <!--Enable Google Location -->
+    <string name="google_location_service">谷歌位置记录监听服务</string>
+    <string name="google_reopen_battery_permission">新版本需要重新开启激活谷歌位置记录功能</string>
+    <string name="google_no_battery_permission">本功能需要一个后台服务监听 SIM 卡的准备情况，若不希望提供该权限，本功能将无法运行，其他功能不受影响。</string>
+    <string name="google_ask_battery_permission">本功能需要一个后台服务监听 SIM 卡的准备情况，从 Android O 开始系统会限制后台服务，为了本服务的正常运行，请允许本程序总是在后台运行。</string>
+    <string name="no_phone_permission">为了实现激活谷歌位置记录的功能，本软件需要获取“电话”权限用来监听 SIM 卡的准备情况。\n\n无法获取“电话”权限，激活谷歌位置记录无法启动。\n\n若以已选“不再询问”请前往“设置-应用”中开启“电话”权限。</string>
+    <string name="google_location_before_hint">注意！！！\n首次使用本功能请勾选所有操作，激活本功能后需手动打开“谷歌位置记录”。</string>
+    <string name="google_location_hint">\u3000\u3000若提示“无法在中国使用”是正常现象，可打开 google fit （健身）并适当移动设备位置，步数增加则表示已经激活谷歌位置记录。</string>
+
+    <!--Apply hosts-->
+    <string name="apply_hosts_success">hosts 文件应用成功！</string>
+    <string name="apply_hosts_failed">hosts 文件应用失败：\n</string>
+
+    <!--Backup Dialog-->
+    <string name="backup_exists">发现已备份的 hosts 文件，请选择。</string>
+    <string name="backup_no_exists">设备中不存在备份的 hosts 文件，请选择。</string>
+    <string name="backup">备份</string>
+    <string name="restore">还原</string>
+    <string name="doing_backup">正在备份，请稍后。</string>
+    <string name="doing_restore">正在还原，请稍后。</string>
+    <string name="backup_copy_success">备份成功</string>
+    <string name="backup_copy_failed">备份失败：复制失败</string>
+    <string name="restore_success">还原成功</string>
+    <string name="restore_failed">还原失败：\n</string>
+    <string name="backup_exists_checkbox">hosts 文件已备份</string>
+    <string name="backup_no_exists_checkbox">hosts 文件未备份</string>
+
+    <!--Clean-->
+    <string name="version_del_failed">版本文件删除失败！</string>
+    <string name="backup_del_failed">备份文件删除失败！</string>
+    <string name="hosts_temp_del_failed">hosts 临时文件删除失败！</string>
+    <string name="hosts_del_failed">hosts 文件删除失败！</string>
+    <string name="cache_del_failed">缓存删除失败！</string>
+    <string name="clash_del_failed">冲突域名临时缓存删除失败！</string>
+
+    <!--Restore-->
+    <string name="restoring">正在恢复，请稍候。</string>
+
+    <!--Remove mark-->
+    <string name="getting_mark_info">正在获取信息，请稍候。</string>
+    <string name="no_need_remove_mark">该设备不需要此功能。</string>
+    <string name="hint_7_1_1">Android 7.1.1 请填写完成的域名\n如：www.g.cn/generate_204</string>
+    <string name="mark_url">请输入想要替换的服务器域名</string>
+    <string name="https_disable">该设备不支持此功能</string>
+    <string name="default_server">系统默认</string>
+    <string name="use_https">使用 https 连接</string>
+    <string name="use_http">使用 http 连接</string>
+    <string name="check_on">开启网络检测</string>
+    <string name="check_off">关闭网络检测</string>
+    <string name="captive_portal_server">当前 captive portal server:</string>
+    <string name="set_default_server">恢复默认</string>
+    <string name="do_change">确认修改</string>
+    <string name="default_no_support_https">作者提供的服务器不支持 https 连接</string>
+    <string name="no_customer_server">请输入服务器域名</string>
+    <string name="Applying_Mark">正在应用设置，请稍候。</string>
+    <string name="remove_mark_error">发生错误：\n</string>
+    <string name="remove_mark_success">应用成功，请重新连接网络。</string>
+    <string name="no_support_remove_mark">本软件目前仅支持 Android 9 及更早的系统。</string>
+
+    <!--Change Ip-->
+    <string name="copy2temp">复制临时文件失败。</string>
+    <string name="change_ip_premise">本功能目前仅适用与本软件提供的“重定向” hosts 文件，请先应用带有“重定向”功能的 hosts 文件再使用本功能。</string>
+    <string name="change_ip_title">\u3000\u3000本软件提供的谷歌“重定向” IP 可能由于运营商和所在地区等原因无法正常使用，用户可以输入当前网络状态下可用的谷歌 IP 来替换软件提供的 IP 。</string>
+    <string name="input_ip_hint">请输入可用的 IP（IPV4）</string>
+    <string name="ip_input_error">请输入合法的 IPV4 </string>
+    <string name="ip_input_same">请输入不同的 IP </string>
+    <string name="ip_style">0123456789.</string>
+    <string name="ip_replacing">正在替换 IP ，请稍候。</string>
+    <string name="ip_replace_complete">替换成功</string>
+    <string name="ip_replace_failed">替换失败：\n</string>
+    <string name="no_zuo_no_die">竟然敢用 127.0.0.1 不做死就不会死</string>
+
+    <!--Google location-->
+    <string name="set_default">恢复默认</string>
+    <string name="set_change">激活记录</string>
+    <string name="local_choose">请选择启用位置记录后的操作（非必选）</string>
+    <string name="location_report_enable">谷歌位置记录 启动 </string>
+    <string name="location_report_disable">谷歌位置记录 关闭 </string>
+    <string name="applying_local">正在应用设置，请稍候。</string>
+
+    <!--Change DNS-->
+    <string name="dns_service">自动修改DNS监听服务</string>
+    <string name="dns_shell_service">执行自动修改DNS监听服务</string>
+    <string name="dns_reopen_battery_permission">新版本需要重新开启自动修改 DNS 服务器功能</string>
+    <string name="dns_no_battery_permission">本功能需要一个后台服务监听网络变化，若不希望提供该权限，本功能将无法运行，其他功能不受影响。</string>
+    <string name="dns_ask_battery_permission">本功能需要一个后台服务监听网络变化，从 Android O 开始系统会限制后台服务，为了本服务的正常运行，请允许本程序总是在后台运行。</string>
+    <string name="change_dns_title">\u3000\u3000本功能可以在设备切换网络状态时及时修改 DNS 地址，以达到避免运营商 DNS 污染以及屏蔽运营商广告的功能。</string>
+    <string name="change_dns_hint_first">请输入首选 DNS 地址</string>
+    <string name="change_dns_hint_second">请输入备用 DNS 地址</string>
+    <string name="default_dns_1">119.29.29.29</string>
+    <string name="default_dns_2">8.8.8.8</string>
+    <string name="auto_change_dns_enable">激活功能</string>
+    <string name="auto_change_dns_disable">恢复默认</string>
+    <string name="wrong_dns">请输入正确的 DNS 地址</string>
+    <string name="apply_dns">正在修改设置，请稍后。</string>
+    <string name="change_dns_enable">自动修改 DNS 服务器 激活</string>
+    <string name="change_dns_disable">自动修改 DNS 服务器 关闭</string>
+
+    <!--Reboot-->
+    <string name="reboot_title">重启设备</string>
+    <string name="reboot_msg">即将重启设备，请确定该设备其他不可中断的操作已经结束！</string>
+    <string name="hot_reboot">热重启</string>
+
+    <!--About-->
+    <string name="back">返回</string>
+    <string name="send_report">发送反馈</string>
+    <string name="explanation">说明</string>
+    <string name="market_hint">官方的发布渠道只有Google Play 与 Github ，未曾在国内市场上架！</string>
+
+    <!--Protect Mode-->
+    <string name="protect_mode">保护模式</string>
+    <string name="protect_mode_message">\u3000\u3000某些应用程序会尝试读取 hosts 文件来判断是否屏蔽广告，启用“保护模式”可以阻止其他应用程序在没有获取“root”权限的请况下读取 hosts 文件。
+        但也可能会导致其他同类软件发生错误，关闭“保护模式”即可解决。
+        \n（请注意：卸载本软件前请手动关闭“保护模式”！）</string>
+    <string name="protect_on">激活</string>
+    <string name="protect_off">关闭</string>
+    <string name="protect_on_checkbox">保护模式已启动</string>
+    <string name="protect_off_checkbox">保护模式已关闭</string>
+    <string name="protect_hint">正在设置“保护模式”，请稍候。</string>
+    <string name="protect_finish">设置成功</string>
+
+    <!--help-->
+    <string name="help_title">欢迎使用</string>
+    <string name="help_msg">\u3000\u3000如果您是初次使用本软件请务必花少许时间仔细阅读本帮助。
+    \n\n去广告/重定向的实现方法：\n本软件通过修改设备内置的 hosts 文件来实现去广告与重定向的功能。
+    \n\n什么是 hosts 文件：\nhosts 文件是一个用于储存计算机网络中各节点信息的计算机文件。这个文件负责将主机名称映射到相应的 IP 地址。
+        hosts 文件通常用于补充或替换网络中 DNS 的功能。
+        hosts 文件也可以用于其它情况，例如可以将已知的广告服务器重定向到无广告的机器（通常是该电脑自身的 IP 地址：\n127.0.0.1）上来过滤广告。
+        同时也可以通过不下载网络广告，从而减少带宽。
+        在中国大陆，由于防火长城的 DNS 劫持，有一些网民也借使用 hosts 文件来强制将特定网站指定到未封锁的 IP 上。
+        例如网络上有很多教授修改 hosts 文件来访问 Google 搜索的教程。
+        \n-摘自 维基百科 hosts
+    \n\n怎么使用本软件提供的的 hosts 文件：\n根据所需要的功能点击主界面的按钮，并按照提示完成操作即可。
+    \n\n关于去广告冲突域名：\n有一些软件的广告与功能共用同一域名，若盲目屏蔽可能会导致软件无法使用，故将是否屏蔽已知冲突域名的选择权交给用户。
+    \n\n关于重定向自定义源：\n本软件只提供一个自定义重定向源，需要用户自行填写目标源网址，如果您不知道什么是重定向自定义源，请使用默认的源。
+    \n\n关于自动修改 DNS 地址：\n本软件会在设备切换网络状态时立刻修改对应网卡的 DNS 地址，以达到避免运营商 DNS 劫持以及屏蔽运营商广告的功能，如果你不知道什么是 DNS地址，请不要修改软件提供的 DNS 地址。
+    \n\n关于去除网络图标符号：\nAndroid 5.0 增加了一个判断设备网络连通性的方法，通过访问测试连通性的服务器并获取返回值，如果返回值为空则表示正常；如果返回一个网页则判断是需要登入的网络；
+    没有返回值则表示无法连接，会在网络图标上显示“感叹号”（或x）；
+    由于默认的服务器在中国大陆无法访问，所以没有返回值；
+    本软件可以修改默认的认证连通性服务器来去除网络图标符号。
+    \n\n关于激活 Google 位置记录：\n Android 会判断设备的 SIM 卡所在的运营商，如果为特定地区则无法使用 Google 位置记录；
+    本软件可以通过修改 SIM 卡所在的运营商从而来使设备允许用户激活 Google 位置记录。
+    \n注意！！！首次使用此功能请勾选所有操作，激活本功能后需手动打开“谷歌位置记录”。
+    \n若激活后仍提示“无法在中国使用”是正常现象，可打开 google fit （健身）并适当移动设备位置，步数增加则表示已经激活谷歌位置记录。
+    \n\n最后，再次感谢您使用本软件。
+    </string>
+
+</resources>

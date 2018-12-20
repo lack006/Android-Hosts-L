@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/backup_group">
+        <menu>
+
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@mipmap/backup"
+                android:title="@string/backup_hosts" />
+            <item
+                android:id="@+id/nav_rotate"
+                android:icon="@mipmap/restore"
+                android:title="@string/rotate" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/tools_group">
+        <menu>
+
+            <item
+                android:id="@+id/nav_auto_change_dns"
+                android:icon="@mipmap/dns"
+                android:title="@string/auto_change_dns" />
+
+            <item
+                android:id="@+id/nav_remove_mark"
+                android:icon="@mipmap/mark"
+                android:title="@string/remove_net_mark" />
+            <item
+                android:id="@+id/nav_enable_google_location"
+                android:icon="@mipmap/location"
+                android:title="@string/enable_google_location" />
+            <item
+                android:id="@+id/nav_change_ip"
+                android:icon="@mipmap/change_ip"
+                android:title="@string/change_google_ip" />
+            <item
+                android:id="@+id/nav_reboot"
+                android:icon="@mipmap/reboot"
+                android:title="@string/reboot" />
+        </menu>
+    </item>
+    <item android:title="@string/software_group">
+        <menu>
+            <item
+                android:id="@+id/nav_log"
+                android:icon="@mipmap/update_log"
+                android:title="@string/update_log" />
+            <item
+                android:id="@+id/nav_update"
+                android:icon="@mipmap/update"
+                android:title="@string/software_update" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@mipmap/exit"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+
+</menu>
