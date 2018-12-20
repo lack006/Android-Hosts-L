@@ -1,4 +1,4 @@
-#V201812191936AR
+#V201812200857AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -60846,7 +60846,6 @@
 127.0.0.1 testing01.con.local.vmsn.de
 127.0.0.1 afa15.com.ne.kr
 127.0.0.1 ivwpbox.de
-127.0.0.1 cdn.jsdelivr.net
 127.0.0.1 uxip.meizu.com
 127.0.0.1 sivwbox.de
 127.0.0.1 pcweb.v1.mgtv.com
