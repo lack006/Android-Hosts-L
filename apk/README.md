@@ -1,8 +1,6 @@
-您即将下载最新版的 Android Hosts-L V8.03
+您即将下载最新版的 Android Hosts-L 
 ===============
-V8.03：
-    ·修复 Android 8.0 以下系统自动修改 DNS 功能的错误。。
-[点我下载](https://github.com/lack006/Android-Hosts-L/raw/master/apk/Android_Hosts-L.apk)
+[本地下载](https://github.com/lack006/Android-Hosts-L/releases)
 ===============
 或
 ===============
