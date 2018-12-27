@@ -9,7 +9,7 @@ public class Consistent {
 
     public final static boolean PLAY_VERSION = true;
 
-    public final static int SOFTWARE_VERSION = 52061480;
+    public final static int SOFTWARE_VERSION = 52061481;
 
     public final static int DURATION_TIME = 500;
 
@@ -171,6 +171,7 @@ public class Consistent {
     public final static String MARKET_URI = "market://details?id=";
 
     public final static String SHARED_PREFERENCES_CUSTOM_URL = "url";
+    public final static String SHARED_PREFERENCES_CLASH_HISTORY = "clash_history";
 
     public final static String HASH_TAG = "#";
 

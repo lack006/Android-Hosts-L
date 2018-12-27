@@ -9,7 +9,7 @@
     <!--Title-->
     <string name="hosts_title">使用 hosts 文件</string>
     <string name="email">lankehostsl@gmail.com</string>
-    <string name="version">V8.03</string>
+    <string name="version">V8.04</string>
     <!--Button-->
     <string name="AD_hosts">去广告</string>
     <string name="RE_hosts">重定向</string>

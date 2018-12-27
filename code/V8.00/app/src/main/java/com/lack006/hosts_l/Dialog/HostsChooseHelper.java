@@ -51,7 +51,13 @@ public class HostsChooseHelper {
             mText = entry.getKey();
 
         }
-
+        SharedPreferences sharedPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, Context.MODE_PRIVATE);
+        String clash_choose = sharedPreferences.getString(Consistent.SHARED_PREFERENCES_CLASH_HISTORY, "");
+        if (!("".equals(clash_choose))) {
+            for (int i = 0; i < clash_choose.length(); i++) {
+                mCheck[i] = clash_choose.charAt(i) == '1';
+            }
+        }
         new AlertDialog.Builder(mContext)
                 .setCancelable(false)
                 .setTitle(mContext.getString(R.string.clash_title))
@@ -63,6 +69,19 @@ public class HostsChooseHelper {
                 }).setPositiveButton(mContext.getString(R.string.next_step), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int witch) {
+                SharedPreferences sharedPreferences = mContext.getSharedPreferences(Consistent.SHARED_PREFERENCES_FILE, Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                StringBuilder clash_history = new StringBuilder();
+                for (boolean check : mCheck) {
+                    if (check) {
+                        clash_history.append("1");
+                    } else {
+                        clash_history.append("0");
+                    }
+                }
+
+                editor.putString(Consistent.SHARED_PREFERENCES_CLASH_HISTORY, String.valueOf(clash_history));
+                editor.apply();
                 if (mIsAR) {
                     reHostsChoose(mContext, mCheckBox);
                 } else {
