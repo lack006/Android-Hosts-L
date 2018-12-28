@@ -16,3 +16,4 @@
 #tb1.bdstatic.com;(能够去除百度贴吧类客户端的广告与后台下载，但可能严重影响电脑版百度贴吧网页的浏览):;#tieba start;127.0.0.1	tb1.bdstatic.com;#tieba end
 #mclick.simba.taobao.com;(会导致淘宝手机网页链接跳转失败):;#mobile simba.taobao start;127.0.0.1	mclick.simba.taobao.com;#simba.taobao end
 #click.simba.taobao.com;(会导致淘宝电脑网页链接跳转失败):;#pc simba.taobao start;127.0.0.1	click.simba.taobao.com;#pc simba.taobao end
+#acs.m.taobao.com;(会导致淘宝电脑网页链接跳转失败):;#pc simba.taobao start;127.0.0.1	acs.m.taobao.com;#pc simba.taobao end
