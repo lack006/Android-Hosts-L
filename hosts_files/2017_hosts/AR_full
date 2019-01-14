@@ -1,4 +1,4 @@
-#V201901142003AR
+#V201901142252AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -71340,6 +71340,7 @@
 127.0.0.1 wrapper.z5x.net
 127.0.0.1 www.sitiono.eu
 127.0.0.1 r.zeroredirect.com
+127.0.0.1 cfg.imtt.qq.com
 127.0.0.1 888m.pw
 127.0.0.1 gradportal.org
 127.0.0.1 view.atdmt.com.69416.9557.302br.net
