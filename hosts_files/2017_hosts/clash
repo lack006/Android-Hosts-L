@@ -17,3 +17,4 @@
 #mclick.simba.taobao.com;(会导致淘宝手机网页链接跳转失败):;#mobile simba.taobao start;127.0.0.1	mclick.simba.taobao.com;#simba.taobao end
 #click.simba.taobao.com;(会导致淘宝电脑网页链接跳转失败):;#pc simba.taobao start;127.0.0.1	click.simba.taobao.com;#pc simba.taobao end
 #image1.chinatelecom-ec.com;(会导致电信营业厅大部分图片不显示，不影响正常使用):;#chinatelecom start;127.0.0.1	image1.chinatelecom-ec.com;#chinatelecom end
+#cfg.imtt.qq.com;(影响部分软件QQX5内核(广告)):;#QQX5 start;127.0.0.1	cfg.imtt.qq.com;#QQX5 end
