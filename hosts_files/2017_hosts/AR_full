@@ -1,4 +1,4 @@
-#V201901151116AR
+#V201901151234AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -12324,7 +12324,6 @@
 127.0.0.1 nospartenaires.com
 127.0.0.1 ad.doubleclick.net.78431.9671.302br.net
 127.0.0.1 ads.static.adhood.com
-127.0.0.1 log.tbs.qq.com
 127.0.0.1 paypal.112.2o7.net
 127.0.0.1 www.concertstadiums.org
 127.0.0.1 www.contactfly.com
@@ -71339,7 +71338,6 @@
 127.0.0.1 wrapper.z5x.net
 127.0.0.1 www.sitiono.eu
 127.0.0.1 r.zeroredirect.com
-127.0.0.1 cfg.imtt.qq.com
 127.0.0.1 888m.pw
 127.0.0.1 gradportal.org
 127.0.0.1 view.atdmt.com.69416.9557.302br.net
