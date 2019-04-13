@@ -1,4 +1,4 @@
-#V201901151234AR
+#V201904131439AR
 #lack006
 ######################请注意 ！######################
 #       Android hosts 文件 默认换行符为 LF！
@@ -26806,7 +26806,6 @@
 127.0.0.1 www3.mystats.nl
 127.0.0.1 ad.chip.de
 127.0.0.1 www.hotjar.com
-127.0.0.1 www.pornhub.com
 127.0.0.1 ghm_bulgaria.hit.gemius.pl
 127.0.0.1 ad.doubleclick.net.50399.9279.302br.net
 127.0.0.1 scoutanalytics.net
