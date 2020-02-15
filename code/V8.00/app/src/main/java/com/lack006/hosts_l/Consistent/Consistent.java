@@ -7,9 +7,9 @@ package com.lack006.hosts_l.Consistent;
 
 public class Consistent {
 
-    public final static boolean PLAY_VERSION = true;
+    public final static boolean PLAY_VERSION = false;
 
-    public final static int SOFTWARE_VERSION = 52061481;
+    public final static int SOFTWARE_VERSION = 52061482;
 
     public final static int DURATION_TIME = 500;
 

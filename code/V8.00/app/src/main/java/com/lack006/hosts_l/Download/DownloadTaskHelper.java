@@ -103,7 +103,7 @@ public class DownloadTaskHelper {
                     out.write(bytes, 0, len);
                     downloadSize += len;
 //                    publishProgress((int) (downloadSize * 100 / fileSize));
-                    publishProgress(downloadSize );
+                    publishProgress(downloadSize);
 
                 }
                 in.close();
@@ -132,11 +132,10 @@ public class DownloadTaskHelper {
                 }
                 mProgressDialog.cancel();
 
-            }else {
+            } else {
                 CleanCacheHelper cleanCacheHelper = new CleanCacheHelper();
                 cleanCacheHelper.cleanHosts(mContext);
             }
-
 
 
         }
